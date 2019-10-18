@@ -1,8 +1,7 @@
 .logo {
   margin-left: auto;
   margin-right: auto;
-  display: block;
-}
+  display: block; }
 
 .logo img {
   height: 30%;
@@ -11,88 +10,62 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-  position: static;
-}
-
-@media only screen and (max-width: 375px) {
-  .logo img {
-    width: 50%;
-  }
-}
+  position: static; }
 
 body {
   background: #3c4043;
-  font-family: "arial";
-}
+  font-family: "arial"; }
 
 .specialty {
   background: #F15A29;
   border: 1px;
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
 
 .description {
   color: #ffffff;
   background-color: #bbbbbb;
   font-size: 12px;
-  text-align: center;
-}
+  text-align: center; }
 
 .mainNav {
   position: absolute;
   margin-top: -70px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  flex-direction: column-reverse;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-  -webkit-transition: -webkit-transform 0.5s ease-in;
-  transition: -webkit-transform 0.5s ease-in;
-  transition: transform 0.5s ease-in;
-  transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
-}
+  transform: translateX(0%);
+  transition: transform 0.5s ease-in; }
 
 .mainNav li {
   opacity: 0;
-  text-align: center;
-}
+  text-align: center; }
 
 .mainNav ul {
-  margin-top: -1px;
-}
+  margin-top: -1px; }
 
 .mainNav ul li {
   display: block;
   cursor: pointer;
   padding-top: 20px;
-  margin-top: -5px;
-}
+  margin-top: -5px; }
 
 .mainNav ul li a {
   text-decoration: none;
   padding-right: 10px;
   padding-left: 10px;
   color: black;
-  margin-right: 30px;
-}
+  margin-right: 30px; }
 
 .burger div {
   width: 25px;
   height: 2px;
   background-color: white;
   margin: 5px;
-  padding: 0;
-}
+  padding: 0; }
 
 .burger {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .mainNav-active {
   background-color: rgba(222, 222, 222, 0.5);
@@ -100,51 +73,29 @@ body {
   opacity: 1;
   color: black;
   border: 1px solid;
-  border-color: black;
-}
-
-@-webkit-keyframes mainNavFade {
-  from {
-    opacity: 0;
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-}
+  border-color: black; }
 
 @keyframes mainNavFade {
   from {
     opacity: 0;
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
-  }
+    transform: translateX(-50px); }
   to {
     opacity: 1;
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-}
-
+    transform: translateX(0px); } }
 .hero img {
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 100%;
   height: 100%;
-  margin-top: -10px;
-}
+  margin-top: -10px; }
 
 .description h2 {
   padding-top: 10px;
   text-align: center;
   color: #ffffff;
   font-size: 14px;
-  font-family: "arial";
-}
+  font-family: "arial"; }
 
 .specialty p {
   text-align: center;
@@ -152,8 +103,7 @@ body {
   font-size: 14px;
   font-family: "arial";
   padding-bottom: 10px;
-  padding-top: 5px;
-}
+  padding-top: 5px; }
 
 .web img {
   padding-top: 5px;
@@ -161,14 +111,12 @@ body {
   width: 12%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-}
+  display: block; }
 
 .web p {
   text-align: center;
   margin-top: 1px;
-  font-family: "arial";
-}
+  font-family: "arial"; }
 
 .marketing img {
   padding-top: 5px;
@@ -176,14 +124,12 @@ body {
   width: 15%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-}
+  display: block; }
 
 .marketing p {
   text-align: center;
   margin-top: 1px;
-  font-family: arial, sans-serif;
-}
+  font-family: arial, sans-serif; }
 
 .photography img {
   padding-top: 5px;
@@ -191,14 +137,12 @@ body {
   width: 12%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-}
+  display: block; }
 
 .photography p {
   text-align: center;
   margin-top: 1px;
-  font-family: "arial";
-}
+  font-family: "arial"; }
 
 .video img {
   padding-top: 5px;
@@ -206,14 +150,12 @@ body {
   width: 15%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-}
+  display: block; }
 
 .video p {
   text-align: center;
   margin-top: 1px;
-  font-family: "arial";
-}
+  font-family: "arial"; }
 
 .audio img {
   padding-top: 5px;
@@ -221,30 +163,26 @@ body {
   width: 12%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-}
+  display: block; }
 
 .audio p {
   text-align: center;
   margin-top: 1px;
-  font-family: "arial";
-}
+  font-family: "arial"; }
 
 .instagram img {
   width: 15%;
   height: 15%;
   float: left;
-  margin-left: 110px;
-}
+  margin-left: 110px; }
 
 .linkedin img {
   width: 12%;
   height: 12%;
   float: right;
-  margin-right: 110px;
-}
+  margin-right: 110px; }
 
 .linkedin {
-  background-color: #3c4043;
-}
+  background-color: "arial"; }
+
 /*# sourceMappingURL=style.css.map */
