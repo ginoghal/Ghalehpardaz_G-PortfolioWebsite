@@ -46,7 +46,7 @@ width: 100%;
 
 .description{
 color: $des;
-background-color: $spec;
+background-color: $bg;
 font-size: 12px;
 text-align: center;
 }
@@ -59,7 +59,7 @@ text-align: center;
   display: flex;
   transform: translateX(0%);
   transition: transform 0.5s ease-in;
-    }
+  }
 
     .mainNav li {
       opacity: 0;
@@ -134,9 +134,9 @@ text-align: center;
       font-size: 14px;
       font-family: $ff;
       height: auto;
-      width: 375px;
+      width: 100%;
       margin-top: -5px;
-      padding-bottom: 5px;
+      padding-bottom: 10px;
       padding-top: 10px;
 
     }
@@ -243,19 +243,126 @@ text-align: center;
       height: 12%;
       float: right;
       margin-right: 110px;
-      background-color: $ff;
     }
 
   }
 }
 
 @media only screen and (min-width: 768px){
+
   body{
     width: 768px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  
+  .logo img{
+    height: 30%;
+    width: 30%;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+  }
+
+
+body{
+  font-family: $ff;
+  }
+  
+  .specialty{
+  background: $speci;
+  border: 1px;
+  height: 100%;
+  width: 100%;
+  }
+
+
+.description{
+  color: $des;
+  background-color: $bg;
+  font-size: 14px;
+  text-align: center;
+  }
+  
+  .mainNav{
+    position: absolute;
+    margin-top: -50px;
+    text-align: center;
+    display: inline-block;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in;
+    color: black;
+    width: 100%;
+    background-color: blue;
+    height: 30px;
+    font-size: 20px;
+    }
+  
+    .mainNav li {
+      opacity: 0;
+      text-align: center;
+      }
+      
+    .mainNav ul{
+      margin-top: -1px;
+      }
+      
+    .mainNav ul li{
+        display: block;
+        cursor: pointer;
+        padding-top: 20px;
+        margin-top: -5px;
+      }
+      
+    .mainNav ul li a{
+        text-decoration: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: black;
+        margin-right: 30px;
+      }
+
+
+    .mainNav-active{
+  display: none;;
+    
+    }
+
+
+      .description h2{
+        text-align: center;
+        color: $des;
+        font-size: 14px;
+        font-family: $ff;
+        height: auto;
+        width: 100%;
+        margin-top: 1px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+
+      .hero{
+        margin-top: -190px;
+
+      }
+
+
+
+
+      .burger div{
+      display: none;
+      }
+
+  
 
 
 
