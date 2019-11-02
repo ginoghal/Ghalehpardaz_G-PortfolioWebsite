@@ -1,49 +1,52 @@
-@media only screen and (min-width: 375px) { body { width: 375px; margin-left: auto; margin-right: auto; display: block; }
-  body .logo { margin-left: auto; margin-right: auto; }
-  body .logo img { height: 25%; width: 25%; margin-top: -20px; margin-left: auto; margin-right: auto; display: block; position: relative; }
-  body body { font-family: "arial"; }
-  body .specialty { background: #F15A29; border: 1px; height: 100%; width: 100%; }
-  body .description { color: #ffffff; background-color: #3c4043; font-size: 12px; text-align: center; }
-  body .mainNav { position: absolute; margin-top: -70px; flex-direction: column-reverse; text-align: center; display: flex; transform: translateX(0%); transition: transform 0.5s ease-in; }
-  body .mainNav li { opacity: 0; text-align: center; }
-  body .mainNav ul { margin-top: -1px; }
-  body .mainNav ul li { display: block; cursor: pointer; padding-top: 20px; margin-top: -5px; }
-  body .mainNav ul li a { text-decoration: none; padding-right: 10px; padding-left: 10px; color: black; margin-right: 30px; }
-  body .burger div { width: 25px; height: 2px; background-color: black; margin: 5px; padding: 0; }
-  body .burger { cursor: pointer; }
-  body .mainNav-active { background-color: rgba(222, 222, 222, 0.5); font-family: arial; opacity: 1; color: black; border: 1px solid; border-color: black; }
-  @keyframes mainNavFade { from { opacity: 0; transform: translateX(-50px); }
-    to { opacity: 1; transform: translateX(0px); } }
-  body .hero img { margin-left: auto; margin-right: auto; display: block; width: 100%; height: 500px; margin-top: -85px; }
-  body .description h2 { text-align: center; color: #ffffff; font-size: 14px; font-family: "arial"; height: auto; width: 100%; margin-top: -5px; padding-bottom: 10px; padding-top: 10px; }
-  body .specialty { margin-top: -15px; }
-  body .specialty p { text-align: center; color: #ffffff; font-size: 14px; font-family: "arial"; padding-bottom: 10px; padding-top: 5px; }
-  body .web img { padding-top: 5px; height: 12%; width: 12%; margin-left: auto; margin-right: auto; display: block; }
-  body .web p { text-align: center; margin-top: 1px; font-family: "arial"; }
-  body .marketing img { padding-top: 5px; height: 15%; width: 15%; margin-left: auto; margin-right: auto; display: block; }
-  body .marketing p { text-align: center; margin-top: 1px; font-family: arial, sans-serif; }
-  body .photography img { padding-top: 5px; height: 12%; width: 12%; margin-left: auto; margin-right: auto; display: block; }
-  body .photography p { text-align: center; margin-top: 1px; font-family: "arial"; }
-  body .video img { padding-top: 5px; height: 15%; width: 15%; margin-left: auto; margin-right: auto; display: block; }
-  body .video p { text-align: center; margin-top: 1px; font-family: "arial"; }
-  body .audio img { padding-top: 5px; height: 12%; width: 12%; margin-left: auto; margin-right: auto; display: block; }
-  body .audio p { text-align: center; margin-top: 1px; font-family: "arial"; }
-  body .instagram img { width: 15%; height: 15%; float: left; margin-left: 110px; }
-  body .linkedin img { width: 12%; height: 12%; float: right; margin-right: 110px; } }
-@media only screen and (min-width: 768px) { body { width: 768px; margin-left: auto; margin-right: auto; display: block; }
-  .logo { margin-left: auto; margin-right: auto; }
-  .logo img { height: 30%; width: 30%; margin-top: -20px; margin-left: auto; margin-right: auto; display: block; position: relative; }
-  body { font-family: "arial"; }
-  .specialty { background: #F15A29; border: 1px; height: 100%; width: 100%; }
-  .description { color: #ffffff; background-color: #3c4043; font-size: 14px; text-align: center; }
-  .mainNav { position: absolute; margin-top: -50px; text-align: center; display: inline-block; transform: translateX(0%); transition: transform 0.5s ease-in; color: black; width: 100%; background-color: blue; height: 30px; font-size: 20px; }
-  .mainNav li { opacity: 0; text-align: center; }
-  .mainNav ul { margin-top: -1px; }
-  .mainNav ul li { display: block; cursor: pointer; padding-top: 20px; margin-top: -5px; }
-  .mainNav ul li a { text-decoration: none; padding-right: 10px; padding-left: 10px; color: black; margin-right: 30px; }
-  .mainNav-active { display: none; }
-  .description h2 { text-align: center; color: #ffffff; font-size: 14px; font-family: "arial"; height: auto; width: 100%; margin-top: 1px; padding-bottom: 10px; padding-top: 10px; }
-  .hero { margin-top: -190px; }
-  .burger div { display: none; } }
+body { width: 100%; margin-left: auto; margin-right: auto; display: block; }
+body .logo { margin-left: auto; margin-right: auto; background-color: #3c4043; width: 100%; }
+body .logo img { height: 25%; width: 25%; margin-top: -20px; margin-left: auto; margin-right: auto; display: block; position: relative; z-index: 6; }
+body body { font-family: "arial"; }
+body .specialty { background: #F15A29; border: 1px; height: 125px; width: 100%; margin-top: 100px; }
+body .specialty img { margin-left: auto; margin-right: auto; display: block; height: 50%; width: 100%; margin-top: 50px; padding-top: 20px; padding-bottom: 10px; }
+body .specialtyText h3 { font-family: "arial"; font-size: 14px; color: #3c4043; margin-top: 30px; position: absolute; transition: opacity .1s ease; margin: 0 auto; text-align: center; width: 100%; }
+body .description { color: #ffffff; font-size: 12px; text-align: center; margin-top: -80px; }
+body .mainNav { position: absolute; margin-top: -65px; flex-direction: column-reverse; text-align: center; display: flex; transform: translateX(0%); transition: transform 0.5s ease-in; }
+body .mainNav li { opacity: 0; text-align: center; display: inline; border-top: 1px #3c4043; }
+body .mainNav ul { margin-top: -1px; padding: 0px; }
+body .mainNav ul li { display: block; cursor: pointer; padding-top: -10px; padding-bottom: 10px; margin-top: 10px; width: 100%; }
+body .mainNav ul li a { text-decoration: none; color: black; margin-top: 5px; }
+body .burger div { width: 25px; height: 2px; background-color: #F15A29; margin: 5px; padding: 0; }
+body .burger { cursor: pointer; margin: 1px; }
+body .mainNav-active { background-color: rgba(222, 222, 222, 0.8); font-family: arial; opacity: 1; color: black; border: 1px solid; border-color: black; width: 99.5%; font-size: 16px; height: 200px; }
+@keyframes mainNavFade { from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0px); } }
+body .hero img { margin-left: auto; margin-right: auto; display: block; width: 100%; height: 600px; margin-top: -85px; }
+body .description h2 { text-align: center; color: #ffffff; font-size: 16px; font-family: "arial"; height: auto; width: 100%; margin-top: -200px; padding-bottom: 10px; padding-top: 10px; }
+
+@media only screen and (min-width: 768px) { body { width: 768px; margin-left: auto; margin-right: auto; display: block; font-family: "arial"; }
+  body .logo { margin-left: auto; margin-right: auto; display: block; }
+  body .logo img { height: 13%; width: 13%; margin-top: -25px; margin-left: 1px; float: left; z-index: 5; }
+  body .logo img:hover { filter: brightness(800%); }
+  body .specialty { background: #F15A29; border: 1px; height: 150px; margin-right: auto; position: absolute; z-index: 7; margin-top: 10px; }
+  body .specialty img { margin-top: 5px; }
+  body .description { color: #ffffff; background-color: #3c4043; font-size: 14px; text-align: center; }
+  body .mainNav { height: 2px; margin-top: 52px; margin-left: 150px; margin-right: auto; display: block; text-align: right; margin-left: auto; margin-right: auto; border-color: #3c4043; z-index: 4; }
+  body .mainNav li { opacity: 1; display: block; text-align: center; }
+  body .mainNav ul { padding-top: 20px; margin-top: -60px; width: 768px; height: 50px; background-color: #3c4043; }
+  body .mainNav ul li { font-size: 17px; display: inline; cursor: pointer; padding-left: 10px; padding-right: 10px; border: 0px; }
+  body .mainNav ul li a { color: #ffffff; padding: 15px; text-decoration: none; }
+  body .mainNav ul li a:hover { color: #F15A29; }
+  body .mainNav-active { display: none; }
+  body .hero img { margin-left: auto; margin-right: auto; display: block; width: 100%; height: 750px; margin-top: -50px; z-index: 1; border-color: #3c4043; }
+  body .description { margin-top: -5px; }
+  body .description h2 { text-align: center; color: #ffffff; font-size: 17px; font-family: "arial"; height: auto; width: 100%; margin-top: -200px; padding-bottom: 10px; padding-top: 10px; }
+  body .hero img { margin-top: -220px; }
+  body .burger div { display: none; }
+  body .instagram img { width: 15%; height: 15%; float: left; margin-left: 200px; }
+  body .linkedin img { width: 12%; height: 12%; float: right; margin-right: 200px; margin-top: -1px; }
+  body #web img { padding-top: 20px; height: 9%; width: 9%; margin-left: 150px; margin-right: auto; display: block; }
+  body .marketing img { margin-top: -50px; height: 9%; width: 9%; margin-left: 250px; margin-right: auto; display: block; }
+  body .photography img { margin-top: -50px; height: 9%; width: 9%; margin-left: 350px; margin-right: auto; display: block; }
+  body .video img { margin-top: -60px; height: 9%; width: 9%; margin-left: 450px; margin-right: auto; display: block; }
+  body .audio img { margin-top: -60px; height: 9%; width: 9%; margin-left: 550px; margin-right: auto; display: block; }
+  body .socialMedia { margin-top: 10px; height: 100px; width: 100%; }
+  body .instagram img { width: 15%; height: 15%; float: left; margin-left: 250px; }
+  body .linkedin img { width: 12%; height: 12%; float: right; margin-right: 250px; } }
 
 /*# sourceMappingURL=main.css.map */
