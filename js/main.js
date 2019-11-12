@@ -21,6 +21,16 @@ const mainNavSlide = () => {
 
 mainNavSlide();
 
+// function myFunction() {
+//   var x = document.getElementById("aboutMe");
+//   if (x.style.display === "none"){
+//     x.style.display = "inline-block";
+//   } else {
+//     x.style.display = "none";
+//   }
+//   }
+
+
 
 
 
@@ -84,7 +94,32 @@ mainNavSlide();
 //   slides[current].style.opacity = 1;
 // }, 3000);
 
+function webClick(){
+  document.getElementByTagName("h4").innerHTML ="I am a Web Developper";
+  
+}
 
+// function webClick1(){
+//   document.getElementById("click2").innerHTML ="I am a Marketer";
+  
+// }
+
+// function webClick() {
+//   var element = document.getElementById("click1");
+
+//   if (element.classList) { 
+//     element.classList.toggle("click1");
+//   } else {
+//     var classes = element.className.split(" ");
+//     var i = classes.indexOf("click1");
+
+//     if (i >= 0) 
+//       classes.splice(i, 1);
+//     else 
+//       classes.push("click1");
+//       element.className = classes.join(" "); 
+//   }
+// }
 
 
 
