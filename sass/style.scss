@@ -5,7 +5,7 @@ $des: #ffffff;
 $mobile: "(min-width: 300px) and (max-width: 375px)";
 $tablet: 768px;
 $web: 900px;
-$speci: #CC0033;
+$speci: #990033;
 
 //for mobile
 body{
@@ -84,6 +84,8 @@ text-align: center;
 margin-top: -80px;
 }
 
+
+
 .mainNav{
   position: absolute;
   margin-top: -40px;
@@ -143,8 +145,8 @@ margin-top: -80px;
       border: 1px solid;
       border-color: black;
       width: 99.5%;
-      font-size: 16px;
-      height: 160px;
+      font-size: 20px;
+      height: 225px;
       z-index: 7;
     }
 
@@ -180,7 +182,7 @@ margin-top: -80px;
         top: 0;
         left: 0;
         width: 100%; 
-        height: 101%;
+        height: 100%;
         object-fit: cover;
         margin-top: -1px;
   
@@ -193,9 +195,6 @@ margin-top: -80px;
     #circle1{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -300px;
       z-index: 1000;
@@ -216,9 +215,6 @@ margin-top: -80px;
     #circle2{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -300px;
       z-index: 1000;
@@ -235,9 +231,6 @@ margin-top: -80px;
     #circle3{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -300px;
       z-index: 1000;
@@ -254,9 +247,6 @@ margin-top: -80px;
     #circle4{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -175px;
       z-index: 1000;
@@ -273,9 +263,6 @@ margin-top: -80px;
     #circle5{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -175px;
       z-index: 1000;
@@ -292,9 +279,6 @@ margin-top: -80px;
     #circle6{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -175px;
       z-index: 1000;
@@ -406,20 +390,78 @@ margin-top: -80px;
       /* bring your own prefixes */
       transform: translate(-50%, -50%);
     }
+
+
+.fadeInUp h1{
+  text-align: center;
+  color: #990033;
+  z-index: 20;
+  position: absolute;
+  margin-top: -400px;
+  margin-right: 200px;
+  font-size: 30px;
+width: 100%;}
   
-    #profileCircle{
-        width: 200px;
-        height: 200px;
-        background: $speci;
-        border-radius: 50%;
-        z-index: 10;
-        position: absolute;
-        margin-top: -500px;
-       left: 25%;
-      }
+
+
+
+}
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+      
+  }
+}
+
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  z-index: 100;
+  
+}
+  
+  
+    // #profileCircle{
+    //     width: 400px;
+    //     height: 200px;
+    //     background: $speci;
+    //     z-index: 10;
+    //     position: absolute;
+    //     margin-top: -500px;
+    //    left: 25%;
+    //   }
     
 
-  }
+
 
 
 
@@ -508,7 +550,7 @@ margin-top: -80px;
       }
       
       .mainNav ul li {
-        font-size: 17px;
+        font-size: 20px;
         display: inline;
         cursor: pointer;
         padding-left: 10px;
@@ -695,9 +737,6 @@ margin-top: -80px;
      #circle1{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -300px;
       z-index: 1000;
@@ -718,9 +757,6 @@ margin-top: -80px;
     #circle2{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -300px;
       z-index: 1000;
@@ -737,9 +773,6 @@ margin-top: -80px;
     #circle3{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -300px;
       z-index: 1000;
@@ -756,9 +789,6 @@ margin-top: -80px;
     #circle4{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -175px;
       z-index: 1000;
@@ -775,9 +805,6 @@ margin-top: -80px;
     #circle5{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -175px;
       z-index: 1000;
@@ -794,9 +821,6 @@ margin-top: -80px;
     #circle6{
       border:1px solid $speci;    
       height:100px;
-      border-radius:50%;
-      -moz-border-radius:50%;
-      -webkit-border-radius:50%;
       width:100px;
       margin-top: -175px;
       z-index: 1000;
@@ -875,22 +899,79 @@ margin-top: -80px;
         transform: translate(-50%, -50%);
       }
     
-      #profileCircle{
-          width: 300px;
-          height: 300px;
-          background: $speci;
-          border-radius: 50%;
-          z-index: 10;
-          position: absolute;
-          margin-top: -700px;
-         left: 30%;
-        }
+      // #profileCircle{
+      //     width: 300px;
+      //     height: 150px;
+      //     background: $speci;
+      //     z-index: 10;
+      //     position: absolute;
+      //     margin-top: -700px;
+      //    left: 30%;
+      //   }
       
    
 
+.fadeInUp h1{
+  text-align: center;
+  color: #990033;
+  z-index: 20;
+  position: absolute;
+  margin-top: -500px;
+  margin-right: 200px;
+  font-size: 30px;
+width: 100%;}
   
 
+
+
+}
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
   }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+      
+  }
+}
+
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  z-index: 100;
+  
+}
+  
+
+  
+
+  
 
 
 }
@@ -954,18 +1035,17 @@ margin-top: -80px;
  
   .mainNav{
     height: 2px;
-    margin-top: 90px;
+    margin-top: 150px;
     margin-left: 200px;
     margin-right: auto;
     display: block;
     text-align: right;
-    margin-left: auto;
-    margin-right: auto;
     z-index: 4;
     }
   
       .mainNav li {
         opacity: 1;
+        display: block;
         text-align: center;
         }
 
@@ -978,24 +1058,22 @@ margin-top: -80px;
       }
       
       .mainNav ul li {
-        font-size: 30px;
-        display: inline-block;
+        font-size: 25px;
+        display: inline;
         cursor: pointer;
         padding-left: 10px;
         padding-right: 10px;
         border: 0px;
-        text-align: right;
-        margin-left: 30px;
       }
       
       .mainNav ul li a{
-        color: $des;
+        color: grey;
         padding: 15px;
         text-decoration: none;
       }
 
       .mainNav ul li a:hover{
-        color: $speci;
+        color: white;
         text-decoration: line-through;
       }
 
@@ -1009,10 +1087,10 @@ margin-top: -80px;
       margin-right: auto;
       display: block;
       width: 100%;
-      margin-top: -5px;
+      margin-top: 1px;
       z-index: 1;
       border-color: $bg;
-      height: 25%;
+      height: 15%;
     }
 
     .hero #myVideo{
@@ -1020,7 +1098,7 @@ margin-top: -80px;
       top: 0;
       left: 0;
       width: 100%; 
-      height: 125%;
+      height: 101%;
       object-fit: cover;
       margin-top: -1px;
     }
@@ -1029,7 +1107,7 @@ margin-top: -80px;
       font-family: arial;
       font-size: 14px;
       color: $speci;
-      margin-top: 30px;
+      margin-top: 40px;
       position: absolute;
       transition: opacity .1s ease;
       margin: 0 auto;
@@ -1055,15 +1133,12 @@ margin-top: -80px;
       }
 
       .circleGroup{
-        margin-top: 800px;
+        margin-top: 450px;
       }
 
       #circle1{
         border:1px solid $speci;    
         height:100px;
-        border-radius:50%;
-        -moz-border-radius:50%;
-        -webkit-border-radius:50%;
         width:100px;
         margin-top: -150px;
         z-index: 1000;
@@ -1089,9 +1164,6 @@ margin-top: -80px;
       #circle2{
         border:1px solid $speci;    
         height:100px;
-        border-radius:50%;
-        -moz-border-radius:50%;
-        -webkit-border-radius:50%;
         width:100px;
         margin-top: -150px;
         z-index: 1000;
@@ -1108,9 +1180,6 @@ margin-top: -80px;
       #circle3{
         border:1px solid $speci;    
         height:100px;
-        border-radius:50%;
-        -moz-border-radius:50%;
-        -webkit-border-radius:50%;
         width:100px;
         margin-top: -150px;
         z-index: 1000;
@@ -1127,9 +1196,6 @@ margin-top: -80px;
       #circle4{
         border:1px solid $speci;    
         height:100px;
-        border-radius:50%;
-        -moz-border-radius:50%;
-        -webkit-border-radius:50%;
         width:100px;
         margin-top: -150px;
         z-index: 1000;
@@ -1146,9 +1212,6 @@ margin-top: -80px;
       #circle5{
         border:1px solid $speci;    
         height:100px;
-        border-radius:50%;
-        -moz-border-radius:50%;
-        -webkit-border-radius:50%;
         width:100px;
         margin-top: -150px;
         z-index: 1000;
@@ -1165,9 +1228,6 @@ margin-top: -80px;
       #circle6{
         border:1px solid $speci;    
         height:100px;
-        border-radius:50%;
-        -moz-border-radius:50%;
-        -webkit-border-radius:50%;
         width:100px;
         margin-top: -150px;
         z-index: 1000;
@@ -1205,7 +1265,7 @@ margin-top: -80px;
       .socialMedia{
         width: 50px;
         height: 20px;
-        margin-top: 900px;
+        margin-top: 700px;
       }
 
       #aboutMe{
@@ -1259,31 +1319,99 @@ margin-top: -80px;
     position: absolute;
     margin-top: 350px;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    width: 90%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
   }
 
 
   #profileCircle{
-      width: 300px;
+      width: 700px;
       height: 300px;
       background: $speci;
-      border-radius: 50%;
       z-index: 10;
       position: absolute;
       margin-top: 350px;
-      left: 40%;
-    }
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+      animation: scale 1000ms ease-in-out forwards;
+}
+@keyframes scale {
+
+  from{
+    transform: scale(0,1)
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.fadeInUp h1{
+  text-align: center;
+  color: #990033;
+  z-index: 20;
+  position: absolute;
+  margin-top: 400px;
+  margin-right: 200px;
+  font-size: 30px;
+width: 100%;}
   
-    
+
+
+
+}
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+      
+  }
+}
+
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  z-index: 100;
+  
+}
+  
+
+
+
+
+  
 
 
   }
 
-}
 
 
 
