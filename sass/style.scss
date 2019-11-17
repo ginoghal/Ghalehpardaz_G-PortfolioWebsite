@@ -5,14 +5,18 @@ $des: #ffffff;
 $mobile: "(min-width: 300px) and (max-width: 375px)";
 $tablet: 768px;
 $web: 900px;
-$speci: #990033;
+$speci: #09e9ae;
 
 //for mobile
 body{
 width: 100%;
+display: block;
+font-family: $ff;
+height: 659px;
+background-image: linear-gradient(#09e9ae, #1785fa);
+margin-top: 10px;
 margin-left: auto;
 margin-right: auto;
-display: block;
 
 .logo {
 margin-left: auto;
@@ -38,7 +42,6 @@ font-family: $ff;
 }
 
 .specialty{
-// background: $speci;
 height: 100px;
 width: 100%;
 margin-top: -75px;
@@ -127,7 +130,7 @@ margin-top: -80px;
     .burger div{
       width: 25px;
       height: 2px;
-      background-color:$speci;
+      background-color:$des;
       margin: 5px;
       padding: 0;
     }
@@ -318,7 +321,7 @@ margin-top: -80px;
     .socialMedia{
       width: 50px;
       height: 20px;
-      margin-top: -400px;
+      margin-top: 200px;
       z-index: 10;
     }
 
@@ -394,10 +397,10 @@ margin-top: -80px;
 
 .fadeInUp h1{
   text-align: center;
-  color: #990033;
+  color: $des;
   z-index: 20;
   position: absolute;
-  margin-top: -400px;
+  margin-top: 200px;
   margin-right: 200px;
   font-size: 30px;
 width: 100%;}
@@ -469,12 +472,15 @@ width: 100%;}
 @media only screen and (min-width: 768px){
 
   body{
-    width: 768px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     display: block;
     font-family: $ff;
-
+    height: 1024px;
+    background-image: linear-gradient(#09e9ae, #1785fa);
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
 
 .logo {
   margin-left: auto;
@@ -486,11 +492,10 @@ width: 100%;}
   .logo img{
     height: 13%;
     width: 13%;
-    margin-top: 60px;
+    margin-top: -700px;
     margin-left: 1px;
     float: left;
     z-index: 5;
-    position: fixed;
   }
 
   .logo img:hover{
@@ -525,7 +530,7 @@ width: 100%;}
  
   .mainNav{
     height: 2px;
-    margin-top: 150px;
+    margin-top: -600px;
     margin-left: 150px;
     margin-right: auto;
     display: block;
@@ -537,8 +542,8 @@ width: 100%;}
   
       .mainNav li {
         opacity: 1;
-        display: block;
-        text-align: center;
+        display: inline-block;
+        text-align: left;
         }
 
       
@@ -709,11 +714,7 @@ width: 100%;}
       display: block;
     }
 
-    .socialMedia{
-      margin-top: 10px;
-      height: 100px;
-      width: 100%;
-    }
+ 
 
     .instagram img {
       width: 15%;
@@ -857,7 +858,7 @@ width: 100%;}
     .socialMedia{
       width: 50px;
       height: 20px;
-      margin-top: -20px;
+      margin-top: 700px;
     }
 
     .aboutMe{
@@ -913,10 +914,10 @@ width: 100%;}
 
 .fadeInUp h1{
   text-align: center;
-  color: #990033;
+  color: $des;
   z-index: 20;
   position: absolute;
-  margin-top: -500px;
+  margin-top: -200px;
   margin-right: 200px;
   font-size: 30px;
 width: 100%;}
@@ -967,6 +968,14 @@ width: 100%;}
   z-index: 100;
   
 }
+
+#boxContent{
+  width: 600px;
+  height: 100px;
+  background-image: linear-gradient(green-blue);
+  margin-top: 200px;
+}
+
   
 
   
@@ -984,6 +993,11 @@ width: 100%;}
     margin-right: auto;
     display: block;
     font-family: $ff;
+    height: 760px;
+    background-image: linear-gradient(#09e9ae, #1785fa);
+    background-repeat: no-repeat;
+    margin-top: 67px;
+    display: absolute;
 
 
 .logo {
@@ -997,7 +1011,7 @@ width: 100%;}
     height: 25%;
     width: 25%;
     margin-top: 30px;
-    margin-left: 1px;
+    margin-left: -200px;
     float: left;
     z-index: 5;
     position: absolute;
@@ -1005,7 +1019,7 @@ width: 100%;}
   }
 
   .logo img:hover{
-    filter:brightness(800%);
+    filter:brightness(1000%);
   }
 
   
@@ -1034,13 +1048,14 @@ width: 100%;}
   
  
   .mainNav{
-    height: 2px;
-    margin-top: 150px;
     margin-left: 200px;
     margin-right: auto;
     display: block;
-    text-align: right;
+    text-align: left;
     z-index: 4;
+    font-family: arial black;
+    margin-top: 150px;
+ 
     }
   
       .mainNav li {
@@ -1052,28 +1067,31 @@ width: 100%;}
       
       .mainNav ul{
         padding-top: 20px;
-        margin-top: -60px;
-        width: 768px;
+        margin-top: 100px;
+        width: 100px;
         height: 50px;
+        float: left;
+        margin-left: -300px;
       }
       
       .mainNav ul li {
-        font-size: 25px;
+        font-size: 30px;
         display: inline;
         cursor: pointer;
         padding-left: 10px;
         padding-right: 10px;
         border: 0px;
+        padding-top: 15px;
       }
       
       .mainNav ul li a{
-        color: grey;
+        color: black;
         padding: 15px;
         text-decoration: none;
       }
 
       .mainNav ul li a:hover{
-        color: white;
+        color: $speci;
         text-decoration: line-through;
       }
 
@@ -1253,11 +1271,11 @@ width: 100%;}
   
        .author p{
         color: $speci;
-        float: right;
+        // float: right;
         font-size: 12px;
-        margin-top: -10px;
+        margin-top: 20px;
        position: absolute;
-       margin-left: 175px;
+       margin-left: -30px;
        z-index: 10;
        display: inline-block;
       }
@@ -1265,7 +1283,9 @@ width: 100%;}
       .socialMedia{
         width: 50px;
         height: 20px;
-        margin-top: 700px;
+        margin-top: -200px;
+        margin-left: -125px;
+        float: left;
       }
 
       #aboutMe{
@@ -1336,6 +1356,15 @@ width: 100%;}
       display: inline-block;
       animation: scale 1000ms ease-in-out forwards;
 }
+
+// #boxContent{
+//   width: 600px;
+//   height: 100px;
+//   background-image: linear-gradient(green, blue);
+//   margin-top: 200px;
+//   z-index: 1;
+// }
+
 @keyframes scale {
 
   from{
@@ -1348,13 +1377,13 @@ width: 100%;}
 
 .fadeInUp h1{
   text-align: center;
-  color: #990033;
+  color: $des;
   z-index: 20;
   position: absolute;
-  margin-top: 400px;
-  margin-right: 200px;
+  margin-top: -450px;
+  margin-left: 200px;
   font-size: 30px;
-width: 100%;}
+  width: 100%;}
   
 
 
@@ -1401,6 +1430,17 @@ width: 100%;}
   -webkit-animation-name: fadeInUp;
   z-index: 100;
   
+}
+
+.whiteOverlay{
+  width: 550px;
+  height: 768px;
+  background-color: white;
+  border-width: 1px;
+  z-index: 1;
+  margin-left: -400px;
+  margin-top: -70px;
+
 }
   
 
