@@ -12,9 +12,9 @@ body{
 width: 100%;
 display: block;
 font-family: $ff;
-height: 659px;
+height: 658px;
 background-image: linear-gradient(#09e9ae, #1785fa);
-margin-top: 10px;
+margin-top: 1px;
 margin-left: auto;
 margin-right: auto;
 
@@ -26,9 +26,9 @@ width: 100%;
 
 
 .logo img{
-height: 12%;
-width: 12%;
-margin-top: -10px;
+height: 20%;
+width: 20%;
+margin-top: 1px;
 margin-left: auto;
 margin-right: auto;
 display: block;
@@ -148,9 +148,9 @@ margin-top: -80px;
       border: 1px solid;
       border-color: black;
       width: 99.5%;
-      font-size: 20px;
-      height: 225px;
-      z-index: 7;
+      font-size: 25px;
+      height: 250px;
+      z-index: 10000;
     }
 
     
@@ -311,18 +311,19 @@ margin-top: -80px;
 
     .author p{
       color: $speci;
-      float: right;
+     text-align: center;
       font-size: 12px;
-      margin-top: 350px;
+      margin-top: 300px;
      position: absolute;
-     margin-left: 175px;
+     margin-left: -10px;
     }
 
     .socialMedia{
       width: 50px;
       height: 20px;
-      margin-top: 200px;
-      z-index: 10;
+      margin-top: 190px;
+      z-index: 1;
+      margin-left: 100px;
     }
 
          //for contact
@@ -370,14 +371,6 @@ margin-top: -80px;
     // }
 
         
-     .github img{
-      width: 10%;
-      height: 10%;
-     padding-left: 20px;
-     padding-right: 20px;
-     margin-top: 325px;
-     position: absolute;
-     }
 
      .meGino h1{
       color: $speci;
@@ -405,7 +398,6 @@ margin-top: -80px;
   font-size: 30px;
 width: 100%;}
   
-
 
 
 }
@@ -463,8 +455,69 @@ width: 100%;}
     //    left: 25%;
     //   }
     
+    button#buttonhome{
+      width: 150px;
+      height: 50px;
+      float: right;
+      margin-right: 120px;
+      margin-top: 350px;
+      color: #1785fa;
+      background-color: rgba(255,255,255,0.8);
+      cursor: pointer;
+      font-family: $ff;
+      border: 0px;
+      font-size: 12px;
+    }
+    
+    button#buttonhome:hover{
+      width: 150px;
+      height: 50px;
+      float: right;
+      margin-right: 120px;
+      margin-top: 350px;
+      color: #1785fa;
+      background-color:rgba(176,176,176,0.9);
+      cursor: pointer;
+    }
 
+    .ginoimage img{
+   display: none;
+    }
 
+    .linkedin img{
+      width: 10%;
+      height: 10%;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: -50px;
+     position: absolute;
+     z-index: 10;
+     margin-left: 85px;
+     }
+
+    .github img{
+      width: 8%;
+      height: 8%;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: -45px;
+     position: absolute;
+     z-index: 10;
+     margin-left: 50px;
+     }
+
+     .instagram img{
+      width: 8%;
+      height: 8%;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: -45px;
+     position: absolute;
+     z-index: 10;
+     margin-left: 8px;
+     }
+
+ 
 
 
 
@@ -475,9 +528,9 @@ width: 100%;}
     width: 768px;
     display: block;
     font-family: $ff;
-    height: 1000px;
+    height: 815px;
     background-image: linear-gradient(#09e9ae, #1785fa);
-    margin-top: 10px;
+    margin-top: 1px;
     margin-left: auto;
     margin-right: auto;
 
@@ -489,9 +542,9 @@ width: 100%;}
 
   
   .logo img{
-    height: 13%;
-    width: 13%;
-    margin-top: -700px;
+    height: 20%;
+    width: 20%;
+    margin-top: -200px;
     margin-left: 1px;
     float: left;
     z-index: 5;
@@ -569,7 +622,7 @@ width: 100%;}
       }
 
       .mainNav ul li a:hover{
-        color: $speci;
+        color: #1785fa;
       }
 
 
@@ -715,20 +768,38 @@ width: 100%;}
 
  
 
-    .instagram img {
-      width: 15%;
-      height: 15%;
-      float: left;
-      margin-left: 250px;
-    
-    }
-    
     .linkedin img{
-      width: 12%;
-      height: 12%;
-      float: right;
-      margin-right: 250px;
-    }
+      width: 5%;
+      height: 5%;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: -50px;
+     position: absolute;
+     z-index: 10;
+     margin-left: 85px;
+     }
+
+    .github img{
+      width: 4%;
+      height: 4%;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: -45px;
+     position: absolute;
+     z-index: 10;
+     margin-left: 50px;
+     }
+
+     .instagram img{
+      width: 4%;
+      height: 4%;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: -45px;
+     position: absolute;
+     z-index: 10;
+     margin-left: 8px;
+     }
 
     .circleGroup{
       margin-top: 150px;
@@ -834,30 +905,22 @@ width: 100%;}
       margin-top: 30px;
     }
 
-    .github img{
-      width: 5%;
-      height: 5%;
-     padding-left: 20px;
-     padding-right: 20px;
-     margin-top: 10px;
-     position: absolute;
-     z-index: 10;
-     }
 
      .author p{
       color: $speci;
-      float: right;
+      text-align: center;
       font-size: 12px;
-      margin-top: 30px;
+      margin-top: 100px;
      position: absolute;
-     margin-left: 175px;
      z-index: 10;
+     margin-right: -400px;
     }
 
     .socialMedia{
       width: 50px;
       height: 20px;
-      margin-top: 300px;
+      margin-top: 400px;
+      margin-left: 310px;
     }
 
     .aboutMe{
@@ -916,8 +979,9 @@ width: 100%;}
   color: $des;
   z-index: 20;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 250px;
  text-align: center;
+ margin-left: 90px;
   font-size: 30px;
 width: 100%;}
   
@@ -975,6 +1039,30 @@ width: 100%;}
   margin-top: 200px;
 }
 
+button#buttonhome{
+  width: 150px;
+  height: 50px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 285px;
+  color: #1785fa;
+  background-color: rgba(255,255,255,0.8);
+  cursor: pointer;
+  font-family: $ff;
+  border: 0px;
+  font-size: 12px;
+}
+
+button#buttonhome:hover{
+  width: 150px;
+  height: 50px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 285px;
+  color: #1785fa;
+  background-color:rgba(176,176,176,0.9);
+  cursor: pointer;
+}
   
 
   
@@ -1005,8 +1093,8 @@ width: 100%;}
 
   
   .logo img{
-    height: 10%;
-    width: 10%;
+    height: 12%;
+    width: 12%;
     margin-top: -75px;
     z-index: 5;
     position: absolute;
@@ -1249,16 +1337,36 @@ width: 100%;}
         text-align: center;
         margin-top: 30px;
       }
-  
-      .github img{
+
+      .linkedin img{
         width: 5%;
         height: 5%;
+       padding-left: 20px;
+       padding-right: 20px;
+       margin-top: -50px;
+       position: absolute;
+       z-index: 10;
+       margin-left: 85px;
+       }
+  
+      .github img{
+        width: 4%;
+        height: 4%;
        padding-left: 20px;
        padding-right: 20px;
        margin-top: -45px;
        position: absolute;
        z-index: 10;
        margin-left: 50px;
+       }
+
+       .instagram img{
+        width: 4%;
+        height: 4%;
+       margin-top: -45px;
+       position: absolute;
+       z-index: 10;
+       margin-right: 10px;
        }
   
        .author p{
@@ -1277,7 +1385,7 @@ width: 100%;}
       .socialMedia{
         width: 50px;
         height: 20px;
-        margin-top: -600px;
+        margin-top: -615px;
         margin-left: 125px;
       }
 
@@ -1378,7 +1486,7 @@ width: 100%;}
   color: $des;
   z-index: 20;
   position: absolute;
-  margin-top: -100px;
+  margin-top: -50px;
   margin-left: 1px;
   font-size: 25px;
   width: 500px;
@@ -1431,6 +1539,33 @@ width: 100%;}
   
 }
 
+button#buttonhome{
+  width: 150px;
+  height: 50px;
+  float: right;
+  margin-right: 395px;
+  margin-top: -250px;
+  color: #1785fa;
+  background-color: rgba(255,255,255,1);
+  cursor: pointer;
+  font-family: $ff;
+  border: 0px;
+  font-size: 14px;
+  z-index: 100;
+}
+
+button#buttonhome:hover{
+  width: 150px;
+  height: 50px;
+  float: right;
+  margin-right: 395px;
+  margin-top: -250px;
+  color: #1785fa;
+  background-color:rgba(176,176,176,0.8);
+  cursor: pointer;
+  z-index: 100;
+}
+
 // .whiteOverlay{
 //   width: 550px;
 //   height: 768px;
@@ -1441,6 +1576,59 @@ width: 100%;}
 //   margin-top: -70px;
 
 // }
+
+.ginoimage img{
+  height: 40%;
+  width: 40%;
+  margin-top: -550px;
+  margin-left: 200px;
+  padding-bottom: 50px;
+  display: block;
+  z-index: 1;
+}
+
+@keyframes ginoimage img {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes ginoimage img {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+      
+  }
+}
+
+.ginoimage {
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-fill-mode: both
+}
+
+.ginoimage {
+  opacity: 0
+}
+
+.ginoimage {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  z-index: 1;
+  
+}
+
   
 
 
