@@ -21,6 +21,18 @@ const mainNavSlide = () => {
 
 mainNavSlide();
 
+var current = 0,
+    slides = document.getElementsByTagName("h5");
+
+setInterval(function() {
+  for (var i = 0; i < slides.length; i++){
+    slides[i].style.opacity = 0;
+  }
+  current = (current != slides.length - 1) ? current + 1 : 0;
+  slides[current].style.opacity = 1;
+}, 3000);
+
+
 // function myFunction() {
 //   var x = document.getElementById("aboutMe");
 //   if (x.style.display === "none"){
@@ -32,28 +44,25 @@ mainNavSlide();
 
 
 
+var i = 0;
+var images = [];
+var time = 4000;
 
+images[0] = 'public/images/background-placeholder.jpg';
+images[1] = 'public/images/ginoprofilepicture.svg';
 
-// var i = 0;
-// var images = [];
-// var time = 4000;
+function changeImg(){
+  document.heromainslider.src = images[i];
 
-// images[0] = 'images/background-placeholder.jpg';
-// images[1] = 'images/trees.jpg';
-// images[2] = 'images/tower.jpg';
+  if(i < images.length - 1){
+    i++;
+  } else {
+    i = 0;
+  }
 
-// function changeImg(){
-//   document.heromainslider.src = images[i];
-
-//   if(i < images.length - 1){
-//     i++;
-//   } else {
-//     i = 0;
-//   }
-
-//   setTimeout("changeImg()", time);
-// }
-// window.onload = changeImg;
+  setTimeout("changeImg()", time);
+}
+window.onload = changeImg;
 
 
 

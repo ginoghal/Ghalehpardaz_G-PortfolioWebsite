@@ -1,6 +1,10 @@
-const express = require('express')
-const app = express()
+const config = {
+    uname: 'root',
+    upass: 'root', // windows users leave this blank
+    port: 8889, // windows / linux 3306
+    host: 'localhost',
+    db: 'bizcard'    
+}
 
-app.use(express.static('public'))
-
-app.listen(process.env.PORT || 8080, () => console.log('all is okay'))
+// make this a public file our app can read
+module.exports = config;

@@ -2,9 +2,9 @@ body {
   width: 100%;
   display: block;
   font-family: "arial";
-  height: 659px;
+  height: 658px;
   background-image: linear-gradient(#09e9ae, #1785fa);
-  margin-top: 10px;
+  margin-top: 1px;
   margin-left: auto;
   margin-right: auto; }
   body .logo {
@@ -12,9 +12,9 @@ body {
     margin-right: auto;
     width: 100%; }
   body .logo img {
-    height: 12%;
-    width: 12%;
-    margin-top: -10px;
+    height: 20%;
+    width: 20%;
+    margin-top: 1px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -101,9 +101,9 @@ body {
     border: 1px solid;
     border-color: black;
     width: 99.5%;
-    font-size: 20px;
-    height: 225px;
-    z-index: 7; }
+    font-size: 25px;
+    height: 250px;
+    z-index: 10000; }
 @keyframes mainNavFade {
   from {
     opacity: 0;
@@ -220,16 +220,17 @@ body {
     padding-top: 10px; }
   body .author p {
     color: #09e9ae;
-    float: right;
+    text-align: center;
     font-size: 12px;
-    margin-top: 350px;
+    margin-top: 300px;
     position: absolute;
-    margin-left: 175px; }
+    margin-left: -10px; }
   body .socialMedia {
     width: 50px;
     height: 20px;
-    margin-top: 200px;
-    z-index: 10; }
+    margin-top: 190px;
+    z-index: 1;
+    margin-left: 100px; }
   body .aboutMe {
     margin-top: -200px; }
   body .whoIAm {
@@ -247,13 +248,6 @@ body {
     background-color: rgba(224, 224, 224, 0.1); }
   body .whoIAm:hover {
     background-color: rgba(204, 0, 51, 0.2); }
-  body .github img {
-    width: 10%;
-    height: 10%;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 325px;
-    position: absolute; }
   body .meGino h1 {
     color: #09e9ae;
     font-family: "arial";
@@ -304,14 +298,70 @@ body {
   -webkit-animation-name: fadeInUp;
   z-index: 100; }
 
+button#buttonhome {
+  width: 150px;
+  height: 50px;
+  float: right;
+  margin-right: 120px;
+  margin-top: 350px;
+  color: #1785fa;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  font-family: "arial";
+  border: 0px;
+  font-size: 12px; }
+
+button#buttonhome:hover {
+  width: 150px;
+  height: 50px;
+  float: right;
+  margin-right: 120px;
+  margin-top: 350px;
+  color: #1785fa;
+  background-color: rgba(176, 176, 176, 0.9);
+  cursor: pointer; }
+
+.ginoimage img {
+  display: none; }
+
+.linkedin img {
+  width: 10%;
+  height: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -50px;
+  position: absolute;
+  z-index: 10;
+  margin-left: 85px; }
+
+.github img {
+  width: 8%;
+  height: 8%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -45px;
+  position: absolute;
+  z-index: 10;
+  margin-left: 50px; }
+
+.instagram img {
+  width: 8%;
+  height: 8%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -45px;
+  position: absolute;
+  z-index: 10;
+  margin-left: 8px; }
+
 @media only screen and (min-width: 768px) {
   body {
     width: 768px;
     display: block;
     font-family: "arial";
-    height: 1000px;
+    height: 815px;
     background-image: linear-gradient(#09e9ae, #1785fa);
-    margin-top: 10px;
+    margin-top: 1px;
     margin-left: auto;
     margin-right: auto; }
     body .logo {
@@ -319,9 +369,9 @@ body {
       margin-right: auto;
       display: block; }
     body .logo img {
-      height: 13%;
-      width: 13%;
-      margin-top: -700px;
+      height: 20%;
+      width: 20%;
+      margin-top: -200px;
       margin-left: 1px;
       float: left;
       z-index: 5; }
@@ -374,7 +424,7 @@ body {
       padding: 15px;
       text-decoration: none; }
     body .mainNav ul li a:hover {
-      color: #09e9ae; }
+      color: #1785fa; }
     body .mainNav-active {
       display: none; }
     body .specialtyText h3 {
@@ -473,16 +523,33 @@ body {
       margin-left: 550px;
       margin-right: auto;
       display: block; }
-    body .instagram img {
-      width: 15%;
-      height: 15%;
-      float: left;
-      margin-left: 250px; }
     body .linkedin img {
-      width: 12%;
-      height: 12%;
-      float: right;
-      margin-right: 250px; }
+      width: 5%;
+      height: 5%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: -50px;
+      position: absolute;
+      z-index: 10;
+      margin-left: 85px; }
+    body .github img {
+      width: 4%;
+      height: 4%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: -45px;
+      position: absolute;
+      z-index: 10;
+      margin-left: 50px; }
+    body .instagram img {
+      width: 4%;
+      height: 4%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: -45px;
+      position: absolute;
+      z-index: 10;
+      margin-left: 8px; }
     body .circleGroup {
       margin-top: 150px; }
     body #circle1 {
@@ -561,26 +628,19 @@ body {
       color: #09e9ae;
       text-align: center;
       margin-top: 30px; }
-    body .github img {
-      width: 5%;
-      height: 5%;
-      padding-left: 20px;
-      padding-right: 20px;
-      margin-top: 10px;
-      position: absolute;
-      z-index: 10; }
     body .author p {
       color: #09e9ae;
-      float: right;
+      text-align: center;
       font-size: 12px;
-      margin-top: 30px;
+      margin-top: 100px;
       position: absolute;
-      margin-left: 175px;
-      z-index: 10; }
+      z-index: 10;
+      margin-right: -400px; }
     body .socialMedia {
       width: 50px;
       height: 20px;
-      margin-top: 300px; }
+      margin-top: 400px;
+      margin-left: 310px; }
     body .aboutMe {
       margin-top: -300px; }
     body .whoIAm {
@@ -616,8 +676,9 @@ body {
       color: #ffffff;
       z-index: 20;
       position: absolute;
-      margin-top: 100px;
+      margin-top: 250px;
       text-align: center;
+      margin-left: 90px;
       font-size: 30px;
       width: 100%; }
 
@@ -652,7 +713,30 @@ body {
     width: 600px;
     height: 100px;
     background-image: linear-gradient(green-blue);
-    margin-top: 200px; } }
+    margin-top: 200px; }
+
+  button#buttonhome {
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 285px;
+    color: #1785fa;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    font-family: "arial";
+    border: 0px;
+    font-size: 12px; }
+
+  button#buttonhome:hover {
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 285px;
+    color: #1785fa;
+    background-color: rgba(176, 176, 176, 0.9);
+    cursor: pointer; } }
 @media only screen and (min-width: 900px) {
   body {
     width: 100%;
@@ -667,14 +751,14 @@ body {
       margin-right: auto;
       display: block; }
     body .logo img {
-      height: 10%;
-      width: 10%;
+      height: 12%;
+      width: 12%;
       margin-top: -75px;
       z-index: 5;
       position: absolute;
       left: 45%; }
     body .logo img:hover {
-      filter: brightness(1000%); }
+      filter: opacity(70%); }
     body .specialty {
       background: #09e9ae;
       height: 150px;
@@ -719,7 +803,7 @@ body {
       padding: 15px;
       text-decoration: none; }
     body .mainNav ul li a:hover {
-      color: #1785fa; }
+      color: #09e9ae; }
     body .mainNav-active {
       display: none; }
     body .hero {
@@ -843,25 +927,42 @@ body {
       color: #09e9ae;
       text-align: center;
       margin-top: 30px; }
-    body .github img {
+    body .linkedin img {
       width: 5%;
       height: 5%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: -50px;
+      position: absolute;
+      z-index: 10;
+      margin-left: 85px; }
+    body .github img {
+      width: 4%;
+      height: 4%;
       padding-left: 20px;
       padding-right: 20px;
       margin-top: -45px;
       position: absolute;
       z-index: 10;
       margin-left: 50px; }
+    body .instagram img {
+      width: 4%;
+      height: 4%;
+      margin-top: -45px;
+      position: absolute;
+      z-index: 10;
+      margin-right: 10px; }
     body .author p {
       color: #09e9ae;
-      font-size: 12px;
-      margin-top: 615px;
+      font-size: 10px;
+      margin-top: 640px;
       position: absolute;
       margin-left: 500px;
       z-index: 10;
       display: inline-block;
       text-align: center;
-      color: blue; }
+      color: black;
+      font-family: arial black; }
     body .socialMedia {
       width: 50px;
       height: 20px;
@@ -925,11 +1026,11 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image: linear-gradient(#09e9ae, #1785fa);
-      margin-top: 100px;
+      background-color: #3c4043;
+      margin-top: 90px;
       z-index: 1;
-      width: 80%;
-      height: 600px;
+      width: 100%;
+      height: 645px;
       margin-left: auto;
       margin-right: auto; }
   @keyframes scale {
@@ -942,7 +1043,7 @@ body {
       color: #ffffff;
       z-index: 20;
       position: absolute;
-      margin-top: -100px;
+      margin-top: -50px;
       margin-left: 1px;
       font-size: 25px;
       width: 500px; }
@@ -972,6 +1073,67 @@ body {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
-    z-index: 100; } }
+    z-index: 100; }
+
+  button#buttonhome {
+    width: 150px;
+    height: 50px;
+    margin-top: -250px;
+    margin-left: 900px;
+    color: #1785fa;
+    background-color: white;
+    cursor: pointer;
+    font-family: "arial";
+    border: 0px;
+    font-size: 14px;
+    z-index: 100;
+    position: absolute; }
+
+  button#buttonhome:hover {
+    width: 150px;
+    height: 50px;
+    margin-top: -250px;
+    margin-left: 900px;
+    color: #1785fa;
+    background-color: rgba(176, 176, 176, 0.8);
+    cursor: pointer;
+    z-index: 100;
+    position: absolute; }
+
+  .ginoimage img {
+    height: 45%;
+    width: 45%;
+    margin-top: -625px;
+    margin-left: 1px;
+    padding-bottom: 1px;
+    display: block;
+    z-index: 1; }
+
+  @keyframes ginoimage img {
+    from {
+      transform: translate3d(0, 40px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+  @-webkit-keyframes ginoimage img {
+    from {
+      transform: translate3d(0, 40px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+  .ginoimage {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: both; }
+
+  .ginoimage {
+    opacity: 0; }
+
+  .ginoimage {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    z-index: 1; } }
 
 /*# sourceMappingURL=style.css.map */
