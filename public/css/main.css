@@ -1,6 +1,6 @@
 body { width: 100%; display: block; font-family: "arial"; background-color: #3c4043; margin-top: 1px; margin-left: auto; margin-right: auto; }
 body .aboutGino { overflow: hidden; }
-body .projectwork img { height: 800px; width: 100%; margin-top: -125px; }
+body .projectwork img { height: 800px; width: 100%; }
 body .logo { margin-left: auto; margin-right: auto; width: 100%; }
 body .webdev { display: hidden; }
 body .logo img { height: 20%; width: 20%; margin-top: 1px; margin-left: auto; margin-right: auto; display: block; position: relative; z-index: 2; }
@@ -206,14 +206,16 @@ button#buttonhome { width: 150px; height: 50px; float: right; margin-right: 120p
   .webdev1 img:hover { cursor: pointer; opacity: 0.6; color: #FFBF00; }
   .webdev1 p { margin-top: -90px; margin-left: 70px; font-size: 25px; z-index: 10; position: absolute; color: #FFBF00; }
   .webdev1:hover { cursor: pointer; opacity: 0.2; color: #FFBF00; }
-  .back-black { width: 100%; height: 500px; background-color: #3c4043; margin-top: 100px; }
+  .back-black { width: 100%; height: 500px; background-color: #3c4043; margin-top: 100px; overflow: hidden; }
   .back-yellow { width: 100%; height: 500px; background-color: #FFBF00; }
   .aboutGino h2 { margin-left: 475px; padding-top: 50px; margin-top: -525px; color: #FFBF00; font-size: 20px; text-align: center; }
   .aboutGino h3 { margin-left: 700px; padding: 10px 10px 55px 10px; color: #FFBF00; font-size: 16px; border: 1px solid; border-color: #09e9ae; width: 500px; font-family: 'Times New Roman', Times, serif; text-align: center; }
   .aboutGino img { height: 40%; width: 500px; margin-top: 1px; margin-left: 100px; }
-  .projectwork h1 { font-size: 50px; margin-top: -600px; padding-left: 20px; font-family: "arial"; }
+  .projectwork h1 { font-size: 50px; margin-top: -600px; padding-left: 20px; font-family: "arial"; overflow: hidden; animation: 2s slide-right; }
+  @keyframes slide-right { from { margin-left: -100%; width: 100%; }
+    to { margin-left: 0%; width: 100%; } }
   .projectwork h2 { width: 30%; font-size: 30px; margin-top: 1px; line-height: 1.5; padding-left: 20px; font-family: "arial"; }
-  .projectwork img { height: 40%; width: 400px; margin-top: -235px; margin-left: 800px; }
+  .projectwork img { width: auto; max-width: 28%; height: auto; max-height: 100%; margin-left: 750px; margin-top: -200px; z-index: 9000; }
   @keyframes aboutGino img { from { transform: translate3d(0, 40px, 0); }
     to { transform: translate3d(0, 0, 0); opacity: 1; } }
   @-webkit-keyframes aboutGino img { from { transform: translate3d(0, 40px, 0); }
