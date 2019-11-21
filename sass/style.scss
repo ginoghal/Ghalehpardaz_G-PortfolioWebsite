@@ -12,11 +12,21 @@ body{
 width: 100%;
 display: block;
 font-family: $ff;
-height: 658px;
 background-color: #3c4043;
 margin-top: 1px;
 margin-left: auto;
 margin-right: auto;
+
+.aboutGino{
+  overflow: hidden;
+}
+
+.projectwork img{
+  height: 800px;
+  width: 100%;
+  margin-top: -125px;
+}
+
 
 .logo {
 margin-left: auto;
@@ -27,46 +37,6 @@ width: 100%;
 .webdev{
 display: hidden;
 }
-
-// .webdev img{
-//   display: none;
-// }
-
-// .specialty{
-// display: none;
-//   }
-
-//   .specialty img{
-//     margin-left: auto;
-//     margin-right: auto;
-//     display: block;
-//     height: 50%;
-//     width: 100%;
-//     margin-top: -50px;
-//     padding-bottom: 10px;
-//     z-index: 10;
-//   }
-  
-//   .specialtyText h5{
-//     font-family: arial;
-//     font-size: 25px;
-//     color: $speci;
-//     position: absolute;
-//     transition: opacity .1s ease;
-//     margin: 0 auto;
-//     text-align: center;
-//     width: 100%;
-//     margin-top: 500px;
-//   }
-  
-//   .specialtyText h5+h5{
-//     opacity: 0;
-//     margin: 0 auto;
-//     text-align: center;
-//     margin-top: 500px;
-//    }
-
-  
 
 
 .logo img{
@@ -184,6 +154,7 @@ margin-top: -80px;
       border-radius: 1px;
       margin-top: -55px;
     }
+
 
     .hero #myVideo{
       margin-top: -20px;
@@ -356,27 +327,7 @@ margin-top: -80px;
   .whoIAm:hover{
     background-color: rgba(204, 0, 51, 0.2);
 
-  }
- 
-
-    // .instagram img {
-    //   width: 15%;
-    //   height: 15%;
-    //   float: left;
-    //   margin-left: 110px;
-    //   margin-top: 20px;
-    
-    // }
-    
-    // .linkedin img{
-    //   width: 12%;
-    //   height: 12%;
-    //   float: right;
-    //   margin-right: 110px;
-    //   margin-top: -50px;
-    // }
-
-        
+  }   
 
      .meGino h1{
       color: $speci;
@@ -450,16 +401,7 @@ width: 100%;}
   
 }
   
-  
-    // #profileCircle{
-    //     width: 400px;
-    //     height: 200px;
-    //     background: $speci;
-    //     z-index: 10;
-    //     position: absolute;
-    //     margin-top: -500px;
-    //    left: 25%;
-    //   }
+
     
     button#buttonhome{
       width: 150px;
@@ -514,6 +456,13 @@ width: 100%;}
      margin-left: 8px;
      }
 
+    //  .back-black{
+
+    //  }
+
+    //  .back-yellow{
+
+    //  }
  
 
 
@@ -1045,15 +994,13 @@ button#buttonhome{
     z-index: 10;
   }
 
-
-  
-
-
 }
 
 @media only screen and (min-width: 900px){
 
   body{
+    padding:0;
+    margin:0;
     width: 100%;
     font-family: $ff;
     height: 100%;
@@ -1061,9 +1008,7 @@ button#buttonhome{
     background-position: center;
     background-repeat: no-repeat;
     background-color: #ffffff;
-
-    display: absolute;
-
+   display: absolute;
 
 .logo {
   margin-left: auto;
@@ -1071,7 +1016,6 @@ button#buttonhome{
   display: block;
   }
 
-  
   .logo img{
     height: 12%;
     width: 12%;
@@ -1279,23 +1223,23 @@ button#buttonhome{
       .linkedin img{
         width: 5%;
         height: 5%;
-       padding-left: 20px;
-       padding-right: 20px;
-       margin-top: -50px;
+       padding-left: 1px;
+       padding-right: 1px;
+       margin-top: -48px;
        position: absolute;
        z-index: 10;
-       margin-left: 85px;
+       margin-left: 95px;
        }
   
       .github img{
         width: 4%;
         height: 4%;
-       padding-left: 20px;
-       padding-right: 20px;
+       padding-left: 1px;
+       padding-right: 1px;
        margin-top: -45px;
        position: absolute;
        z-index: 10;
-       margin-left: 50px;
+       margin-left: 65px;
        }
 
        .instagram img{
@@ -1323,7 +1267,7 @@ button#buttonhome{
       .socialMedia{
         width: 50px;
         height: 20px;
-        margin-top: -200px;
+        margin-top: -640px;
         margin-left: 125px;
       }
 
@@ -1383,24 +1327,24 @@ button#buttonhome{
   }
 
 
-  #profileCircle{
-      width: 700px;
-      height: 300px;
+  #profileRec{
+      width: 600px;
+      height: 150px;
       background: $speci;
       z-index: 10;
       position: absolute;
-      margin-top: 350px;
-      margin-left: auto;
+      margin-top: 75px;
+      margin-left: 650px;
       margin-right: auto;
-      display: inline-block;
-      animation: scale 1000ms ease-in-out forwards;
+      display: block;
+      animation: scale 2000ms ease-in-out forwards;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #boxContent{
   display:flex;
   justify-content:center;
   align-items:center;
-  // background-image: linear-gradient(#09e9ae, #1785fa);
   background-color: #3c4043;
   margin-top: 90px;
   z-index: 1;
@@ -1426,12 +1370,12 @@ button#buttonhome{
   z-index: 20;
   position: absolute;
   margin-top: -50px;
-  margin-left: 1px;
+  margin-left: -325px;
   font-size: 25px;
   width: 500px;
   border: 1px solid;
   border-color: #FFBF00;
-  padding-bottom: 60px;
+  padding-bottom: 125px;
   padding-top: 30px;
 }
   
@@ -1486,7 +1430,7 @@ button#buttonhome{
   width: 150px;
   height: 50px;
   margin-top: -250px;
-  margin-left: 900px;
+  margin-left: 875px;
   color: white;
   background-color: $bg;
   cursor: pointer;
@@ -1503,7 +1447,7 @@ button#buttonhome:hover{
   width: 150px;
   height: 50px;
   margin-top: -250px;
-  margin-left: 900px;
+  margin-left: 875px;
   color: $bg;
   background-color: #09e9ae;
   cursor: pointer;
@@ -1513,13 +1457,14 @@ button#buttonhome:hover{
 
 
 .ginoimage img{
-  height: 45%;
-  width: 45%;
-  margin-top: -625px;
-  margin-left: 1px;
+  height: 80%;
+  width: 80%;
+  margin-top: -50px;
+  margin-left: -300px;
   padding-bottom: 1px;
   display: block;
   z-index: 1;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @keyframes ginoimage img {
@@ -1564,6 +1509,7 @@ button#buttonhome:hover{
   
 }
 
+
 .specialty{
   height: 20px;
   width: 100%;
@@ -1600,13 +1546,6 @@ button#buttonhome:hover{
     margin: 0 auto;
     text-align: center;
     margin-top: -50px;
-   }
-
-   .ginoimage img{
-     margin-top: 1px;
-     margin-left: -650px;
-     height: 600px;
-     width: 500px;
    }
 
    .webdev{
@@ -1737,6 +1676,169 @@ button#buttonhome:hover{
   opacity: 0.2;
   color: $speci;
  }
+
+.back-black{
+  width: 100%;
+  height: 500px;
+  background-color: $bg;
+  margin-top: 100px;
+
+}
+
+ .back-yellow{
+   width: 100%;
+   height: 500px;
+   background-color: $speci;
+ }
+
+ .aboutGino h2{
+   margin-left: 475px;
+   padding-top: 50px;
+   margin-top: -525px;
+   color: $speci;
+   font-size: 20px;
+   text-align: center;
+ }
+
+ .aboutGino h3{
+  margin-left: 700px;
+  padding: 10px 10px 55px 10px;
+  color: $speci;
+  font-size: 16px;
+  border: 1px solid;
+  border-color: #09e9ae;
+  width: 500px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
+
+.aboutGino img{
+  height: 40%;
+  width: 500px;
+  // transform: rotate(90deg);
+  margin-top: 1px;
+  margin-left: 100px;
+}
+
+.projectwork h1{
+  font-size: 50px;
+  margin-top: -600px;
+  padding-left: 20px;
+  font-family: $ff;
+}
+
+.projectwork h2{
+  width: 30%;
+  font-size: 30px;
+  margin-top: 1px;
+  line-height: 1.5;
+  padding-left: 20px;
+  font-family: $ff;
+}
+
+.projectwork img{
+  height: 40%;
+  width: 400px;
+  margin-top: -235px;
+  margin-left: 800px;
+}
+
+@keyframes aboutGino img {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes aboutGino img {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+      
+  }
+}
+
+.aboutGino img {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both
+}
+
+.aboutGino img {
+  opacity: 0
+}
+
+.aboutGino img {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  z-index: 100;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.socialMedia1{
+  width: 50px;
+  height: 20px;
+  margin-top: -1490px;
+  margin-left: 125px;
+}
+
+.author1 p{
+  color: $speci;
+  font-size: 10px;
+  margin-top: 1500px;
+ position: absolute;
+ margin-left: 500px;
+ z-index: 10;
+ display: inline-block;
+ text-align: center;
+ color: black;
+ font-family: arial black;
+}
+
+.back-black1{
+  width: 34%;
+  height: 500px;
+  background-color: $bg;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+.back-yellow1{
+  width: 34%;
+  height: 500px;
+  background-color: $speci;
+  margin-top: -501px;
+  margin-left: 475px;
+  border-top: 1px solid;
+  border-color: $bg;
+}
+
+.back-black2{
+  width: 34%;
+  height: 500px;
+  background-color: $bg;
+  margin-top: -501px;
+  margin-left: 950px;
+  border-top: 1px solid;
+  border-color: $bg;
+}
+
+
+
+
+
 
 
   
