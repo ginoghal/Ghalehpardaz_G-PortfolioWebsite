@@ -3,7 +3,7 @@ const path = require('path'); // path lets us navigate the file system / folders
 const hbs = require('hbs');
 
 // require the sql connection file
-const sql = require('./utils/sql');
+//const sql = require('./utils/sql');
 
 // heroku assigns a port when it deploys via the process (environment variables - coming soon)
 // locally this will run @ port 3000; remotely it'll run wherever heroku tells it to run
@@ -12,9 +12,7 @@ const port = process.env.PORT || 3000; // a double pipe -> || means "or"
 const app = express();
 
 app.use(express.static('public'));
-
-
-app.set('view engine', 'html');
+app.set('view engine', 'hbs');
 
 
 // a forward slash is the home route (same as index.html)
