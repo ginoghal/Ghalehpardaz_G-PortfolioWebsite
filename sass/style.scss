@@ -24,7 +24,6 @@ margin-right: auto;
 .projectwork img{
   height: 800px;
   width: 100%;
-  margin-top: -125px;
 }
 
 
@@ -1682,6 +1681,7 @@ button#buttonhome:hover{
   height: 500px;
   background-color: $bg;
   margin-top: 100px;
+  overflow: hidden;
 
 }
 
@@ -1726,7 +1726,25 @@ button#buttonhome:hover{
   margin-top: -600px;
   padding-left: 20px;
   font-family: $ff;
+  overflow: hidden;
+  animation: 2s slide-right;
 }
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
 
 .projectwork h2{
   width: 30%;
@@ -1738,10 +1756,13 @@ button#buttonhome:hover{
 }
 
 .projectwork img{
-  height: 40%;
-  width: 400px;
-  margin-top: -235px;
-  margin-left: 800px;
+  width: auto;
+  max-width: 28%;
+  height: auto;
+  max-height: 100%;
+  margin-left: 750px;
+  margin-top: -200px;
+  z-index: 9000;
 }
 
 @keyframes aboutGino img {

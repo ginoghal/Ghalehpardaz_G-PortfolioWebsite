@@ -13,21 +13,14 @@ const app = express();
 
 app.use(express.static('public'));
 
-// tell express to use the handlebars engine to render data
-app.set('view engine', 'hbs');
 
-
-
-// tell express to use the views folder to find its templates
-app.set('views', __dirname + '/views');
+app.set('view engine', 'html');
 
 
 // a forward slash is the home route (same as index.html)
 app.get('/', (req, res) => {
   console.log('at the home route');
 
-
-  //res.sendFile(path.join(__dirname + '/views/index.html'));
 
   res.render('home', { message: "hi there!", anothermessage: "This is easy!" } );
   // this builds localhost:3000/views/index.html
@@ -37,7 +30,7 @@ app.get('/', (req, res) => {
 app.get('/content', (req, res) => {
   console.log('at the content route');
   //res.sendFile(path.join(__dirname + '/views/contact.html'));
-  res.render('content', { message: "on content page", layout:'content'})
+  res.render('content', { message: "on content page", layout:'portfolio'})
 })
 
 app.get('/about', (req, res) => {
