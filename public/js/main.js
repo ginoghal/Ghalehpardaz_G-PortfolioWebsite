@@ -21,16 +21,16 @@ const mainNavSlide = () => {
 
 mainNavSlide();
 
-var current = 0,
-    slides = document.getElementsByTagName("h5");
+// var current = 0,
+//     slides = document.getElementsByTagName("h5");
 
-setInterval(function() {
-  for (var i = 0; i < slides.length; i++){
-    slides[i].style.opacity = 0;
-  }
-  current = (current != slides.length - 1) ? current + 1 : 0;
-  slides[current].style.opacity = 1;
-}, 3000);
+// setInterval(function() {
+//   for (var i = 0; i < slides.length; i++){
+//     slides[i].style.opacity = 0;
+//   }
+//   current = (current != slides.length - 1) ? current + 1 : 0;
+//   slides[current].style.opacity = 1;
+// }, 3000);
 
 
 // function myFunction() {
@@ -43,26 +43,30 @@ setInterval(function() {
 //   }
 
 
-
 var i = 0;
 var images = [];
-var time = 4000;
+var time = 3000;
 
-images[0] = 'public/images/background-placeholder.jpg';
-images[1] = 'public/images/ginoprofilepicture.svg';
+images[0] = 'images/ginoprofile.jpg';
+images[1] = 'images/aboutgino.jpg';
 
 function changeImg(){
-  document.heromainslider.src = images[i];
+  document.slide.src = images[i];
 
   if(i < images.length - 1){
     i++;
   } else {
     i = 0;
-  }
-
-  setTimeout("changeImg()", time);
 }
+
+setTimeout("changeImg()", time);
+}
+
 window.onload = changeImg;
+
+// var slider_content = document.getElementById('heroImage');
+
+// var image = ['hero_image', 'nature_painting1.jpg', 'still_life2'];
 
 
 
