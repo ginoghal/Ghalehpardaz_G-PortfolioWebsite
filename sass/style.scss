@@ -1016,8 +1016,8 @@ button#buttonhome{
   }
 
   .logo img{
-    height: 15%;
-    width: 15%;
+    height: 12%;
+    width: 12%;
     margin-top: -75px;
     z-index: 5;
     position: absolute;
@@ -1045,7 +1045,7 @@ button#buttonhome{
     float: left;
     z-index: 4;
     font-family: arial black;
-    margin-top: -300px;
+    margin-top: -800px;
  
     }
   
@@ -1428,8 +1428,8 @@ button#buttonhome{
 button#buttonhome{
   width: 150px;
   height: 50px;
-  margin-top: -250px;
-  margin-left: 875px;
+  margin-top: 70px;
+  margin-left: -150px;
   color: white;
   background-color: $bg;
   cursor: pointer;
@@ -1445,8 +1445,8 @@ button#buttonhome{
 button#buttonhome:hover{
   width: 150px;
   height: 50px;
-  margin-top: -250px;
-  margin-left: 875px;
+  margin-top: 70px;
+  margin-left: -150px;
   color: $bg;
   background-color: #09e9ae;
   cursor: pointer;
