@@ -4,7 +4,7 @@
   "description": "using classes with node and express",
   "main": "index.js",
   "scripts": {
-    "start": "node app" 
+    "start": "node app"
   },
   "repository": {
     "type": "git",
