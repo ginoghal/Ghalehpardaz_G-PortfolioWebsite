@@ -124,10 +124,10 @@ button#buttonhome { width: 150px; height: 50px; float: right; margin-right: 120p
   .specialty img { margin-left: auto; margin-right: auto; display: block; height: 50%; width: 100%; margin-top: -50px; padding-bottom: 10px; z-index: 10; } }
 @media only screen and (min-width: 900px) { body { padding: 0; margin: 0; width: 100%; font-family: "arial"; height: 100%; background-image: none; background-position: center; background-repeat: no-repeat; background-color: #ffffff; display: absolute; }
   body .logo { margin-left: auto; margin-right: auto; display: block; }
-  body .logo img { height: 12%; width: 12%; margin-top: -75px; z-index: 5; position: absolute; left: 45%; }
+  body .logo img { height: 15%; width: 15%; margin-top: -75px; z-index: 5; position: absolute; left: 45%; }
   body .logo img:hover { filter: opacity(70%); }
   body .description { color: #ffffff; background-color: #3c4043; font-size: 14px; text-align: center; }
-  body .mainNav { margin-right: auto; margin-left: 800px; float: left; z-index: 4; font-family: arial black; margin-top: -150px; }
+  body .mainNav { margin-right: auto; margin-left: 800px; float: left; z-index: 4; font-family: arial black; margin-top: -300px; }
   body .mainNav li { opacity: 1; display: inline; text-align: center; }
   body .mainNav ul { padding-top: 20px; margin-top: 100px; height: 50px; margin-left: -300px; }
   body .mainNav ul li { font-size: 14px; cursor: pointer; padding-left: 10px; padding-right: 10px; border: 0px; padding-top: 15px; }
