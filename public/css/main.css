@@ -67,7 +67,7 @@ button#buttonhome { width: 150px; height: 50px; float: right; margin-right: 120p
   body .description { color: #ffffff; background-color: #3c4043; font-size: 14px; text-align: center; }
   body .mainNav { height: 2px; margin-top: -100px; margin-left: 150px; margin-right: auto; display: block; text-align: right; margin-left: auto; margin-right: auto; z-index: 4; }
   body .mainNav li { opacity: 1; display: inline-block; text-align: left; }
-  body .mainNav ul { padding-top: 20px; margin-top: -60px; width: 768px; height: 50px; }
+  body .mainNav ul { padding-top: 20px; margin-top: -60px; width: 500px; height: 50px; }
   body .mainNav ul li { font-size: 20px; display: inline; cursor: pointer; padding-left: 10px; padding-right: 10px; border: 0px; }
   body .mainNav ul li a { color: #ffffff; padding: 15px; text-decoration: none; }
   body .mainNav ul li a:hover { color: #1785fa; }
@@ -129,7 +129,7 @@ button#buttonhome { width: 150px; height: 50px; float: right; margin-right: 120p
   body .description { color: #ffffff; background-color: #3c4043; font-size: 14px; text-align: center; }
   body .mainNav { margin-right: auto; left: 60%; z-index: 5; font-family: arial black; top: 5%; position: absolute; }
   body .mainNav li { opacity: 1; display: inline; text-align: center; }
-  body .mainNav ul { padding-top: 20px; margin-top: 100px; height: 50px; margin-left: -300px; }
+  body .mainNav ul { padding-top: 20px; margin-top: 100px; height: 50px; margin-left: 1px; }
   body .mainNav ul li { font-size: 14px; cursor: pointer; padding-left: 10px; padding-right: 10px; border: 0px; padding-top: 15px; }
   body .mainNav ul li a { color: black; padding: 15px; text-decoration: none; }
   body .mainNav ul li a:hover { color: #09e9ae; }
