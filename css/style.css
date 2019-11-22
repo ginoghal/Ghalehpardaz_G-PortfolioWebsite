@@ -741,7 +741,7 @@ button#buttonhome {
       float: left;
       z-index: 4;
       font-family: arial black;
-      margin-top: -150px; }
+      margin-top: -800px; }
     body .mainNav li {
       opacity: 1;
       display: inline;
@@ -1020,8 +1020,8 @@ button#buttonhome {
   button#buttonhome {
     width: 150px;
     height: 50px;
-    margin-top: -250px;
-    margin-left: 875px;
+    margin-top: 70px;
+    margin-left: -150px;
     color: white;
     background-color: #3c4043;
     cursor: pointer;
@@ -1036,8 +1036,8 @@ button#buttonhome {
   button#buttonhome:hover {
     width: 150px;
     height: 50px;
-    margin-top: -250px;
-    margin-left: 875px;
+    margin-top: 70px;
+    margin-left: -150px;
     color: #3c4043;
     background-color: #09e9ae;
     cursor: pointer;

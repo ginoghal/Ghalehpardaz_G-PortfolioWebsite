@@ -7,8 +7,6 @@ const hbs = require('hbs');
 // a forward slash is the home route (same as index.html)
 router.get('/', (req, res) => {
     console.log('at the home route');
-  
-  
     res.render('home', { message: "hi there!", anothermessage: "This is easy!", tagline: "My name is Gino Ghalehpardaz, web Developper to the Stars!", buttonmessage: "Hire Me!" } );
     // this builds localhost:3000/views/index.html
   })
@@ -23,7 +21,7 @@ router.get('/', (req, res) => {
   router.get('/about', (req, res) => {
     console.log('at the about route');
     //res.sendFile(path.join(__dirname + '/views/contact.html'));
-    res.render('about', { message: "on about page", layout:'about'})
+    res.render('about', { message: "on about page"})
   })
   
   router.get('/contact', (req, res) => {
