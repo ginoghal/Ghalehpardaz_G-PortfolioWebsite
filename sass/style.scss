@@ -17,14 +17,6 @@ margin-top: 1px;
 margin-left: auto;
 margin-right: auto;
 
-.aboutGino{
-  overflow: hidden;
-}
-
-.projectwork img{
-  height: 800px;
-  width: 100%;
-}
 
 
 .logo {
@@ -62,17 +54,16 @@ text-align: center;
 margin-top: -80px;
 }
 
-
-
 .mainNav{
   position: absolute;
-  margin-top: -40px;
+  margin-top: 1px;
   flex-direction: column-reverse;
   text-align: center;
   display: flex;
   transform: translateX(0%);
   transition: transform 0.5s ease-in;
-  z-index: 20;
+  z-index: 200;
+  position: absolute;
   }
 
     .mainNav li {
@@ -146,8 +137,6 @@ margin-top: -80px;
       margin-left: auto;
       margin-right: auto;
       display: block;
-      width: 100%;
-      height: 660px;
       z-index: 3;
       overflow: hidden;
       border-radius: 1px;
@@ -167,109 +156,38 @@ margin-top: -80px;
   
     }
 
-    .circleGroup{
-      margin-top: 20px;
+    .aboutGino img{
+      overflow: hidden;
+      height: 500px;
+      width: 100%;
+      margin-top: 50px;
     }
 
-    #circle1{
-      border:1px solid $speci;    
-      height:100px;
-      width:100px;
-      margin-top: -300px;
-      z-index: 1000;
-      position: absolute;
-      margin-left:20px;
-    }
-
-    #circle1 button{
+    .aboutGino h2{
+      padding-top: 50px;
+      margin-top: -20px;
       color: $speci;
+      font-size: 20px;
       text-align: center;
-      margin-top: 30px;
-      outline: none;
-      background-color: transparent;
-      border: none;
-      cursor: pointer; 
+      padding-left: 2px;
+      padding-right: 2px;
     }
 
-    #circle2{
-      border:1px solid $speci;    
-      height:100px;
-      width:100px;
-      margin-top: -300px;
-      z-index: 1000;
-      position: absolute;
-      margin-left:135px;
-    }
+    .aboutGino h3{
+      font-size: 14px;
+    text-align: center;
+  margin-left: auto;
+margin-right: auto;
+display: auto;
+padding-right: 2px;
+padding-left: 2px;}
 
-    #circle2 p{
-      color: $speci;
-      text-align: center;
-      margin-top: 30px;
-    }
-
-    #circle3{
-      border:1px solid $speci;    
-      height:100px;
-      width:100px;
-      margin-top: -300px;
-      z-index: 1000;
-      position: absolute;
-      margin-left:250px;
-    }
-
-    #circle3 p{
-      color: $speci;
-      text-align: center;
-      margin-top: 30px;
-    }
-
-    #circle4{
-      border:1px solid $speci;    
-      height:100px;
-      width:100px;
-      margin-top: -175px;
-      z-index: 1000;
-      position: absolute;
-      margin-left:20px;
-    }
-
-    #circle4 p{
-      color: $speci;
-      text-align: center;
-      margin-top: 30px;
-    }
-
-    #circle5{
-      border:1px solid $speci;    
-      height:100px;
-      width:100px;
-      margin-top: -175px;
-      z-index: 1000;
-      position: absolute;
-      margin-left:135px;
-    }
-
-    #circle5 p{
-      color: $speci;
-      text-align: center;
-      margin-top: 30px;
-    }
-
-    #circle6{
-      border:1px solid $speci;    
-      height:100px;
-      width:100px;
-      margin-top: -175px;
-      z-index: 1000;
-      position: absolute;
-      margin-left:250px;
-    }
-
-    #circle6 p{
-      color: $speci;
-      text-align: center;
-      margin-top: 30px;
-    }
+.back-yellow{
+  width: 100%;
+  height: 400px;
+  background-color: $speci;
+  margin-top: -400px;
+}
 
 
   .description h2{
@@ -282,23 +200,51 @@ margin-top: -80px;
       margin-top: -250px;
       padding-bottom: 10px;
       padding-top: 10px;
+    }
 
+    #profileRec{
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+    }
+
+    .projectwork{
+      text-align: center;
+      margin-top: -100px;
+    }
+
+    .projectwork img{
+      height: 800px;
+      width: 100%;
+      margin-top: 250px;
+      z-index: 1;
+    }
+
+    .projectwork h1{
+      margin-top: -100px;
+      color: $speci;
+    }
+
+    .projectwork h2{
+      margin-top: 1px;
+      color: $speci;
     }
 
     .author p{
       color: $speci;
      text-align: center;
       font-size: 12px;
-      margin-top: 400px;
-     position: absolute;
-     margin-left: -10px;
+      margin-top: 110px;
     }
 
     .socialMedia{
       width: 50px;
       height: 20px;
       z-index: 1;
-      margin-left: 100px;
+      margin-left: 120px;
+      margin-right: auto;
+      display: block;
+      margin-top: 60px;
     }
 
          //for contact
@@ -333,9 +279,8 @@ margin-top: -80px;
       font-size: 10px;
       z-index: 10;
       position: absolute;
-      margin-top: 100px;
+      margin-top: 10px;
       text-align: center;
-      top: 50%;
       left: 50%;
       width: 90%;
       /* bring your own prefixes */
@@ -348,7 +293,7 @@ margin-top: -80px;
   color: $des;
   z-index: 20;
   position: absolute;
-  margin-top: 200px;
+  margin-top: -200px;
   margin-right: 200px;
   font-size: 30px;
 width: 100%;}
@@ -398,15 +343,14 @@ width: 100%;}
   z-index: 100;
   
 }
-  
-
     
     button#buttonhome{
       width: 150px;
       height: 50px;
-      float: right;
-      margin-right: 120px;
-      margin-top: 375px;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      margin-top: 300px;
       color: #09e9ae;
       cursor: pointer;
       font-family: $ff;
@@ -415,6 +359,7 @@ width: 100%;}
       background-color: $bg;
       border: 1px solid;
       border-color: #09e9ae;
+      z-index: 1;
     }
 
     .ginoimage img{
@@ -424,44 +369,29 @@ width: 100%;}
     .linkedin img{
       width: 10%;
       height: 10%;
-     padding-left: 20px;
-     padding-right: 20px;
+     padding-left: 1px;
      margin-top: -50px;
      position: absolute;
      z-index: 10;
-     margin-left: 85px;
      }
 
     .github img{
       width: 8%;
       height: 8%;
-     padding-left: 20px;
-     padding-right: 20px;
+     padding-left: 50px;
      margin-top: -45px;
      position: absolute;
      z-index: 10;
-     margin-left: 50px;
      }
 
      .instagram img{
       width: 8%;
       height: 8%;
-     padding-left: 20px;
-     padding-right: 20px;
+     padding-left: 100px;
      margin-top: -45px;
      position: absolute;
      z-index: 10;
-     margin-left: 8px;
      }
-
-    //  .back-black{
-
-    //  }
-
-    //  .back-yellow{
-
-    //  }
- 
 
 
 
@@ -824,13 +754,12 @@ width: 100%;}
       margin-top: 300px;
      position: absolute;
      z-index: 10;
-     margin-right: -400px;
     }
 
     .socialMedia{
       width: 50px;
       height: 20px;
-      margin-left: 310px;
+      margin-left: 350px;
     }
 
     .aboutMe{
@@ -1702,8 +1631,7 @@ button#buttonhome:hover{
 
 .aboutGino img{
   height: 40%;
-  width: 500px;
-  // transform: rotate(90deg);
+  width: 400px;
   margin-top: 1px;
   margin-left: 100px;
 }
@@ -1728,7 +1656,6 @@ button#buttonhome:hover{
     width: 100%;
   }
 }
-
 
 
 
@@ -1779,7 +1706,10 @@ button#buttonhome:hover{
   animation-duration: 3s;
   animation-fill-mode: both;
   -webkit-animation-duration: 3s;
-  -webkit-animation-fill-mode: both
+  -webkit-animation-fill-mode: both;
+
+  
+
 }
 
 .aboutGino img {
@@ -1792,7 +1722,6 @@ button#buttonhome:hover{
   -webkit-animation-name: fadeInUp;
   z-index: 100;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
 }
 
 
@@ -1848,11 +1777,6 @@ button#buttonhome:hover{
     
 
     
-
-
-
-
-
 
 
 
