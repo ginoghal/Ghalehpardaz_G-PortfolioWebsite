@@ -21,7 +21,7 @@ router.get('/', (req, res) => {
   router.get('/about', (req, res) => {
     console.log('at the about route');
     //res.sendFile(path.join(__dirname + '/views/contact.html'));
-    res.render('about', { message: "on about page"})
+    res.render('about', { message: "on about page", layout:'layout'})
   })
   
   router.get('/contact', (req, res) => {
