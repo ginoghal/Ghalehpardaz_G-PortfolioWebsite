@@ -116,7 +116,7 @@ button#buttonhome { width: 150px; height: 50px; margin-right: auto; margin-left:
   .specialtyText h5 + h5 { opacity: 0; margin: 0 auto; text-align: center; margin-top: 550px; }
   .specialty { height: 20px; width: 100%; margin-top: -50px; z-index: 20; position: relative; }
   .specialty img { margin-left: auto; margin-right: auto; display: block; height: 50%; width: 100%; margin-top: -50px; padding-bottom: 10px; z-index: 10; } }
-@media only screen and (min-width: 900px) { body { background-color: white; height: auto; width: 100%; padding: 0; margin: 0; }
+@media only screen and (min-width: 1025px) { body { background-color: white; height: auto; width: 100%; padding: 0; margin: 0; }
   body .logo { margin-left: auto; margin-right: auto; display: block; }
   body .logo img { height: 12%; width: 12%; margin-top: -80px; z-index: 5; position: absolute; left: 45%; }
   body .logo img:hover { filter: opacity(70%); }
