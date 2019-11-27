@@ -20,8 +20,8 @@ router.get('/', (req, res) => {
   
   router.get('/about', (req, res) => {
     console.log('at the about route');
-    //res.sendFile(path.join(__dirname + '/views/contact.html'));
-    res.render('about', { message: "on about page", layout:'layout'})
+    //res.sendFile(path.join(__dirname + '/views/about.hbs'));
+    res.render('about', { message: "on about page", title: "My name is Gino Ghalehpardaz, I come in peace!", messsage:"Born in London Ontario Canada, I am an aspiring Front End Web Developper, as well as Video and Audio Editor.I have previously worked as a Marketing Coordinator and have experience in graphic design and content marketing.I am currently enrolled in the Interactive Media Design Program at Fanshawe College. I had previously attended Laurier Universityand graduated with honors Criminology and Journalism.I absolutley love web development and media work and am very passionate about everything that I do in life.I enjoy learning and want to be the best I can be and achieve my full potential. Though I am not there it is a daily process and I strive to be better than the day before.When not in school, you can find me in the gym, where I train and teach on a daily basis as a Professional Mixed Martial Artist (my other life passion).",  layout:'layout'})
   })
   
   router.get('/contact', (req, res) => {
