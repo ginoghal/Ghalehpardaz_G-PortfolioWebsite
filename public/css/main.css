@@ -131,7 +131,7 @@ button#buttonhome { width: 150px; height: 50px; margin-right: auto; margin-left:
   body #whoIAm { height: 50px; width: 200px; cursor: pointer; color: #FFBF00; z-index: 100; border: 1px solid; border-color: #FFBF00; text-align: center; position: relative; left: 40%; background-color: rgba(224, 224, 224, 0.1); margin-top: -700px; top: -100px; }
   body #aboutMe h1 { color: #FFBF00; font-size: 20px; z-index: 10; }
   body .meGino h1 { color: #3c4043; font-family: "arial"; font-size: 15px; z-index: 10; position: absolute; margin-top: 350px; text-align: center; /* bring your own prefixes */ transform: translate(-50%, -50%); }
-  body #profileRec { text-align: center; z-index: 20; background-color: #FFBF00; position: absolute; margin-top: 20px; margin-left: 700px; font-size: 25px; width: 500px; border: 1px solid; border-color: #FFBF00; padding-bottom: 125px; padding-top: 30px; animation: scale 2000ms ease-in-out forwards; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  body #profileRec { text-align: center; z-index: 20; background-color: #FFBF00; position: absolute; margin-top: 20px; margin-left: 700px; font-size: 25px; width: 500px; height: 1px; border: 1px solid; border-color: #FFBF00; padding-bottom: 125px; padding-top: 10px; animation: scale 2000ms ease-in-out forwards; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   body #boxContent { background-color: #3c4043; margin-top: 100px; margin-left: auto; margin-right: auto; z-index: 1; width: 100%; height: 50%; }
   @keyframes scale { from { transform: scale(0, 1); }
     to { transform: scale(1.1); } }
