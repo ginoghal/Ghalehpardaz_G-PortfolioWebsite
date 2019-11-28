@@ -132,7 +132,7 @@ button#buttonhome { width: 150px; height: 50px; margin-right: auto; margin-left:
   body .linkedin img { width: 5%; height: 5%; padding-left: 1px; padding-right: 1px; margin-top: -48px; position: absolute; z-index: 10; margin-left: 95px; }
   body .github img { width: 4%; height: 4%; padding-left: 1px; padding-right: 1px; margin-top: -45px; position: absolute; z-index: 10; margin-left: 65px; }
   body .instagram img { width: 4%; height: 4%; margin-top: -45px; position: absolute; z-index: 10; margin-right: 10px; }
-  body .author p { color: #3c4043; text-align: center; font-size: 10px; z-index: 10; width: 100%; font-family: arial black; margin-top: 500px; }
+  body .author p { color: #3c4043; text-align: center; font-size: 10px; z-index: 10; width: 100%; font-family: arial black; margin-top: 700px; }
   body .author1 p { color: #FFBF00; text-align: center; font-size: 10px; z-index: 10; width: 100%; font-family: arial black; margin-top: 1400px; margin-left: 10px; }
   body .socialMedia { margin-left: 100px; margin-right: auto; display: block; margin-top: -36%; width: 25%; height: 20px; }
   body #aboutMe { margin-top: -65px; }
@@ -143,7 +143,7 @@ button#buttonhome { width: 150px; height: 50px; margin-right: auto; margin-left:
   body #boxContent { background-color: #3c4043; margin-top: -250px; margin-left: auto; margin-right: auto; z-index: 1; width: 100%; height: 50%; }
   @keyframes scale { from { transform: scale(0, 1); }
     to { transform: scale(1.1); } }
-  body .fadeInUp h1 { text-align: center; color: #ffffff; display: block; z-index: 10000; margin-top: -250px; margin-left: 50%; font-size: 25px; width: 500px; height: 1px; border: 1px solid; border-color: #FFBF00; padding-bottom: 140px; padding-top: 30px; }
+  body .fadeInUp h1 { text-align: center; color: #ffffff; display: block; z-index: 10000; margin-top: -20%; margin-left: 50%; font-size: 25px; width: 500px; height: 1px; border: 1px solid; border-color: #FFBF00; padding-bottom: 140px; padding-top: 30px; }
   @keyframes fadeInUp { from { transform: translate3d(0, 40px, 0); }
     to { transform: translate3d(0, 0, 0); opacity: 1; } }
   @-webkit-keyframes fadeInUp { from { transform: translate3d(0, 40px, 0); }
@@ -151,8 +151,8 @@ button#buttonhome { width: 150px; height: 50px; margin-right: auto; margin-left:
   body .animated { animation-duration: 3s; animation-fill-mode: both; -webkit-animation-duration: 3s; -webkit-animation-fill-mode: both; }
   body .animatedFadeInUp { opacity: 0; }
   body .fadeInUp { opacity: 0; animation-name: fadeInUp; -webkit-animation-name: fadeInUp; z-index: 100; }
-  body button#buttonhome { width: 120px; height: 50px; margin-top: -150px; margin-left: 63%; color: white; background-color: #3c4043; cursor: pointer; font-family: "arial"; border: 0px; font-size: 14px; z-index: 100; position: absolute; border: 1px solid; border-color: #09e9ae; }
-  body button#buttonhome:hover { width: 120px; height: 50px; margin-top: -150px; margin-left: 900px; color: #3c4043; background-color: #09e9ae; cursor: pointer; z-index: 100; position: absolute; }
+  body button#buttonhome { width: 120px; height: 50px; margin-top: -14%; margin-left: 60%; color: white; background-color: #3c4043; cursor: pointer; font-family: "arial"; border: 0px; font-size: 14px; z-index: 100; position: absolute; border: 1px solid; border-color: #09e9ae; }
+  body button#buttonhome:hover { width: 120px; height: 50px; margin-top: -14%; margin-left: 60%; color: #3c4043; background-color: #09e9ae; cursor: pointer; z-index: 100; position: absolute; }
   body .aboutGino img { overflow: hidden; height: 600px; width: 650px; margin-top: 25px; }
   body .ginoimage img { margin-top: 30px; margin-left: 100px; padding-bottom: 1px; width: 36%; display: block; z-index: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   @keyframes ginoimage img { from { transform: translate3d(0, 80px, 0); }
