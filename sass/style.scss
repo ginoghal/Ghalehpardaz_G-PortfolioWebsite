@@ -237,7 +237,27 @@ padding-left: 2px;}
       margin-top: 50px;
     }
 
+    .author1 p{
+      color: $speci;
+     text-align: center;
+      font-size: 12px;
+      margin-top: 900px;
+      margin-right: 100px;
+      margin-left: -75px;
+      width: 300px;
+    }
+
     .socialMedia{
+      width: 50px;
+      height: 20px;
+      z-index: 1;
+      margin-left: 120px;
+      margin-right: auto;
+      display: block;
+      margin-top: 60px;
+    }
+
+    .socialMedia1{
       width: 50px;
       height: 20px;
       z-index: 1;
@@ -333,7 +353,8 @@ width: 100%;}
 }
 
 .animatedFadeInUp {
-  opacity: 0
+  opacity: 0;
+  z-index:1;
 }
 
 .fadeInUp {
@@ -398,10 +419,9 @@ width: 100%;}
        text-align: center;
        width: 300px;
        color: $speci;
-       margin-left: -75px;
+       margin-left: 150%;
        padding-top: 10px;
      }
-
 
 
 
@@ -432,9 +452,9 @@ width: 100%;}
     z-index: 5;
   }
 
-  .logo img:hover{
-    filter:brightness(800%);
-  }
+    .logo img:hover {
+      filter: opacity(70%);
+     }
 
 
 
@@ -486,7 +506,7 @@ width: 100%;}
       }
 
       .mainNav ul li a:hover{
-        color: #1785fa;
+        color: #09e9ae;
       }
 
 
@@ -494,11 +514,21 @@ width: 100%;}
   display: none;
     }
 
+    //about
+
+    .aboutGino img{
+      overflow: hidden;
+      height: 600px;
+      width: 100%;
+      margin-top: 25px;
+    }
+
     .ginoimage img {
-      height: 75%;
-      width: 75%;
-      margin-top: 30px;
-      margin-left: auto;
+      overflow: hidden;
+      margin-top: auto;
+      margin-left: 15%;
+      margin-right: auto;
+      width: 100%;
       padding-bottom: 1px;
       display: block;
       z-index: 1;
@@ -531,6 +561,33 @@ width: 100%;}
         animation-name: fadeInUp;
         -webkit-animation-name: fadeInUp;
         z-index: 1; }
+
+        .aboutGino h2{
+          padding-top: 50px;
+          margin-top: -20px;
+          color: $bg;
+          font-size: 28px;
+          text-align: center;
+          padding-left: 2px;
+          padding-right: 2px;
+        }
+
+        .aboutGino h3{
+          font-size: 14px;
+        text-align: left;
+      margin-left: auto;
+    margin-right: auto;
+    display: auto;
+    padding-right: 2px;
+    padding-left: 2px;}
+
+    .projectwork img{
+      height: 100%;
+      width: 300px;
+      margin-top: 250px;
+      z-index: 1;
+    }
+
 
     .description{
       margin-top: -5px;
@@ -676,7 +733,16 @@ width: 100%;}
       margin-left: auto;
       margin-right: auto;
       display: block;
-      margin-top: 620px;
+      margin-top: 800px;
+    }
+
+    .socialMedia1{
+      width: 25%;
+      height: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 800px;
     }
 
     .aboutMe{
@@ -720,7 +786,7 @@ width: 100%;}
 text-align: center;
 color: $des;
 z-index: 20;
-position: absolute;
+position: fixed;
 margin-top: 10px;
  text-align: center;
  margin-left: 90px;
@@ -843,18 +909,20 @@ button#buttonhome{
   .logo {
       margin-left: auto;
       margin-right: auto;
-      display: block; }
+      display: block;
+     }
 
   .logo img {
       height: 12%;
       width: 12%;
-      margin-top: -80px;
+      top: 1%;
       z-index: 5;
       position: absolute;
       left: 45%; }
 
      .logo img:hover {
-      filter: opacity(70%); }
+      filter: opacity(70%);
+     }
 
    .description {
       color: #ffffff;
@@ -950,11 +1018,22 @@ button#buttonhome{
        margin-top: 500px;
       }
 
+      .author1 p{
+        color: $speci;
+        text-align: center;
+        font-size: 10px;
+       z-index: 10;
+       width: 100%;
+       font-family: arial black;
+       margin-top: 1400px;
+       margin-left: 10px;
+      }
+
   .socialMedia {
     margin-left: 100px;
     margin-right: auto;
     display: block;
-    margin-top: -500px;
+    margin-top: -36%;
     width: 25%;
     height: 20px;
      }
@@ -995,24 +1074,23 @@ button#buttonhome{
 
      #profileRec {
       text-align: center;
-      z-index: 20;
+      z-index: 10000;
+      color: $bg;
+      font-size: 16px;
       background-color: $speci;
-      position: absolute;
-      margin-top: 20px;
-      margin-left: 700px;
-      font-size: 25px;
+      margin-top: 190px;
       width: 500px;
+      margin-left: 50%;
       height: 1px;
       border: 1px solid;
       border-color: #FFBF00;
       padding-bottom: 125px;
-      padding-top: 10px; 
       animation: scale 2000ms ease-in-out forwards;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
      #boxContent {
       background-color: #3c4043;
-      margin-top: 100px;
+      margin-top: -250px;
       margin-left: auto;
       margin-right: auto;
       z-index: 1;
@@ -1029,16 +1107,17 @@ button#buttonhome{
       text-align: center;
       color: #ffffff;
       display: block;
-      z-index: 20;
-      margin-top: -300px;
-      margin-left: 700px;
+      z-index: 10000;
+      margin-top: -250px;
+      margin-left: 50%;
       font-size: 25px;
       width: 500px;
-      height: 50px;
+      height: 1px;
       border: 1px solid;
       border-color: #FFBF00;
       padding-bottom: 140px;
-      padding-top: 30px; }
+      padding-top: 30px; 
+    }
 
   @keyframes fadeInUp {
     from {
@@ -1052,6 +1131,7 @@ button#buttonhome{
     to {
       transform: translate3d(0, 0, 0);
       opacity: 1; } }
+
   .animated {
     animation-duration: 3s;
     animation-fill-mode: both;
@@ -1071,7 +1151,7 @@ button#buttonhome{
     width: 120px;
     height: 50px;
     margin-top: -150px;
-    margin-left: 900px;
+    margin-left: 63%;
     color: white;
     background-color: #3c4043;
     cursor: pointer;
@@ -1094,12 +1174,18 @@ button#buttonhome{
     z-index: 100;
     position: absolute; }
 
-  .ginoimage img {
-    height: 35%;
-    width: 35%;
+    .aboutGino img {
+      overflow: hidden;
+      height: 600px;
+      width: 650px;
+      margin-top: 25px;} 
+
+
+  .ginoimage img{
     margin-top: 30px;
     margin-left: 100px;
     padding-bottom: 1px;
+    width: 36%;
     display: block;
     z-index: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -1246,6 +1332,11 @@ button#buttonhome{
     -webkit-animation-duration: 3s;
     -webkit-animation-fill-mode: both; }
 
+
+    //about
+
+
+
   .webdev1 img:hover {
     cursor: pointer;
     opacity: 0.6;
@@ -1268,28 +1359,28 @@ button#buttonhome{
     width: 100%;
     height: 500px;
     background-color: #3c4043;
-    margin-top: 90px;
+    margin-top: 100px;
     overflow: hidden; }
 
 
-    body .back-yellow{
+ .back-yellow{
       width: 100%;
-      height: 400px;
+      height: 500px;
       background-color: $speci;
       margin-top: 100px;
     }
 
-  body .aboutGino h2 {
-  margin-left: 750px;
+.aboutGino h2 {
+  margin-left: 175%;
     padding-top: 50px;
-    margin-top: -550px;
+    margin-top: -600px;
     color: #FFBF00;
     font-size: 20px;
     text-align: center;
   width: 110%; }
 
- body .aboutGino h3 {
-    margin-left: 700px;
+ .aboutGino h3 {
+    margin-left: 175%;
     margin-top: 1px;
     padding: 10px 10px 55px 10px;
     color: #FFBF00;
@@ -1300,25 +1391,26 @@ button#buttonhome{
     font-family: 'Times New Roman', Times, serif;
     text-align: center; }
 
- body .aboutGino{
+
+ .aboutGino{
     height: 100%;
     width: 400px;
     margin-top: 1px;
     margin-left: 100px;
-  margin-top: -40px; }
+  margin-top: -30px; }
 
-   body .projectwork img{
+  .projectwork img{
       margin-top: -300px;
       z-index: 10;
     }
 
-  body .projectwork h1 {
+   .projectwork h1 {
     font-size: 50px;
-    margin-top: -650px;
+    margin-top: -45%;
     padding-left: 20px;
     font-family: "arial";
     overflow: hidden;
-    animation: 2s slide-right;
+    animation: 3s slide-right;
     text-align: left;
     color: $bg; }
 
@@ -1330,22 +1422,23 @@ button#buttonhome{
       margin-left: 0%;
       width: 100%; } }
 
-  body .projectwork h2 {
+  .projectwork h2 {
     width: 30%;
     font-size: 30px;
-    margin-top: 1px;
+    margin-top: 10px;
     line-height: 1.5;
     padding-left: 20px;
     font-family: "arial";
-  color: $bg; }
+    color: $bg;
+   }
 
-  body .projectwork img {
+  .projectwork img {
     width: auto;
     max-width: 28%;
     height: auto;
     max-height: 100%;
     margin-left: 750px;
-    margin-top: -200px;
+    margin-top: -15%;
     z-index: 9000; }
 
 
@@ -1380,33 +1473,24 @@ button#buttonhome{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
   .back-black1 {
-    width: 34%;
+    width: 100%;
     height: 500px;
-    background-color: #3c4043;
-    margin-top: -1px;
-    margin-left: -1px; }
+    background-color: $bg; }
 
-  .back-yellow1 {
-    width: 34%;
-    height: 500px;
-    background-color: #FFBF00;
-    margin-top: -501px;
-    margin-left: 475px;
-    border-top: 1px solid;
-    border-color: #3c4043; }
+    .socialMedia1 {
+      margin-left: 100px;
+      margin-right: auto;
+      display: block;
+      margin-top: -1500px;
+      width: 25%;
+      height: 20px;
+       }
 
-  .back-black2 {
-    width: 34%;
-    height: 500px;
-    background-color: #3c4043;
-    margin-top: -501px;
-    margin-left: 950px;
-    border-top: 1px solid;
-    border-color: #3c4043; } 
-  
+
+
+
+
   }
-
-
 
 }
 
