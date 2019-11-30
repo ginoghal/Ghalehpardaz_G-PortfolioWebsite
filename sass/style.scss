@@ -1,5 +1,5 @@
 $bg: #3c4043;
-$ff: 'arial';
+$ff: 'arial' black, arial, sans-serif;
 $spec: #bbbbbb;
 $des: #ffffff;
 $mobile: "(min-width: 300px) and (max-width: 375px)";
@@ -12,7 +12,7 @@ body{
 width: 100%;
 display: block;
 font-family: $ff;
-background-color: #3c4043;
+background-color: $bg;
 margin-top: 1px;
 margin-left: auto;
 margin-right: auto;
@@ -1015,7 +1015,7 @@ button#buttonhome{
        z-index: 10;
        width: 100%;
        font-family: arial black;
-       margin-top: 700px;
+       margin-top: 550px;
       }
 
       .author1 p{
@@ -1023,9 +1023,9 @@ button#buttonhome{
         text-align: center;
         font-size: 10px;
        z-index: 10;
-       width: 100%;
+       width: 99%;
        font-family: arial black;
-       margin-top: 1400px;
+       margin-top: 1540px;
        margin-left: 10px;
       }
 
@@ -1090,7 +1090,7 @@ button#buttonhome{
 
      #boxContent {
       background-color: #3c4043;
-      margin-top: -250px;
+      margin-top: -245px;
       margin-left: auto;
       margin-right: auto;
       z-index: 1;
@@ -1150,15 +1150,15 @@ button#buttonhome{
   button#buttonhome {
     width: 120px;
     height: 50px;
-    margin-top: -14%;
-    margin-left: 60%;
+    margin-top: -16%;
+    margin-left: 65%;
     color: white;
     background-color: #3c4043;
     cursor: pointer;
     font-family: "arial";
     border: 0px;
     font-size: 14px;
-    z-index: 100;
+    z-index: 10000;
     position: absolute;
     border: 1px solid;
     border-color: #09e9ae; }
@@ -1166,19 +1166,19 @@ button#buttonhome{
   button#buttonhome:hover {
     width: 120px;
     height: 50px;
-    margin-top: -14%;
-    margin-left: 60%;
+    margin-top: -16%;
+    margin-left: 65%;
     color: #3c4043;
     background-color: #09e9ae;
     cursor: pointer;
-    z-index: 100;
+    z-index: 10000;
     position: absolute; }
 
     .aboutGino img {
       overflow: hidden;
       height: 600px;
       width: 650px;
-      margin-top: 25px;} 
+      margin-top: 1px;} 
 
 
   .ginoimage img{
@@ -1357,7 +1357,7 @@ button#buttonhome{
 
   .back-black {
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: #3c4043;
     margin-top: 100px;
     overflow: hidden; }
@@ -1371,24 +1371,24 @@ button#buttonhome{
     }
 
 .aboutGino h2 {
-  margin-left: 175%;
-    padding-top: 50px;
+  margin-left: 170%;
+    padding-top: 40px;
     margin-top: -600px;
     color: #FFBF00;
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
-  width: 110%; }
+  width: 150%; }
 
  .aboutGino h3 {
     margin-left: 175%;
     margin-top: 1px;
-    padding: 10px 10px 55px 10px;
+    padding: 10px 10px 30px 10px;
     color: #FFBF00;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid;
     border-color: #09e9ae;
-    width: 500px;
-    font-family: 'Times New Roman', Times, serif;
+    width: 550px;
+    font-family: arial;
     text-align: center; }
 
 
@@ -1407,7 +1407,7 @@ button#buttonhome{
    .projectwork h1 {
     font-size: 50px;
     margin-top: -45%;
-    padding-left: 20px;
+    margin-left: 1px;
     font-family: "arial";
     overflow: hidden;
     animation: 3s slide-right;
@@ -1426,6 +1426,7 @@ button#buttonhome{
     width: 30%;
     font-size: 30px;
     margin-top: 10px;
+    text-align: left;
     line-height: 1.5;
     padding-left: 20px;
     font-family: "arial";
@@ -1481,7 +1482,7 @@ button#buttonhome{
       margin-left: 100px;
       margin-right: auto;
       display: block;
-      margin-top: -1500px;
+      margin-top: -1600px;
       width: 25%;
       height: 20px;
        }

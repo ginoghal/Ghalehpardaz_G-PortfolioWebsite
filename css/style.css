@@ -1,56 +1,1143 @@
-/*
-Error: Invalid CSS after "    top: -100px;x": expected "{", was "}"
-        on line 1221 of /Users/ginoghalehpardaz/Desktop/Ghalehpardaz_G-PortfolioWebsite/sass/style.scss
+body {
+  width: 100%;
+  display: block;
+  font-family: "arial";
+  background-color: #3c4043;
+  margin-top: 1px;
+  margin-left: auto;
+  margin-right: auto; }
+  body .logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; }
+  body .webdev {
+    display: hidden; }
+  body .logo img {
+    height: 20%;
+    width: 20%;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    z-index: 2; }
+  body body {
+    font-family: "arial"; }
+  body .description {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -80px; }
+  body .mainNav {
+    position: absolute;
+    margin-top: 1px;
+    flex-direction: column-reverse;
+    text-align: center;
+    display: flex;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in;
+    z-index: 200;
+    position: absolute; }
+  body .mainNav li {
+    opacity: 0;
+    text-align: center;
+    display: inline;
+    border-top: 1px #3c4043; }
+  body .mainNav ul {
+    margin-top: -1px;
+    padding: 0px; }
+  body .mainNav ul li {
+    display: block;
+    cursor: pointer;
+    padding-top: -10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 100%; }
+  body .mainNav ul li a {
+    text-decoration: none;
+    color: black;
+    margin-top: 5px; }
+  body .burger div {
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 0; }
+  body .burger {
+    cursor: pointer;
+    margin: 1px; }
+  body .mainNav-active {
+    background-color: rgba(222, 222, 222, 0.8);
+    font-family: arial;
+    opacity: 1;
+    color: black;
+    border: 1px solid;
+    border-color: black;
+    width: 99.5%;
+    font-size: 25px;
+    height: 250px;
+    z-index: 10000; }
+@keyframes mainNavFade {
+  from {
+    opacity: 0;
+    transform: translateX(-50px); }
+  to {
+    opacity: 1;
+    transform: translateX(0px); } }
+  body .hero {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 3;
+    overflow: hidden;
+    border-radius: 1px;
+    margin-top: -55px; }
+  body .hero #myVideo {
+    margin-top: -20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -1px; }
+  body .aboutGino img {
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    margin-top: 50px; }
+  body .aboutGino h2 {
+    padding-top: 50px;
+    margin-top: -20px;
+    color: #FFBF00;
+    font-size: 28px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px; }
+  body .aboutGino h3 {
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: auto;
+    padding-right: 2px;
+    padding-left: 2px; }
+  body .back-yellow {
+    width: 100%;
+    height: 400px;
+    background-color: #FFBF00;
+    margin-top: -400px; }
+  body .description h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "arial";
+    height: auto;
+    width: 100%;
+    margin-top: -250px;
+    padding-bottom: 10px;
+    padding-top: 10px; }
+  body #profileRec {
+    height: 1px;
+    width: 1px;
+    overflow: hidden; }
+  body .projectwork {
+    text-align: center;
+    margin-top: -100px; }
+  body .projectwork img {
+    height: 800px;
+    width: 100%;
+    margin-top: 250px;
+    z-index: 1; }
+  body .projectwork h1 {
+    margin-top: -100px;
+    color: #FFBF00; }
+  body .projectwork h2 {
+    margin-top: 1px;
+    color: #FFBF00; }
+  body .author p {
+    color: #FFBF00;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px; }
+  body .author1 p {
+    color: #FFBF00;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 900px;
+    margin-right: 100px;
+    margin-left: -75px;
+    width: 300px; }
+  body .socialMedia {
+    width: 50px;
+    height: 20px;
+    z-index: 1;
+    margin-left: 120px;
+    margin-right: auto;
+    display: block;
+    margin-top: 60px; }
+  body .socialMedia1 {
+    width: 50px;
+    height: 20px;
+    z-index: 1;
+    margin-left: 120px;
+    margin-right: auto;
+    display: block;
+    margin-top: 60px; }
+  body .aboutMe {
+    margin-top: -200px; }
+  body .whoIAm {
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    color: #FFBF00;
+    z-index: 100;
+    border: 1px solid;
+    border-color: #FFBF00;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    background-color: rgba(224, 224, 224, 0.1); }
+  body .whoIAm:hover {
+    background-color: rgba(204, 0, 51, 0.2); }
+  body .meGino h1 {
+    color: #FFBF00;
+    font-family: "arial";
+    font-size: 10px;
+    z-index: 10;
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    left: 50%;
+    width: 90%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%); }
+  body .fadeInUp h1 {
+    text-align: center;
+    color: #ffffff;
+    z-index: 20;
+    position: absolute;
+    margin-top: -200px;
+    margin-right: 200px;
+    font-size: 30px;
+    width: 100%; }
 
-1216:     position: relative;
-1217:     left:40%;
-1218:     background-color: rgba(224, 224, 224, 0.1);
-1219:     margin-top: -700px;
-1220:     top: -100px;x
-1221:   }
-1222: 
-1223:   #aboutMe h1{
-1224:     color: #FFBF00;
-1225:     font-size: 20px;
-1226:     z-index: 10;
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0); }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0); }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both; }
 
-Backtrace:
-/Users/ginoghalehpardaz/Desktop/Ghalehpardaz_G-PortfolioWebsite/sass/style.scss:1221
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:421:in `media_directive'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:234:in `special_directive'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:209:in `directive'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
-/Users/ginoghalehpardaz/Desktop/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    top: -100px;x\": expected \"{\", was \"}\"\A         on line 1221 of /Users/ginoghalehpardaz/Desktop/Ghalehpardaz_G-PortfolioWebsite/sass/style.scss\A \A 1216:     position: relative;\A 1217:     left:40%;\A 1218:     background-color: rgba(224, 224, 224, 0.1);\A 1219:     margin-top: -700px;\A 1220:     top: -100px;x\A 1221:   }\A 1222: \A 1223:   #aboutMe h1{\A 1224:     color: #FFBF00;\A 1225:     font-size: 20px;\A 1226:     z-index: 10;"; }
+.animatedFadeInUp {
+  opacity: 0;
+  z-index: 1; }
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  z-index: 100; }
+
+button#buttonhome {
+  width: 150px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 300px;
+  color: #09e9ae;
+  cursor: pointer;
+  font-family: "arial";
+  border: 0px;
+  font-size: 12px;
+  background-color: #3c4043;
+  border: 1px solid;
+  border-color: #09e9ae;
+  z-index: 1; }
+
+.ginoimage img {
+  display: none; }
+
+.linkedin img {
+  width: 10%;
+  height: 10%;
+  padding-left: 1px;
+  margin-top: -50px;
+  position: absolute;
+  z-index: 10; }
+
+.github img {
+  width: 8%;
+  height: 8%;
+  padding-left: 50px;
+  margin-top: -45px;
+  position: absolute;
+  z-index: 10; }
+
+.instagram img {
+  width: 8%;
+  height: 8%;
+  padding-left: 100px;
+  margin-top: -45px;
+  position: absolute;
+  z-index: 10; }
+
+.author1 p {
+  margin-top: 900px;
+  text-align: center;
+  width: 300px;
+  color: #FFBF00;
+  margin-left: 150%;
+  padding-top: 10px; }
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 768px;
+    display: block;
+    font-family: "arial";
+    height: 815px;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3c4043; }
+    body .logo {
+      margin-left: auto;
+      margin-right: auto;
+      display: block; }
+    body .logo img {
+      height: 20%;
+      width: 20%;
+      margin-top: 10px;
+      margin-left: 1px;
+      float: left;
+      z-index: 5; }
+    body .logo img:hover {
+      filter: opacity(70%); }
+    body .description {
+      color: #ffffff;
+      background-color: #3c4043;
+      font-size: 14px;
+      text-align: center; }
+    body .mainNav {
+      height: 2px;
+      margin-top: 100px;
+      margin-left: 200px;
+      margin-right: auto;
+      display: block;
+      text-align: right;
+      z-index: 4; }
+    body .mainNav li {
+      opacity: 1;
+      display: inline-block;
+      text-align: left; }
+    body .mainNav ul {
+      padding-top: 20px;
+      margin-top: -60px;
+      width: 500px;
+      height: 50px; }
+    body .mainNav ul li {
+      font-size: 20px;
+      display: inline;
+      cursor: pointer;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: 0px; }
+    body .mainNav ul li a {
+      color: #ffffff;
+      padding: 15px;
+      text-decoration: none; }
+    body .mainNav ul li a:hover {
+      color: #09e9ae; }
+    body .mainNav-active {
+      display: none; }
+    body .aboutGino img {
+      overflow: hidden;
+      height: 600px;
+      width: 100%;
+      margin-top: 25px; }
+    body .ginoimage img {
+      overflow: hidden;
+      margin-top: auto;
+      margin-left: 15%;
+      margin-right: auto;
+      width: 100%;
+      padding-bottom: 1px;
+      display: block;
+      z-index: 1;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  @keyframes ginoimage img {
+    from {
+      transform: translate3d(0, 80px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+  @-webkit-keyframes ginoimage img {
+    from {
+      transform: translate3d(0, 80px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+    body .ginoimage {
+      animation-duration: 4s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 4s;
+      -webkit-animation-fill-mode: both; }
+    body .ginoimage {
+      opacity: 0; }
+    body .ginoimage {
+      opacity: 0;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+      z-index: 1; }
+    body .aboutGino h2 {
+      padding-top: 50px;
+      margin-top: -20px;
+      color: #3c4043;
+      font-size: 28px;
+      text-align: center;
+      padding-left: 2px;
+      padding-right: 2px; }
+    body .aboutGino h3 {
+      font-size: 14px;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      display: auto;
+      padding-right: 2px;
+      padding-left: 2px; }
+    body .projectwork img {
+      height: 100%;
+      width: 300px;
+      margin-top: 250px;
+      z-index: 1; }
+    body .description {
+      margin-top: -5px; }
+    body .description h2 {
+      text-align: center;
+      color: #ffffff;
+      font-size: 17px;
+      font-family: "arial";
+      height: auto;
+      width: 100%;
+      margin-top: -200px;
+      padding-bottom: 10px;
+      padding-top: 10px; }
+    body .hero img {
+      margin-top: -220px; }
+    body .burger div {
+      display: none; }
+    body .instagram img {
+      width: 15%;
+      height: 15%;
+      float: left;
+      margin-left: 200px; }
+    body .linkedin img {
+      width: 12%;
+      height: 12%;
+      float: right;
+      margin-right: 200px;
+      margin-top: -1px; }
+    body #web img {
+      padding-top: 20px;
+      height: 9%;
+      width: 9%;
+      margin-left: 150px;
+      margin-right: auto;
+      display: block; }
+    body .marketing img {
+      margin-top: -50px;
+      height: 9%;
+      width: 9%;
+      margin-left: 250px;
+      margin-right: auto;
+      display: block; }
+    body .photography img {
+      margin-top: -50px;
+      height: 9%;
+      width: 9%;
+      margin-left: 350px;
+      margin-right: auto;
+      display: block; }
+    body .video img {
+      margin-top: 10px;
+      height: 9%;
+      width: 9%;
+      margin-left: 450px;
+      margin-right: auto;
+      display: block; }
+    body .audio img {
+      margin-top: -60px;
+      height: 9%;
+      width: 9%;
+      margin-left: 550px;
+      margin-right: auto;
+      display: block; }
+    body .linkedin img {
+      width: 5%;
+      height: 5%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: -50px;
+      position: absolute;
+      z-index: 10;
+      margin-left: 85px; }
+    body .github img {
+      width: 4%;
+      height: 4%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: -45px;
+      position: absolute;
+      z-index: 10;
+      margin-left: 50px; }
+    body .instagram img {
+      width: 4%;
+      height: 4%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: -45px;
+      position: absolute;
+      z-index: 10;
+      margin-left: 8px; }
+    body .author p {
+      color: #FFBF00;
+      text-align: center;
+      font-size: 12px;
+      margin-top: 1px;
+      z-index: 10;
+      width: 100%;
+      font-family: "arial"; }
+    body .socialMedia {
+      width: 25%;
+      height: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 800px; }
+    body .socialMedia1 {
+      width: 25%;
+      height: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 800px; }
+    body .aboutMe {
+      margin-top: -300px; }
+    body .whoIAm {
+      height: 50px;
+      width: 200px;
+      cursor: pointer;
+      color: #FFBF00;
+      z-index: 100;
+      border: 1px solid;
+      border-color: #FFBF00;
+      text-align: center;
+      position: relative;
+      top: 50%;
+      left: 25%;
+      background-color: rgba(224, 224, 224, 0.1); }
+    body .meGino h1 {
+      color: #FFBF00;
+      font-family: "arial";
+      font-size: 15px;
+      z-index: 10;
+      position: absolute;
+      margin-top: 150px;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      width: 90%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%); }
+    body .fadeInUp h1 {
+      text-align: center;
+      color: #ffffff;
+      z-index: 20;
+      position: fixed;
+      margin-top: 10px;
+      text-align: center;
+      margin-left: 90px;
+      font-size: 30px;
+      width: 100%; }
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 40px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+  @-webkit-keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 40px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+    body .animated {
+      animation-duration: 3s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-fill-mode: both; }
+    body .animatedFadeInUp {
+      opacity: 0; }
+    body .fadeInUp {
+      opacity: 0;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+      z-index: 100; }
+    body #boxContent {
+      width: 600px;
+      height: 100px;
+      margin-top: 200px; }
+    body button#buttonhome {
+      width: 150px;
+      height: 50px;
+      margin-top: 150px;
+      color: #09e9ae;
+      cursor: pointer;
+      font-family: "arial";
+      font-size: 12px;
+      background-color: #3c4043;
+      border: 1px solid;
+      border-color: #09e9ae;
+      margin-left: 300px; }
+    body .specialtyText h5 {
+      font-family: arial;
+      font-size: 25px;
+      color: #FFBF00;
+      position: absolute;
+      transition: opacity .1s ease;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      margin-top: 575px; }
+    body .specialtyText h5 + h5 {
+      opacity: 0;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 550px; }
+    body .specialty {
+      height: 20px;
+      width: 100%;
+      margin-top: -50px;
+      z-index: 20;
+      position: relative; }
+    body .specialty img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      height: 50%;
+      width: 100%;
+      margin-top: -50px;
+      padding-bottom: 10px;
+      z-index: 10; } }
+@media only screen and (min-width: 900px) {
+  body {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+    body .logo {
+      margin-left: auto;
+      margin-right: auto;
+      display: block; }
+    body .logo img {
+      height: 12%;
+      width: 12%;
+      top: 1%;
+      z-index: 5;
+      position: absolute;
+      left: 45%; }
+    body .logo img:hover {
+      filter: opacity(70%); }
+    body .description {
+      color: #ffffff;
+      background-color: #3c4043;
+      font-size: 14px;
+      text-align: center; }
+    body .mainNav {
+      margin-right: auto;
+      margin-top: 1px;
+      margin-left: 1px;
+      left: 60%;
+      z-index: 5;
+      font-family: arial black;
+      top: 5%;
+      position: absolute; }
+    body .mainNav li {
+      opacity: 1;
+      display: inline;
+      text-align: center; }
+    body .mainNav ul {
+      padding-top: 20px;
+      margin-top: 10px;
+      height: 50px;
+      margin-left: 1px; }
+    body .mainNav ul li {
+      font-size: 14px;
+      cursor: pointer;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: 0px;
+      padding-top: 15px; }
+    body .mainNav ul li a {
+      color: black;
+      padding: 15px;
+      text-decoration: none; }
+    body .mainNav ul li a:hover {
+      color: #09e9ae; }
+    body .mainNav-active {
+      display: none; }
+    body .hero {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 100%;
+      margin-top: 1px;
+      z-index: 1;
+      border-color: #3c4043;
+      height: 15%; }
+    body .linkedin img {
+      width: 5%;
+      height: 5%;
+      padding-left: 1px;
+      padding-right: 1px;
+      margin-top: -48px;
+      position: absolute;
+      z-index: 10;
+      margin-left: 95px; }
+    body .github img {
+      width: 4%;
+      height: 4%;
+      padding-left: 1px;
+      padding-right: 1px;
+      margin-top: -45px;
+      position: absolute;
+      z-index: 10;
+      margin-left: 65px; }
+    body .instagram img {
+      width: 4%;
+      height: 4%;
+      margin-top: -45px;
+      position: absolute;
+      z-index: 10;
+      margin-right: 10px; }
+    body .author p {
+      color: #3c4043;
+      text-align: center;
+      font-size: 10px;
+      z-index: 10;
+      width: 100%;
+      font-family: arial black;
+      margin-top: 700px; }
+    body .author1 p {
+      color: #FFBF00;
+      text-align: center;
+      font-size: 10px;
+      z-index: 10;
+      width: 80%;
+      font-family: arial black;
+      margin-top: 1400px;
+      margin-left: 10px; }
+    body .socialMedia {
+      margin-left: 100px;
+      margin-right: auto;
+      display: block;
+      margin-top: -36%;
+      width: 25%;
+      height: 20px; }
+    body #aboutMe {
+      margin-top: -65px; }
+    body #whoIAm {
+      height: 50px;
+      width: 200px;
+      cursor: pointer;
+      color: #FFBF00;
+      z-index: 100;
+      border: 1px solid;
+      border-color: #FFBF00;
+      text-align: center;
+      position: relative;
+      left: 40%;
+      background-color: rgba(224, 224, 224, 0.1);
+      margin-top: -700px;
+      top: -100px; }
+    body #aboutMe h1 {
+      color: #FFBF00;
+      font-size: 20px;
+      z-index: 10; }
+    body .meGino h1 {
+      color: #3c4043;
+      font-family: "arial";
+      font-size: 15px;
+      z-index: 10;
+      position: absolute;
+      margin-top: 350px;
+      text-align: center;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%); }
+    body #profileRec {
+      text-align: center;
+      z-index: 10000;
+      color: #3c4043;
+      font-size: 16px;
+      background-color: #FFBF00;
+      margin-top: 190px;
+      width: 500px;
+      margin-left: 50%;
+      height: 1px;
+      border: 1px solid;
+      border-color: #FFBF00;
+      padding-bottom: 125px;
+      animation: scale 2000ms ease-in-out forwards;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    body #boxContent {
+      background-color: #3c4043;
+      margin-top: -245px;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 1;
+      width: 100%;
+      height: 50%; }
+  @keyframes scale {
+    from {
+      transform: scale(0, 1); }
+    to {
+      transform: scale(1.1); } }
+    body .fadeInUp h1 {
+      text-align: center;
+      color: #ffffff;
+      display: block;
+      z-index: 10000;
+      margin-top: -20%;
+      margin-left: 50%;
+      font-size: 25px;
+      width: 500px;
+      height: 1px;
+      border: 1px solid;
+      border-color: #FFBF00;
+      padding-bottom: 140px;
+      padding-top: 30px; }
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 40px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+  @-webkit-keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 40px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+    body .animated {
+      animation-duration: 3s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-fill-mode: both; }
+    body .animatedFadeInUp {
+      opacity: 0; }
+    body .fadeInUp {
+      opacity: 0;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+      z-index: 100; }
+    body button#buttonhome {
+      width: 120px;
+      height: 50px;
+      margin-top: -16%;
+      margin-left: 65%;
+      color: white;
+      background-color: #3c4043;
+      cursor: pointer;
+      font-family: "arial";
+      border: 0px;
+      font-size: 14px;
+      z-index: 10000;
+      position: absolute;
+      border: 1px solid;
+      border-color: #09e9ae; }
+    body button#buttonhome:hover {
+      width: 120px;
+      height: 50px;
+      margin-top: -16%;
+      margin-left: 65%;
+      color: #3c4043;
+      background-color: #09e9ae;
+      cursor: pointer;
+      z-index: 10000;
+      position: absolute; }
+    body .aboutGino img {
+      overflow: hidden;
+      height: 600px;
+      width: 650px;
+      margin-top: 25px; }
+    body .ginoimage img {
+      margin-top: 30px;
+      margin-left: 100px;
+      padding-bottom: 1px;
+      width: 36%;
+      display: block;
+      z-index: 1;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  @keyframes ginoimage img {
+    from {
+      transform: translate3d(0, 80px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+  @-webkit-keyframes ginoimage img {
+    from {
+      transform: translate3d(0, 80px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+    body .ginoimage {
+      animation-duration: 4s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 4s;
+      -webkit-animation-fill-mode: both; }
+    body .ginoimage {
+      opacity: 0; }
+    body .ginoimage {
+      opacity: 0;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+      z-index: 1; }
+    body .specialty {
+      height: 20px;
+      width: 100%;
+      margin-top: -75px;
+      z-index: 20;
+      position: relative; }
+    body .specialty img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      height: 50%;
+      width: 100%;
+      margin-top: 100px;
+      padding-bottom: 10px;
+      z-index: 10; }
+    body .specialtyText h5 {
+      font-family: arial;
+      font-size: 25px;
+      color: #FFBF00;
+      position: absolute;
+      transition: opacity .1s ease;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      margin-top: -50px; }
+    body .specialtyText h5 + h5 {
+      opacity: 0;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: -50px; }
+    body .webdev {
+      display: block;
+      margin-top: -620px;
+      margin-left: 600px; }
+    body .webdev:hover {
+      cursor: pointer;
+      opacity: 0.2;
+      color: #FFBF00; }
+    body .webdev img {
+      margin-top: -225px;
+      display: block; }
+    body .webdev img:hover {
+      cursor: pointer;
+      opacity: 0.6;
+      color: #FFBF00; }
+    body .webdev p {
+      margin-top: -90px;
+      margin-left: 40px;
+      font-size: 25px;
+      z-index: 10;
+      position: absolute;
+      color: #FFBF00; }
+  @-webkit-keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-10px); }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0); } }
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-10px); }
+    100% {
+      opacity: 1;
+      transform: translateX(0); } }
+    body .fadeInRight {
+      -webkit-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-fill-mode: both; }
+    body .webdev1 {
+      margin-top: -17px;
+      margin-left: 900px; }
+    body .webdev1 img {
+      margin-top: -350px;
+      width: 50%;
+      height: 50%; }
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-15px); }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0); } }
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-15px); }
+    100% {
+      opacity: 1;
+      transform: translateY(0); } }
+    body .fadeInDown {
+      -webkit-animation-name: fadeInDown;
+      animation-name: fadeInDown;
+      animation-duration: 3s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-fill-mode: both; }
+    body .webdev1 img:hover {
+      cursor: pointer;
+      opacity: 0.6;
+      color: #FFBF00; }
+    body .webdev1 p {
+      margin-top: -90px;
+      margin-left: 70px;
+      font-size: 25px;
+      z-index: 10;
+      position: absolute;
+      color: #FFBF00; }
+    body .webdev1:hover {
+      cursor: pointer;
+      opacity: 0.2;
+      color: #FFBF00; }
+    body .back-black {
+      width: 100%;
+      height: 500px;
+      background-color: #3c4043;
+      margin-top: 100px;
+      overflow: hidden; }
+    body .back-yellow {
+      width: 100%;
+      height: 500px;
+      background-color: #FFBF00;
+      margin-top: 100px; }
+    body .aboutGino h2 {
+      margin-left: 175%;
+      padding-top: 50px;
+      margin-top: -600px;
+      color: #FFBF00;
+      font-size: 20px;
+      text-align: center;
+      width: 110%; }
+    body .aboutGino h3 {
+      margin-left: 175%;
+      margin-top: 1px;
+      padding: 10px 10px 55px 10px;
+      color: #FFBF00;
+      font-size: 16px;
+      border: 1px solid;
+      border-color: #09e9ae;
+      width: 500px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center; }
+    body .aboutGino {
+      height: 100%;
+      width: 400px;
+      margin-top: 1px;
+      margin-left: 100px;
+      margin-top: -30px; }
+    body .projectwork img {
+      margin-top: -300px;
+      z-index: 10; }
+    body .projectwork h1 {
+      font-size: 50px;
+      margin-top: -45%;
+      padding-left: 20px;
+      font-family: "arial";
+      overflow: hidden;
+      animation: 3s slide-right;
+      text-align: left;
+      color: #3c4043; }
+  @keyframes slide-right {
+    from {
+      margin-left: -100%;
+      width: 100%; }
+    to {
+      margin-left: 0%;
+      width: 100%; } }
+    body .projectwork h2 {
+      width: 30%;
+      font-size: 30px;
+      margin-top: 10px;
+      line-height: 1.5;
+      padding-left: 20px;
+      font-family: "arial";
+      color: #3c4043; }
+    body .projectwork img {
+      width: auto;
+      max-width: 28%;
+      height: auto;
+      max-height: 100%;
+      margin-left: 750px;
+      margin-top: -15%;
+      z-index: 9000; }
+  @keyframes aboutGino img {
+    from {
+      transform: translate3d(0, 20px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+  @-webkit-keyframes aboutGino img {
+    from {
+      transform: translate3d(0, 20px, 0); }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; } }
+    body .aboutGino img {
+      animation-duration: 3s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-fill-mode: both; }
+    body .aboutGino img {
+      opacity: 0; }
+    body .aboutGino img {
+      opacity: 0;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+      z-index: 100;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    body .back-black1 {
+      width: 100%;
+      height: 500px;
+      background-color: #3c4043; }
+    body .socialMedia1 {
+      margin-left: 100px;
+      margin-right: auto;
+      display: block;
+      margin-top: -1500px;
+      width: 25%;
+      height: 20px; } }
+
+/*# sourceMappingURL=style.css.map */
