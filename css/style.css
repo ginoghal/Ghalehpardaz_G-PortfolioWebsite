@@ -1,7 +1,7 @@
 body {
   width: 100%;
   display: block;
-  font-family: "arial";
+  font-family: "arial" black, arial, sans-serif;
   background-color: #3c4043;
   margin-top: 1px;
   margin-left: auto;
@@ -22,7 +22,7 @@ body {
     position: relative;
     z-index: 2; }
   body body {
-    font-family: "arial"; }
+    font-family: "arial" black, arial, sans-serif; }
   body .description {
     color: #ffffff;
     font-size: 12px;
@@ -131,7 +131,7 @@ body {
     text-align: center;
     color: #ffffff;
     font-size: 16px;
-    font-family: "arial";
+    font-family: "arial" black, arial, sans-serif;
     height: auto;
     width: 100%;
     margin-top: -250px;
@@ -203,7 +203,7 @@ body {
     background-color: rgba(204, 0, 51, 0.2); }
   body .meGino h1 {
     color: #FFBF00;
-    font-family: "arial";
+    font-family: "arial" black, arial, sans-serif;
     font-size: 10px;
     z-index: 10;
     position: absolute;
@@ -260,7 +260,7 @@ button#buttonhome {
   margin-top: 300px;
   color: #09e9ae;
   cursor: pointer;
-  font-family: "arial";
+  font-family: "arial" black, arial, sans-serif;
   border: 0px;
   font-size: 12px;
   background-color: #3c4043;
@@ -307,7 +307,7 @@ button#buttonhome {
   body {
     width: 768px;
     display: block;
-    font-family: "arial";
+    font-family: "arial" black, arial, sans-serif;
     height: 815px;
     margin-top: 1px;
     margin-left: auto;
@@ -429,7 +429,7 @@ button#buttonhome {
       text-align: center;
       color: #ffffff;
       font-size: 17px;
-      font-family: "arial";
+      font-family: "arial" black, arial, sans-serif;
       height: auto;
       width: 100%;
       margin-top: -200px;
@@ -519,7 +519,7 @@ button#buttonhome {
       margin-top: 1px;
       z-index: 10;
       width: 100%;
-      font-family: "arial"; }
+      font-family: "arial" black, arial, sans-serif; }
     body .socialMedia {
       width: 25%;
       height: 20px;
@@ -551,7 +551,7 @@ button#buttonhome {
       background-color: rgba(224, 224, 224, 0.1); }
     body .meGino h1 {
       color: #FFBF00;
-      font-family: "arial";
+      font-family: "arial" black, arial, sans-serif;
       font-size: 15px;
       z-index: 10;
       position: absolute;
@@ -606,7 +606,7 @@ button#buttonhome {
       margin-top: 150px;
       color: #09e9ae;
       cursor: pointer;
-      font-family: "arial";
+      font-family: "arial" black, arial, sans-serif;
       font-size: 12px;
       background-color: #3c4043;
       border: 1px solid;
@@ -741,21 +741,21 @@ button#buttonhome {
       z-index: 10;
       width: 100%;
       font-family: arial black;
-      margin-top: 700px; }
+      margin-top: 1px; }
     body .author1 p {
       color: #FFBF00;
       text-align: center;
       font-size: 10px;
       z-index: 10;
-      width: 80%;
+      width: 99%;
       font-family: arial black;
-      margin-top: 1400px;
+      margin-top: 1540px;
       margin-left: 10px; }
     body .socialMedia {
       margin-left: 100px;
       margin-right: auto;
       display: block;
-      margin-top: -36%;
+      margin-top: 100px;
       width: 25%;
       height: 20px; }
     body #aboutMe {
@@ -805,7 +805,7 @@ button#buttonhome {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
     body #boxContent {
       background-color: #3c4043;
-      margin-top: -245px;
+      margin-top: -350px;
       margin-left: auto;
       margin-right: auto;
       z-index: 1;
@@ -882,8 +882,8 @@ button#buttonhome {
     body .aboutGino img {
       overflow: hidden;
       height: 600px;
-      width: 650px;
-      margin-top: 25px; }
+      width: 550px;
+      margin-top: 1px; }
     body .ginoimage img {
       margin-top: 30px;
       margin-left: 100px;
@@ -1034,9 +1034,9 @@ button#buttonhome {
       color: #FFBF00; }
     body .back-black {
       width: 100%;
-      height: 500px;
+      height: 550px;
       background-color: #3c4043;
-      margin-top: 100px;
+      margin-top: 1px;
       overflow: hidden; }
     body .back-yellow {
       width: 100%;
@@ -1044,29 +1044,29 @@ button#buttonhome {
       background-color: #FFBF00;
       margin-top: 100px; }
     body .aboutGino h2 {
-      margin-left: 175%;
-      padding-top: 50px;
+      margin-left: 150%;
+      padding-top: 40px;
       margin-top: -600px;
       color: #FFBF00;
-      font-size: 20px;
+      font-size: 28px;
       text-align: center;
-      width: 110%; }
+      width: 150%; }
     body .aboutGino h3 {
-      margin-left: 175%;
+      margin-left: 155%;
       margin-top: 1px;
-      padding: 10px 10px 55px 10px;
+      padding: 10px 10px 30px 10px;
       color: #FFBF00;
-      font-size: 16px;
+      font-size: 20px;
       border: 1px solid;
       border-color: #09e9ae;
-      width: 500px;
-      font-family: 'Times New Roman', Times, serif;
+      width: 550px;
+      font-family: arial;
       text-align: center; }
     body .aboutGino {
       height: 100%;
       width: 400px;
       margin-top: 1px;
-      margin-left: 100px;
+      margin-left: 25px;
       margin-top: -30px; }
     body .projectwork img {
       margin-top: -300px;
@@ -1074,7 +1074,7 @@ button#buttonhome {
     body .projectwork h1 {
       font-size: 50px;
       margin-top: -45%;
-      padding-left: 20px;
+      margin-left: 1px;
       font-family: "arial";
       overflow: hidden;
       animation: 3s slide-right;
@@ -1091,6 +1091,7 @@ button#buttonhome {
       width: 30%;
       font-size: 30px;
       margin-top: 10px;
+      text-align: left;
       line-height: 1.5;
       padding-left: 20px;
       font-family: "arial";
@@ -1132,12 +1133,11 @@ button#buttonhome {
       width: 100%;
       height: 500px;
       background-color: #3c4043; }
-    body .socialMedia1 {
-      margin-left: 100px;
-      margin-right: auto;
-      display: block;
-      margin-top: -1500px;
-      width: 25%;
-      height: 20px; } }
+    body .back-black1 p {
+      margin-top: -100px;
+      color: #FFBF00; }
+    body .back-black1 img {
+      width: 30%;
+      margin-top: -10px; } }
 
 /*# sourceMappingURL=style.css.map */
