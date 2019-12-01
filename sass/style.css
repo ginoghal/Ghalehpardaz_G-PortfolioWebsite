@@ -1,20 +1,11 @@
 body {
   width: 100%;
   display: block;
-  font-family: "arial";
+  font-family: arial, sans-serif;
   background-color: #3c4043;
   margin-top: 1px;
   margin-left: auto;
   margin-right: auto;
-}
-
-body .aboutGino {
-  overflow: hidden;
-}
-
-body .projectwork img {
-  height: 800px;
-  width: 100%;
 }
 
 body .logo {
@@ -39,7 +30,7 @@ body .logo img {
 }
 
 body body {
-  font-family: "arial";
+  font-family: arial, sans-serif;
 }
 
 body .description {
@@ -51,7 +42,7 @@ body .description {
 
 body .mainNav {
   position: absolute;
-  margin-top: -40px;
+  margin-top: 1px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
@@ -66,7 +57,8 @@ body .mainNav {
   transition: -webkit-transform 0.5s ease-in;
   transition: transform 0.5s ease-in;
   transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
-  z-index: 20;
+  z-index: 200;
+  position: absolute;
 }
 
 body .mainNav li {
@@ -152,8 +144,6 @@ body .hero {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 100%;
-  height: 660px;
   z-index: 3;
   overflow: hidden;
   border-radius: 1px;
@@ -172,115 +162,60 @@ body .hero #myVideo {
   margin-top: -1px;
 }
 
-body .circleGroup {
-  margin-top: 20px;
+body .aboutGino img {
+  overflow: hidden;
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
 }
 
-body #circle1 {
-  border: 1px solid #FFBF00;
-  height: 100px;
-  width: 100px;
-  margin-top: -300px;
-  z-index: 1000;
-  position: absolute;
-  margin-left: 20px;
-}
-
-body #circle1 button {
-  color: #FFBF00;
+body .aboutGino h2 {
+  padding-top: 50px;
+  margin-top: -20px;
+  color: #3c4043;
+  font-size: 28px;
   text-align: center;
-  margin-top: 30px;
-  outline: none;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
-body #circle2 {
-  border: 1px solid #FFBF00;
-  height: 100px;
-  width: 100px;
-  margin-top: -300px;
-  z-index: 1000;
-  position: absolute;
-  margin-left: 135px;
-}
-
-body #circle2 p {
-  color: #FFBF00;
+body .aboutGino h3 {
+  font-size: 14px;
   text-align: center;
-  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: auto;
+  padding-right: 2px;
+  padding-left: 2px;
 }
 
-body #circle3 {
-  border: 1px solid #FFBF00;
-  height: 100px;
-  width: 100px;
-  margin-top: -300px;
-  z-index: 1000;
-  position: absolute;
-  margin-left: 250px;
+body .back-yellow {
+  width: 100%;
+  height: 400px;
+  background-color: #FFBF00;
+  margin-top: -410px;
 }
 
-body #circle3 p {
-  color: #FFBF00;
+body .back-black1 p {
+  margin-top: 850px;
+  width: 100%;
+  font-size: 30px;
+  padding-top: 60px;
+  font-family: arial black;
   text-align: center;
-  margin-top: 30px;
-}
-
-body #circle4 {
-  border: 1px solid #FFBF00;
-  height: 100px;
-  width: 100px;
-  margin-top: -175px;
-  z-index: 1000;
-  position: absolute;
-  margin-left: 20px;
-}
-
-body #circle4 p {
   color: #FFBF00;
-  text-align: center;
-  margin-top: 30px;
 }
 
-body #circle5 {
-  border: 1px solid #FFBF00;
-  height: 100px;
-  width: 100px;
-  margin-top: -175px;
-  z-index: 1000;
-  position: absolute;
-  margin-left: 135px;
-}
-
-body #circle5 p {
-  color: #FFBF00;
-  text-align: center;
-  margin-top: 30px;
-}
-
-body #circle6 {
-  border: 1px solid #FFBF00;
-  height: 100px;
-  width: 100px;
-  margin-top: -175px;
-  z-index: 1000;
-  position: absolute;
-  margin-left: 250px;
-}
-
-body #circle6 p {
-  color: #FFBF00;
-  text-align: center;
-  margin-top: 30px;
+body .back-black1 img {
+  width: 100%;
+  margin-top: 5px;
 }
 
 body .description h2 {
   text-align: center;
   color: #ffffff;
   font-size: 16px;
-  font-family: "arial";
+  font-family: arial, sans-serif;
   height: auto;
   width: 100%;
   margin-top: -250px;
@@ -288,21 +223,69 @@ body .description h2 {
   padding-top: 10px;
 }
 
+body #profileRec {
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+body .projectwork {
+  text-align: center;
+  margin-top: -100px;
+}
+
+body .projectwork img {
+  height: 800px;
+  width: 100%;
+  margin-top: 250px;
+  z-index: 1;
+}
+
+body .projectwork h1 {
+  margin-top: -100px;
+  color: #FFBF00;
+}
+
+body .projectwork h2 {
+  margin-top: 1px;
+  color: #FFBF00;
+}
+
 body .author p {
   color: #FFBF00;
   text-align: center;
   font-size: 12px;
-  margin-top: 400px;
-  position: absolute;
-  margin-left: -10px;
+  margin-top: 50px;
+}
+
+body .author1 p {
+  color: #FFBF00;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 900px;
+  margin-right: 100px;
+  margin-left: -75px;
+  width: 300px;
 }
 
 body .socialMedia {
   width: 50px;
   height: 20px;
-  margin-top: 160px;
   z-index: 1;
-  margin-left: 100px;
+  margin-left: 120px;
+  margin-right: auto;
+  display: block;
+  margin-top: 60px;
+}
+
+body .socialMedia1 {
+  width: 50px;
+  height: 20px;
+  z-index: 1;
+  margin-left: 120px;
+  margin-right: auto;
+  display: block;
+  margin-top: 60px;
 }
 
 body .aboutMe {
@@ -330,13 +313,12 @@ body .whoIAm:hover {
 
 body .meGino h1 {
   color: #FFBF00;
-  font-family: "arial";
+  font-family: arial, sans-serif;
   font-size: 10px;
   z-index: 10;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 10px;
   text-align: center;
-  top: 50%;
   left: 50%;
   width: 90%;
   /* bring your own prefixes */
@@ -349,7 +331,7 @@ body .fadeInUp h1 {
   color: #ffffff;
   z-index: 20;
   position: absolute;
-  margin-top: 200px;
+  margin-top: -200px;
   margin-right: 200px;
   font-size: 30px;
   width: 100%;
@@ -388,6 +370,7 @@ body .fadeInUp h1 {
 
 .animatedFadeInUp {
   opacity: 0;
+  z-index: 1;
 }
 
 .fadeInUp {
@@ -400,17 +383,19 @@ body .fadeInUp h1 {
 button#buttonhome {
   width: 150px;
   height: 50px;
-  float: right;
-  margin-right: 120px;
-  margin-top: 375px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 300px;
   color: #09e9ae;
   cursor: pointer;
-  font-family: "arial";
+  font-family: arial, sans-serif;
   border: 0px;
   font-size: 12px;
   background-color: #3c4043;
   border: 1px solid;
   border-color: #09e9ae;
+  z-index: 1;
 }
 
 .ginoimage img {
@@ -420,41 +405,44 @@ button#buttonhome {
 .linkedin img {
   width: 10%;
   height: 10%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1px;
   margin-top: -50px;
   position: absolute;
   z-index: 10;
-  margin-left: 85px;
 }
 
 .github img {
   width: 8%;
   height: 8%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
   margin-top: -45px;
   position: absolute;
   z-index: 10;
-  margin-left: 50px;
 }
 
 .instagram img {
   width: 8%;
   height: 8%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 100px;
   margin-top: -45px;
   position: absolute;
   z-index: 10;
-  margin-left: 8px;
+}
+
+.author1 p {
+  margin-top: 900px;
+  text-align: center;
+  width: 300px;
+  color: #FFBF00;
+  margin-left: 150%;
+  padding-top: 10px;
 }
 
 @media only screen and (min-width: 768px) {
   body {
     width: 768px;
     display: block;
-    font-family: "arial";
+    font-family: arial, sans-serif;
     height: 815px;
     margin-top: 1px;
     margin-left: auto;
@@ -467,16 +455,16 @@ button#buttonhome {
     display: block;
   }
   body .logo img {
-    height: 20%;
-    width: 20%;
-    margin-top: -200px;
+    height: 15%;
+    width: 15%;
+    margin-top: -175px;
     margin-left: 1px;
     float: left;
     z-index: 5;
   }
   body .logo img:hover {
-    -webkit-filter: brightness(800%);
-            filter: brightness(800%);
+    -webkit-filter: opacity(70%);
+            filter: opacity(70%);
   }
   body .description {
     color: #ffffff;
@@ -487,12 +475,10 @@ button#buttonhome {
   body .mainNav {
     height: 2px;
     margin-top: -100px;
-    margin-left: 150px;
+    margin-left: 200px;
     margin-right: auto;
     display: block;
     text-align: right;
-    margin-left: auto;
-    margin-right: auto;
     z-index: 4;
   }
   body .mainNav li {
@@ -503,7 +489,7 @@ button#buttonhome {
   body .mainNav ul {
     padding-top: 20px;
     margin-top: -60px;
-    width: 768px;
+    width: 500px;
     height: 50px;
   }
   body .mainNav ul li {
@@ -520,23 +506,89 @@ button#buttonhome {
     text-decoration: none;
   }
   body .mainNav ul li a:hover {
-    color: #1785fa;
+    color: #09e9ae;
   }
   body .mainNav-active {
     display: none;
   }
-  body .hero {
+  body .aboutGino img {
+    overflow: hidden;
+    height: 700px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  body .ginoimage img {
+    overflow: hidden;
+    margin-top: -175px;
+    margin-left: 15%;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 1px;
+    display: block;
+    z-index: 1;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  @keyframes ginoimage img {
+    from {
+      -webkit-transform: translate3d(0, 80px, 0);
+              transform: translate3d(0, 80px, 0);
+    }
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes ginoimage img {
+    from {
+      -webkit-transform: translate3d(0, 80px, 0);
+              transform: translate3d(0, 80px, 0);
+    }
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  body .ginoimage {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+  }
+  body .ginoimage {
+    opacity: 0;
+  }
+  body .ginoimage {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    z-index: 1;
+  }
+  body .aboutGino h2 {
+    padding-top: 50px;
+    margin-top: -20px;
+    color: #3c4043;
+    font-size: 28px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  body .aboutGino h3 {
+    font-size: 14px;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    width: 100%;
-    height: 1000px;
-    margin-top: -75px;
-    z-index: 1;
-    border-color: #3c4043;
+    display: auto;
+    padding-right: 2px;
+    padding-left: 2px;
   }
-  body .hero #myVideo {
-    margin-top: 1px;
+  body .projectwork img {
+    height: 100%;
+    width: 300px;
+    margin-top: 275px;
+    z-index: 1;
   }
   body .description {
     margin-top: -5px;
@@ -545,7 +597,7 @@ button#buttonhome {
     text-align: center;
     color: #ffffff;
     font-size: 17px;
-    font-family: "arial";
+    font-family: arial, sans-serif;
     height: auto;
     width: 100%;
     margin-top: -200px;
@@ -603,17 +655,6 @@ button#buttonhome {
     margin-right: auto;
     display: block;
   }
-  body .hero #myVideo {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 110%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    margin-top: -1px;
-  }
   body .audio img {
     margin-top: -60px;
     height: 9%;
@@ -652,111 +693,22 @@ button#buttonhome {
     z-index: 10;
     margin-left: 8px;
   }
-  body .circleGroup {
-    margin-top: 150px;
-  }
-  body #circle1 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -300px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 200px;
-  }
-  body #circle1 button {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-    outline: none;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  body #circle2 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -300px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 315px;
-  }
-  body #circle2 p {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-  }
-  body #circle3 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -300px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 430px;
-  }
-  body #circle3 p {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-  }
-  body #circle4 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -175px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 200px;
-  }
-  body #circle4 p {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-  }
-  body #circle5 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -175px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 315px;
-  }
-  body #circle5 p {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-  }
-  body #circle6 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -175px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 430px;
-  }
-  body #circle6 p {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-  }
   body .author p {
     color: #FFBF00;
     text-align: center;
     font-size: 12px;
-    margin-top: 300px;
-    position: absolute;
+    margin-top: 50px;
     z-index: 10;
-    margin-right: -400px;
+    width: 100%;
+    font-family: arial, sans-serif;
   }
   body .socialMedia {
-    width: 50px;
+    width: 25%;
     height: 20px;
-    margin-top: 350px;
-    margin-left: 310px;
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 200px;
+    display: block;
   }
   body .aboutMe {
     margin-top: -300px;
@@ -775,12 +727,9 @@ button#buttonhome {
     left: 25%;
     background-color: rgba(224, 224, 224, 0.1);
   }
-  body .whoIAm:hover {
-    background-color: rgba(204, 0, 51, 0.2);
-  }
   body .meGino h1 {
     color: #FFBF00;
-    font-family: "arial";
+    font-family: arial, sans-serif;
     font-size: 15px;
     z-index: 10;
     position: absolute;
@@ -797,8 +746,8 @@ button#buttonhome {
     text-align: center;
     color: #ffffff;
     z-index: 20;
-    position: absolute;
-    margin-top: 250px;
+    position: fixed;
+    margin-top: -100px;
     text-align: center;
     margin-left: 90px;
     font-size: 30px;
@@ -826,41 +775,40 @@ button#buttonhome {
       opacity: 1;
     }
   }
-  .animated {
+  body .animated {
     animation-duration: 3s;
     animation-fill-mode: both;
     -webkit-animation-duration: 3s;
     -webkit-animation-fill-mode: both;
   }
-  .animatedFadeInUp {
+  body .animatedFadeInUp {
     opacity: 0;
   }
-  .fadeInUp {
+  body .fadeInUp {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     z-index: 100;
   }
-  #boxContent {
+  body #boxContent {
     width: 600px;
     height: 100px;
     margin-top: 200px;
   }
-  button#buttonhome {
+  body button#buttonhome {
     width: 150px;
     height: 50px;
-    margin-right: 300px;
-    margin-top: 375px;
+    margin-top: 150px;
     color: #09e9ae;
     cursor: pointer;
-    font-family: "arial";
-    border: 0px;
+    font-family: arial, sans-serif;
     font-size: 12px;
     background-color: #3c4043;
     border: 1px solid;
     border-color: #09e9ae;
+    margin-left: 300px;
   }
-  .specialtyText h5 {
+  body .specialtyText h5 {
     font-family: arial;
     font-size: 25px;
     color: #FFBF00;
@@ -872,20 +820,20 @@ button#buttonhome {
     width: 100%;
     margin-top: 575px;
   }
-  .specialtyText h5 + h5 {
+  body .specialtyText h5 + h5 {
     opacity: 0;
     margin: 0 auto;
     text-align: center;
     margin-top: 550px;
   }
-  .specialty {
+  body .specialty {
     height: 20px;
     width: 100%;
     margin-top: -50px;
     z-index: 20;
     position: relative;
   }
-  .specialty img {
+  body .specialty img {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -895,20 +843,30 @@ button#buttonhome {
     padding-bottom: 10px;
     z-index: 10;
   }
+  body .back-black1 p {
+    margin-top: 700px;
+    margin-left: 8%;
+    width: 85%;
+    font-size: 25px;
+    padding-top: 60px;
+    font-family: arial black;
+    text-align: center;
+    color: #FFBF00;
+  }
+  body .back-black1 img {
+    width: 75%;
+    margin-top: 5px;
+    margin-left: 12%;
+  }
 }
 
 @media only screen and (min-width: 900px) {
   body {
+    background-color: white;
+    height: auto;
+    width: 100%;
     padding: 0;
     margin: 0;
-    width: 100%;
-    font-family: "arial";
-    height: 100%;
-    background-image: none;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    display: absolute;
   }
   body .logo {
     margin-left: auto;
@@ -918,7 +876,7 @@ button#buttonhome {
   body .logo img {
     height: 12%;
     width: 12%;
-    margin-top: -75px;
+    top: 1%;
     z-index: 5;
     position: absolute;
     left: 45%;
@@ -935,11 +893,13 @@ button#buttonhome {
   }
   body .mainNav {
     margin-right: auto;
-    margin-left: 800px;
-    float: left;
-    z-index: 4;
+    margin-top: 1px;
+    margin-left: 1px;
+    left: 60%;
+    z-index: 5;
     font-family: arial black;
-    margin-top: -150px;
+    top: 5%;
+    position: absolute;
   }
   body .mainNav li {
     opacity: 1;
@@ -948,9 +908,9 @@ button#buttonhome {
   }
   body .mainNav ul {
     padding-top: 20px;
-    margin-top: 100px;
+    margin-top: 10px;
     height: 50px;
-    margin-left: -300px;
+    margin-left: 1px;
   }
   body .mainNav ul li {
     font-size: 14px;
@@ -981,111 +941,6 @@ button#buttonhome {
     border-color: #3c4043;
     height: 15%;
   }
-  body .hero #myVideo {
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 101%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    margin-top: -1px;
-  }
-  body .circleGroup {
-    margin-top: 450px;
-  }
-  body #circle1 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -150px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 110px;
-    color: #FFBF00;
-  }
-  body #circle1 button {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-    outline: none;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  body #click1 p {
-    margin-top: -200px;
-  }
-  body #circle2 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -150px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 225px;
-  }
-  body #circle2 p {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-  }
-  body #circle3 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -150px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 340px;
-  }
-  body #circle3 p {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-  }
-  body #circle4 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -150px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 455px;
-  }
-  body #circle4 p {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-  }
-  body #circle5 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -150px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 570px;
-  }
-  body #circle5 p {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-  }
-  body #circle6 {
-    border: 1px solid #FFBF00;
-    height: 100px;
-    width: 100px;
-    margin-top: -150px;
-    z-index: 1000;
-    position: absolute;
-    margin-left: 685px;
-  }
-  body #circle6 p {
-    color: #FFBF00;
-    text-align: center;
-    margin-top: 30px;
-  }
   body .linkedin img {
     width: 5%;
     height: 5%;
@@ -1115,22 +970,31 @@ button#buttonhome {
     margin-right: 10px;
   }
   body .author p {
-    color: #FFBF00;
-    font-size: 10px;
-    margin-top: 650px;
-    position: absolute;
-    margin-left: 500px;
-    z-index: 10;
-    display: inline-block;
+    color: #3c4043;
     text-align: center;
-    color: black;
+    font-size: 10px;
+    z-index: 10;
+    width: 100%;
     font-family: arial black;
+    margin-top: 1px;
+  }
+  body .author1 p {
+    color: #FFBF00;
+    text-align: center;
+    font-size: 10px;
+    z-index: 10;
+    width: 99%;
+    font-family: arial black;
+    margin-top: 1540px;
+    margin-left: 10px;
   }
   body .socialMedia {
-    width: 50px;
+    margin-left: 100px;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+    width: 25%;
     height: 20px;
-    margin-top: -640px;
-    margin-left: 125px;
   }
   body #aboutMe {
     margin-top: -65px;
@@ -1155,20 +1019,6 @@ button#buttonhome {
     font-size: 20px;
     z-index: 10;
   }
-  body #whoIAm:hover {
-    background-color: rgba(204, 0, 51, 0.2);
-    height: 50px;
-    width: 200px;
-    cursor: pointer;
-    color: #FFBF00;
-    z-index: 100;
-    border: 1px solid;
-    border-color: #FFBF00;
-    text-align: center;
-    position: relative;
-    left: 40%;
-    margin-top: -200px;
-  }
   body .meGino h1 {
     color: #3c4043;
     font-family: "arial";
@@ -1182,37 +1032,31 @@ button#buttonhome {
             transform: translate(-50%, -50%);
   }
   body #profileRec {
-    width: 600px;
-    height: 150px;
-    background: #FFBF00;
-    z-index: 10;
-    position: absolute;
-    margin-top: 75px;
-    margin-left: 650px;
-    margin-right: auto;
-    display: block;
+    text-align: center;
+    z-index: 10000;
+    color: #3c4043;
+    font-size: 16px;
+    background-color: #FFBF00;
+    margin-top: 190px;
+    width: 500px;
+    margin-left: 50%;
+    height: 1px;
+    border: 1px solid;
+    border-color: #FFBF00;
+    padding-bottom: 125px;
     -webkit-animation: scale 2000ms ease-in-out forwards;
             animation: scale 2000ms ease-in-out forwards;
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   body #boxContent {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     background-color: #3c4043;
-    margin-top: 90px;
-    z-index: 1;
-    width: 100%;
-    height: 645px;
+    margin-top: -350px;
     margin-left: auto;
     margin-right: auto;
+    z-index: 1;
+    width: 100%;
+    height: 50%;
   }
   @-webkit-keyframes scale {
     from {
@@ -1237,15 +1081,16 @@ button#buttonhome {
   body .fadeInUp h1 {
     text-align: center;
     color: #ffffff;
-    z-index: 20;
-    position: absolute;
-    margin-top: -50px;
-    margin-left: -325px;
+    display: block;
+    z-index: 10000;
+    margin-top: -20%;
+    margin-left: 50%;
     font-size: 25px;
     width: 500px;
+    height: 1px;
     border: 1px solid;
     border-color: #FFBF00;
-    padding-bottom: 125px;
+    padding-bottom: 140px;
     padding-top: 30px;
   }
   @keyframes fadeInUp {
@@ -1270,54 +1115,59 @@ button#buttonhome {
       opacity: 1;
     }
   }
-  .animated {
+  body .animated {
     animation-duration: 3s;
     animation-fill-mode: both;
     -webkit-animation-duration: 3s;
     -webkit-animation-fill-mode: both;
   }
-  .animatedFadeInUp {
+  body .animatedFadeInUp {
     opacity: 0;
   }
-  .fadeInUp {
+  body .fadeInUp {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     z-index: 100;
   }
-  button#buttonhome {
-    width: 150px;
+  body button#buttonhome {
+    width: 120px;
     height: 50px;
-    margin-top: -250px;
-    margin-left: 875px;
+    margin-top: -16%;
+    margin-left: 65%;
     color: white;
     background-color: #3c4043;
     cursor: pointer;
     font-family: "arial";
     border: 0px;
     font-size: 14px;
-    z-index: 100;
+    z-index: 10000;
     position: absolute;
     border: 1px solid;
     border-color: #09e9ae;
   }
-  button#buttonhome:hover {
-    width: 150px;
+  body button#buttonhome:hover {
+    width: 120px;
     height: 50px;
-    margin-top: -250px;
-    margin-left: 875px;
+    margin-top: -16%;
+    margin-left: 65%;
     color: #3c4043;
     background-color: #09e9ae;
     cursor: pointer;
-    z-index: 100;
+    z-index: 10000;
     position: absolute;
   }
-  .ginoimage img {
-    height: 80%;
-    width: 80%;
-    margin-top: -50px;
-    margin-left: -300px;
+  body .aboutGino img {
+    overflow: hidden;
+    height: 600px;
+    width: 550px;
+    margin-top: 1px;
+  }
+  body .ginoimage img {
+    margin-top: 30px;
+    margin-left: 100px;
     padding-bottom: 1px;
+    width: 36%;
     display: block;
     z-index: 1;
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1325,8 +1175,8 @@ button#buttonhome {
   }
   @keyframes ginoimage img {
     from {
-      -webkit-transform: translate3d(0, 40px, 0);
-              transform: translate3d(0, 40px, 0);
+      -webkit-transform: translate3d(0, 80px, 0);
+              transform: translate3d(0, 80px, 0);
     }
     to {
       -webkit-transform: translate3d(0, 0, 0);
@@ -1336,8 +1186,8 @@ button#buttonhome {
   }
   @-webkit-keyframes ginoimage img {
     from {
-      -webkit-transform: translate3d(0, 40px, 0);
-              transform: translate3d(0, 40px, 0);
+      -webkit-transform: translate3d(0, 80px, 0);
+              transform: translate3d(0, 80px, 0);
     }
     to {
       -webkit-transform: translate3d(0, 0, 0);
@@ -1345,29 +1195,29 @@ button#buttonhome {
       opacity: 1;
     }
   }
-  .ginoimage {
+  body .ginoimage {
     animation-duration: 4s;
     animation-fill-mode: both;
     -webkit-animation-duration: 4s;
     -webkit-animation-fill-mode: both;
   }
-  .ginoimage {
+  body .ginoimage {
     opacity: 0;
   }
-  .ginoimage {
+  body .ginoimage {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     z-index: 1;
   }
-  .specialty {
+  body .specialty {
     height: 20px;
     width: 100%;
     margin-top: -75px;
     z-index: 20;
     position: relative;
   }
-  .specialty img {
+  body .specialty img {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -1377,7 +1227,7 @@ button#buttonhome {
     padding-bottom: 10px;
     z-index: 10;
   }
-  .specialtyText h5 {
+  body .specialtyText h5 {
     font-family: arial;
     font-size: 25px;
     color: #FFBF00;
@@ -1389,32 +1239,32 @@ button#buttonhome {
     width: 100%;
     margin-top: -50px;
   }
-  .specialtyText h5 + h5 {
+  body .specialtyText h5 + h5 {
     opacity: 0;
     margin: 0 auto;
     text-align: center;
     margin-top: -50px;
   }
-  .webdev {
+  body .webdev {
     display: block;
     margin-top: -620px;
     margin-left: 600px;
   }
-  .webdev:hover {
+  body .webdev:hover {
     cursor: pointer;
     opacity: 0.2;
     color: #FFBF00;
   }
-  .webdev img {
+  body .webdev img {
     margin-top: -225px;
     display: block;
   }
-  .webdev img:hover {
+  body .webdev img:hover {
     cursor: pointer;
     opacity: 0.6;
     color: #FFBF00;
   }
-  .webdev p {
+  body .webdev p {
     margin-top: -90px;
     margin-left: 40px;
     font-size: 25px;
@@ -1444,7 +1294,7 @@ button#buttonhome {
               transform: translateX(0);
     }
   }
-  .fadeInRight {
+  body .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
     animation-duration: 1s;
@@ -1452,11 +1302,11 @@ button#buttonhome {
     -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both;
   }
-  .webdev1 {
+  body .webdev1 {
     margin-top: -17px;
     margin-left: 900px;
   }
-  .webdev1 img {
+  body .webdev1 img {
     margin-top: -350px;
     width: 50%;
     height: 50%;
@@ -1483,7 +1333,7 @@ button#buttonhome {
               transform: translateY(0);
     }
   }
-  .fadeInDown {
+  body .fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
     animation-duration: 3s;
@@ -1491,12 +1341,12 @@ button#buttonhome {
     -webkit-animation-duration: 3s;
     -webkit-animation-fill-mode: both;
   }
-  .webdev1 img:hover {
+  body .webdev1 img:hover {
     cursor: pointer;
     opacity: 0.6;
     color: #FFBF00;
   }
-  .webdev1 p {
+  body .webdev1 p {
     margin-top: -90px;
     margin-left: 70px;
     font-size: 25px;
@@ -1504,56 +1354,66 @@ button#buttonhome {
     position: absolute;
     color: #FFBF00;
   }
-  .webdev1:hover {
+  body .webdev1:hover {
     cursor: pointer;
     opacity: 0.2;
     color: #FFBF00;
   }
-  .back-black {
+  body .back-black {
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: #3c4043;
-    margin-top: 100px;
+    margin-top: 1px;
     overflow: hidden;
   }
-  .back-yellow {
+  body .back-yellow {
     width: 100%;
     height: 500px;
     background-color: #FFBF00;
+    margin-top: 100px;
   }
-  .aboutGino h2 {
-    margin-left: 475px;
-    padding-top: 50px;
-    margin-top: -525px;
+  body .aboutGino h2 {
+    margin-left: 150%;
+    padding-top: 40px;
+    margin-top: -600px;
+    color: #FFBF00;
+    font-size: 28px;
+    text-align: center;
+    width: 150%;
+  }
+  body .aboutGino h3 {
+    margin-left: 155%;
+    margin-top: 1px;
+    padding: 10px 10px 30px 10px;
     color: #FFBF00;
     font-size: 20px;
-    text-align: center;
-  }
-  .aboutGino h3 {
-    margin-left: 700px;
-    padding: 10px 10px 55px 10px;
-    color: #FFBF00;
-    font-size: 16px;
     border: 1px solid;
     border-color: #09e9ae;
-    width: 500px;
-    font-family: 'Times New Roman', Times, serif;
+    width: 550px;
+    font-family: arial;
     text-align: center;
   }
-  .aboutGino img {
-    height: 40%;
-    width: 500px;
+  body .aboutGino {
+    height: 100%;
+    width: 400px;
     margin-top: 1px;
-    margin-left: 100px;
+    margin-left: 25px;
+    margin-top: -30px;
   }
-  .projectwork h1 {
+  body .projectwork img {
+    margin-top: -300px;
+    z-index: 10;
+  }
+  body .projectwork h1 {
     font-size: 50px;
-    margin-top: -600px;
-    padding-left: 20px;
+    margin-top: -45%;
+    margin-left: 1px;
     font-family: "arial";
     overflow: hidden;
-    -webkit-animation: 2s slide-right;
-            animation: 2s slide-right;
+    -webkit-animation: 3s slide-right;
+            animation: 3s slide-right;
+    text-align: left;
+    color: #3c4043;
   }
   @-webkit-keyframes slide-right {
     from {
@@ -1575,27 +1435,29 @@ button#buttonhome {
       width: 100%;
     }
   }
-  .projectwork h2 {
+  body .projectwork h2 {
     width: 30%;
     font-size: 30px;
-    margin-top: 1px;
+    margin-top: 10px;
+    text-align: left;
     line-height: 1.5;
     padding-left: 20px;
     font-family: "arial";
+    color: #3c4043;
   }
-  .projectwork img {
+  body .projectwork img {
     width: auto;
     max-width: 28%;
     height: auto;
     max-height: 100%;
     margin-left: 750px;
-    margin-top: -200px;
+    margin-top: -15%;
     z-index: 9000;
   }
   @keyframes aboutGino img {
     from {
-      -webkit-transform: translate3d(0, 40px, 0);
-              transform: translate3d(0, 40px, 0);
+      -webkit-transform: translate3d(0, 20px, 0);
+              transform: translate3d(0, 20px, 0);
     }
     to {
       -webkit-transform: translate3d(0, 0, 0);
@@ -1605,8 +1467,8 @@ button#buttonhome {
   }
   @-webkit-keyframes aboutGino img {
     from {
-      -webkit-transform: translate3d(0, 40px, 0);
-              transform: translate3d(0, 40px, 0);
+      -webkit-transform: translate3d(0, 20px, 0);
+              transform: translate3d(0, 20px, 0);
     }
     to {
       -webkit-transform: translate3d(0, 0, 0);
@@ -1614,16 +1476,16 @@ button#buttonhome {
       opacity: 1;
     }
   }
-  .aboutGino img {
+  body .aboutGino img {
     animation-duration: 3s;
     animation-fill-mode: both;
     -webkit-animation-duration: 3s;
     -webkit-animation-fill-mode: both;
   }
-  .aboutGino img {
+  body .aboutGino img {
     opacity: 0;
   }
-  .aboutGino img {
+  body .aboutGino img {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
@@ -1631,48 +1493,26 @@ button#buttonhome {
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  .socialMedia1 {
-    width: 50px;
-    height: 20px;
-    margin-top: -1490px;
-    margin-left: 125px;
+  body .back-black1 {
+    width: 100%;
+    height: 500px;
+    background-color: #3c4043;
+    margin-top: -30px;
   }
-  .author1 p {
+  body .back-black1 p {
+    margin-top: 30px;
     color: #FFBF00;
-    font-size: 10px;
-    margin-top: 1500px;
-    position: absolute;
     margin-left: 500px;
-    z-index: 10;
-    display: inline-block;
-    text-align: center;
-    color: black;
+    width: 40%;
+    font-size: 30px;
+    padding-top: 40px;
     font-family: arial black;
+    text-align: center;
   }
-  .back-black1 {
-    width: 34%;
-    height: 500px;
-    background-color: #3c4043;
-    margin-top: -1px;
-    margin-left: -1px;
-  }
-  .back-yellow1 {
-    width: 34%;
-    height: 500px;
-    background-color: #FFBF00;
-    margin-top: -501px;
-    margin-left: 475px;
-    border-top: 1px solid;
-    border-color: #3c4043;
-  }
-  .back-black2 {
-    width: 34%;
-    height: 500px;
-    background-color: #3c4043;
-    margin-top: -501px;
-    margin-left: 950px;
-    border-top: 1px solid;
-    border-color: #3c4043;
+  body .back-black1 img {
+    width: 30%;
+    margin-top: -330px;
+    margin-left: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
