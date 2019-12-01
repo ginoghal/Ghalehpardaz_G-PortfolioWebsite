@@ -165,7 +165,7 @@ margin-top: -80px;
 
     .aboutGino h2{
       padding-top: 50px;
-      margin-top: -20px;
+      margin-top: -50px;
       color: $bg;
       font-size: 28px;
       text-align: center;
@@ -174,7 +174,7 @@ margin-top: -80px;
     }
 
     .aboutGino h3{
-      font-size: 14px;
+      font-size: 20px;
     text-align: center;
   margin-left: auto;
 margin-right: auto;
@@ -184,9 +184,9 @@ padding-left: 2px;}
 
 .back-yellow{
   width: 100%;
-  height: 400px;
+  height: 420px;
   background-color: $speci;
-  margin-top: -410px;
+  margin-top: -430px;
 }
 
 .back-black1 p{
@@ -231,7 +231,7 @@ padding-left: 2px;}
     .projectwork img{
       height: 800px;
       width: 100%;
-      margin-top: 250px;
+      margin-top: 260px;
       z-index: 1;
     }
 
@@ -588,7 +588,7 @@ width: 100%;}
         }
 
         .aboutGino h3{
-          font-size: 14px;
+          font-size: 22px;
         text-align: left;
       margin-left: auto;
     margin-right: auto;
@@ -599,7 +599,7 @@ width: 100%;}
     .projectwork img{
       height: 100%;
       width: 300px;
-      margin-top: 275px;
+      margin-top: 295px;
       z-index: 1;
     }
 
@@ -936,7 +936,7 @@ button#buttonhome{
   .logo img {
       height: 12%;
       width: 12%;
-      top: 1%;
+      top: 200px;
       z-index: 5;
       position: absolute;
       left: 45%; }
@@ -1099,9 +1099,9 @@ button#buttonhome{
       color: $bg;
       font-size: 16px;
       background-color: $speci;
-      margin-top: 190px;
+      margin-top: 25px;
       width: 500px;
-      margin-left: 50%;
+      margin-left: 700px;
       height: 1px;
       border: 1px solid;
       border-color: #FFBF00;
@@ -1111,7 +1111,7 @@ button#buttonhome{
 
      #boxContent {
       background-color: #3c4043;
-      margin-top: -350px;
+      margin-top: -180px;
       margin-left: auto;
       margin-right: auto;
       z-index: 1;
@@ -1129,15 +1129,14 @@ button#buttonhome{
       color: #ffffff;
       display: block;
       z-index: 10000;
-      margin-top: -20%;
-      margin-left: 50%;
+      margin-top: -250px;
+      margin-left: 700px;
       font-size: 25px;
       width: 500px;
       height: 1px;
       border: 1px solid;
       border-color: #FFBF00;
       padding-bottom: 140px;
-      padding-top: 30px; 
     }
 
   @keyframes fadeInUp {
@@ -1171,8 +1170,8 @@ button#buttonhome{
   button#buttonhome {
     width: 120px;
     height: 50px;
-    margin-top: -16%;
-    margin-left: 65%;
+    margin-top: -175px;
+    margin-left: 900px;
     color: white;
     background-color: #3c4043;
     cursor: pointer;
@@ -1187,8 +1186,8 @@ button#buttonhome{
   button#buttonhome:hover {
     width: 120px;
     height: 50px;
-    margin-top: -16%;
-    margin-left: 65%;
+    margin-top: -175px;
+    margin-left: 900px;
     color: #3c4043;
     background-color: #09e9ae;
     cursor: pointer;
@@ -1392,25 +1391,25 @@ button#buttonhome{
     }
 
 .aboutGino h2 {
-  margin-left: 150%;
+  margin-left: 140%;
     padding-top: 40px;
     margin-top: -600px;
     color: #FFBF00;
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
-  width: 150%; }
+  width: 174%; }
 
  .aboutGino h3 {
-    margin-left: 155%;
-    margin-top: 1px;
-    padding: 10px 10px 30px 10px;
+    margin-left: 144%;
+    margin-top: -10px;
+    padding: 10px 10px 30px 1px;
     color: #FFBF00;
-    font-size: 20px;
-    border: 1px solid;
-    border-color: #09e9ae;
-    width: 550px;
+    font-size: 30px;
+    // border: 1px solid;
+    // border-color: #09e9ae;
+    width: 650px;
     font-family: arial;
-    text-align: center; }
+    text-align: justify; }
 
 
  .aboutGino{
