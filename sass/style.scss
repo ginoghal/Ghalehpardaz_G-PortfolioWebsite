@@ -1137,6 +1137,7 @@ button#buttonhome{
       border: 1px solid;
       border-color: #FFBF00;
       padding-bottom: 140px;
+      padding-top: 20px;
     }
 
   @keyframes fadeInUp {
@@ -1170,7 +1171,7 @@ button#buttonhome{
   button#buttonhome {
     width: 120px;
     height: 50px;
-    margin-top: -175px;
+    margin-top: -160px;
     margin-left: 900px;
     color: white;
     background-color: #3c4043;
@@ -1186,7 +1187,7 @@ button#buttonhome{
   button#buttonhome:hover {
     width: 120px;
     height: 50px;
-    margin-top: -175px;
+    margin-top: -160px;
     margin-left: 900px;
     color: #3c4043;
     background-color: #09e9ae;
@@ -1205,7 +1206,7 @@ button#buttonhome{
     margin-top: 30px;
     margin-left: 100px;
     padding-bottom: 1px;
-    width: 36%;
+    width: 500px;
     display: block;
     z-index: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -1401,15 +1402,15 @@ button#buttonhome{
 
  .aboutGino h3 {
     margin-left: 144%;
-    margin-top: -10px;
+    margin-top: -20px;
     padding: 10px 10px 30px 1px;
     color: #FFBF00;
     font-size: 30px;
     // border: 1px solid;
     // border-color: #09e9ae;
     width: 650px;
-    font-family: arial;
-    text-align: justify; }
+    font-family: arial black;
+    text-align: left; }
 
 
  .aboutGino{
@@ -1495,13 +1496,14 @@ button#buttonhome{
     width: 100%;
     height: 500px;
     background-color: $bg;
-  margin-top: -30px; }
+  margin-top: -30px;
+ }
 
     .back-black1 p{
       margin-top: 30px;
       color: #FFBF00;
       margin-left: 500px;
-      width: 40%;
+      width: 500px;
       font-size: 30px;
       padding-top: 40px;
       font-family: arial black;
@@ -1509,12 +1511,40 @@ button#buttonhome{
     }
 
     .back-black1 img{
-      width: 30%;
-      margin-top: -330px;
+      width: 450px;
+      margin-top: -385px;
       margin-left: 20px;
+      border-radius: 20px;
+      -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         animation: fadein 5s;
     }
 
+    @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
 
+      
 
 
   }
