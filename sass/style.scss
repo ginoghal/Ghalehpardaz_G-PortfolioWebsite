@@ -380,22 +380,22 @@ width: 100%;}
   
 }
     
-    button#buttonhome {
-      width: 150px;
-      height: 50px;
-      margin-right: auto;
-      margin-left: auto;
-      display: block;
-      margin-top: 300px;
-      color: #09e9ae;
-      cursor: pointer;
-      font-family: $ff;
-      border: 0px;
-      font-size: 12px;
-      background-color: $bg;
-      border-color: #09e9ae;
-      z-index: 1;
-    }
+    // button#buttonhome {
+    //   width: 150px;
+    //   height: 50px;
+    //   margin-right: auto;
+    //   margin-left: auto;
+    //   display: block;
+    //   margin-top: 300px;
+    //   color: #09e9ae;
+    //   cursor: pointer;
+    //   font-family: $ff;
+    //   border: 0px;
+    //   font-size: 12px;
+    //   background-color: $bg;
+    //   border-color: #09e9ae;
+    //   z-index: 1;
+    // }
 
     .ginoimage img{
    display: none;
@@ -1531,6 +1531,40 @@ width: 100%;}
       from { opacity: 0; }
       to   { opacity: 1; }
   }
+
+  //portfolio page
+.project5{
+  float: left;
+}
+
+  .project5 h1{
+    font-size: 20px;
+    font-family: arial black;
+  }
+  .project5 video{
+    width: 50%;
+    height: 25%;
+  }
+
+  .project6{
+    float: right;
+    margin-top: -500px;
+  }
+  
+    .project6 h1{
+      font-size: 20px;
+      font-family: arial black;
+    }
+    .project6 video{
+
+    }
+
+    .back-grey{
+      background-color: $bg;
+      width: 100%;
+      height: 1200px;
+    }
+  
 
       
 
