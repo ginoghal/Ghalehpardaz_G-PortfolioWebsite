@@ -6,6 +6,7 @@ $mobile: "(min-width: 300px) and (max-width: 375px)";
 $tablet: 768px;
 $web: 900px;
 $speci: #FFBF00;
+$greencolor: #09e9ae;
 
 //for mobile
 body{
@@ -249,7 +250,7 @@ padding-left: 2px;}
       color: $speci;
      text-align: center;
       font-size: 12px;
-      margin-top: 50px;
+      margin-top: 400px;
     }
 
     .author1 p{
@@ -328,15 +329,11 @@ padding-left: 2px;}
   color: $des;
   z-index: 20;
   position: absolute;
-  margin-top: -200px;
+  margin-top: 100px;
   margin-right: 200px;
   font-size: 30px;
 width: 100%;}
   
-
-
-}
-
 @keyframes fadeInUp {
   from {
       transform: translate3d(0,40px,0)
@@ -380,22 +377,34 @@ width: 100%;}
   
 }
     
-    // button#buttonhome {
-    //   width: 150px;
-    //   height: 50px;
-    //   margin-right: auto;
-    //   margin-left: auto;
-    //   display: block;
-    //   margin-top: 300px;
-    //   color: #09e9ae;
-    //   cursor: pointer;
-    //   font-family: $ff;
-    //   border: 0px;
-    //   font-size: 12px;
-    //   background-color: $bg;
-    //   border-color: #09e9ae;
-    //   z-index: 1;
-    // }
+button#buttonhome a{
+  width: 120px;
+  margin-top: 300px;
+  margin-left: 115px;
+  color: white;
+  background-color: #3c4043;
+  cursor: pointer;
+  font-family: "arial";
+  border: 0px;
+  font-size: 14px;
+  z-index: 10000;
+  position: absolute;
+  border: 1px solid;
+  border-color: #09e9ae; 
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+button#buttonhome:hover a {
+  width: 120px;
+  margin-top: 300px;
+  margin-left: 115px;
+  color: #3c4043;
+  background-color: #09e9ae;
+  cursor: pointer;
+  z-index: 10000;
+  position: absolute; }
 
     .ginoimage img{
    display: none;
@@ -437,8 +446,152 @@ width: 100%;}
        padding-top: 10px;
      }
 
+     //portfolio
+
+     .back-grey{
+background-color: $bg;
+width: 100%;
+height: 1200px;
+}
+    
+    .project1{
+float: left;
+width: 100%;
+margin-top: 100px;
+}
+    
+.project1 h1{
+font-size: 20px;
+font-family: arial black;
+color: $speci;
+text-align: center;
+}
+.project1 h3{
+  text-align: center;
+  color: $greencolor;
+}
+
+.project1 video{
+width: 50%;
+ height: 25%;
+ }
+
+.project2{
+float: left;
+width: 100%;
+}
+      
+.project2 h1{
+  font-size: 20px;
+  font-family: arial black;
+  color: $speci;
+  text-align: center;
+ }
+
+ .project2 h3{
+  text-align: center;
+  color: $greencolor;
+}
 
 
+.project2 video{
+width: 50%;
+height: 25%;
+}
+
+ .project3{
+float: left;
+width: 100%;
+}
+        
+.project3 h1{
+font-size: 20px;
+font-family: arial black;
+color: $speci;
+text-align: center;
+ }
+
+ .project3 h3{
+  text-align: center;
+  color: $greencolor;
+}
+
+
+.project3 video{
+width: 50%;
+height: 25%;
+}
+
+.project4{
+float: left;
+width: 100%;
+}
+          
+    .project4 h1{
+font-size: 20px;
+font-family: arial black;
+color: $speci;
+text-align: center;
+}
+
+.project4 h3{
+  text-align: center;
+  color: $greencolor;
+}
+
+.project4 video{
+width: 50%;
+height: 25%;
+}
+
+ .project5{
+float: left;
+}
+            
+.project5 h1{
+font-size: 20px;
+font-family: arial black;
+color: $speci;
+text-align: center;
+}
+
+.project5 h3{
+  text-align: center;
+  color: $greencolor;
+}
+
+.project5 video{
+width: 100%;
+height: 25%;
+}
+
+.project6{
+ float: left;
+}
+              
+.project6 h1{
+font-size: 20px;
+font-family: arial black;
+color: $speci;
+text-align: center;
+}
+
+.project6 h3{
+  text-align: center;
+  color: $greencolor;
+}
+
+
+.project6 video{
+width: 106.5%;
+height: 25%;
+}
+    
+  
+
+
+
+      }
 @media only screen and (min-width: 768px){
 
   body{
@@ -781,14 +934,41 @@ width: 100%;}
         transform: translate(-50%, -50%);
       }
     
+      button#buttonhome a{
+        width: 120px;
+        margin-top: 200px;
+        margin-left: 300px;
+        color: white;
+        background-color: #3c4043;
+        cursor: pointer;
+        font-family: "arial";
+        border: 0px;
+        font-size: 14px;
+        z-index: 10000;
+        position: absolute;
+        border: 1px solid;
+        border-color: #09e9ae; 
+        text-decoration: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      
+      button#buttonhome:hover a {
+        width: 120px;
+        margin-top: 200px;
+        margin-left: 300px;
+        color: #3c4043;
+        background-color: #09e9ae;
+        cursor: pointer;
+        z-index: 10000;
+        position: absolute; }
    
-
 .fadeInUp h1{
 text-align: center;
 color: $des;
 z-index: 20;
 position: fixed;
-margin-top: -100px;
+margin-top: 10px;
  text-align: center;
  margin-left: 90px;
 font-size: 30px;
@@ -899,6 +1079,30 @@ width: 100%;}
     margin-left: 12%;
     border-radius: 20px;
   }
+
+  //portfolio
+
+  .back-grey{
+    background-color: $bg;
+    width: 100%;
+    height: 1200px;
+  }
+
+  .project1{
+    float: left;
+  }
+  
+  .project1 h1{
+      font-size: 20px;
+      font-family: arial black;
+      color: $speci;
+    }
+    .project1 video{
+      width: 50%;
+      height: 25%;
+    }
+
+
 
   }
 }
@@ -1154,10 +1358,10 @@ width: 100%;}
     -webkit-animation-name: fadeInUp;
     z-index: 100; }
 
-  button#buttonhome a{
+ button#buttonhome a{
     width: 120px;
     margin-top: -175px;
-    margin-left: 525px;
+    margin-left: 875px;
     color: white;
     background-color: #3c4043;
     cursor: pointer;
@@ -1176,7 +1380,7 @@ width: 100%;}
   button#buttonhome:hover a {
     width: 120px;
     margin-top: -175px;
-    margin-left: 525px;
+    margin-left: 875px;
     color: #3c4043;
     background-color: #09e9ae;
     cursor: pointer;
@@ -1533,6 +1737,15 @@ width: 100%;}
   }
 
   //portfolio page
+
+  .back-grey{
+    background-color: $bg;
+    width: 100%;
+    height: 1200px;
+  }
+
+
+
 .project5{
   float: left;
 }
@@ -1540,6 +1753,7 @@ width: 100%;}
   .project5 h1{
     font-size: 20px;
     font-family: arial black;
+    color: $speci;
   }
   .project5 video{
     width: 50%;
@@ -1554,16 +1768,12 @@ width: 100%;}
     .project6 h1{
       font-size: 20px;
       font-family: arial black;
+      color: $speci;
     }
     .project6 video{
 
     }
 
-    .back-grey{
-      background-color: $bg;
-      width: 100%;
-      height: 1200px;
-    }
   
 
       
