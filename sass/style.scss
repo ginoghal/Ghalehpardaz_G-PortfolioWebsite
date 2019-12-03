@@ -158,7 +158,7 @@ margin-top: -80px;
 
     .aboutGino img{
       overflow: hidden;
-      height: 500px;
+      height: 100%;
       width: 100%;
       margin-top: 50px;
     }
@@ -380,7 +380,7 @@ width: 100%;}
   
 }
     
-    button#buttonhome{
+    button#buttonhome {
       width: 150px;
       height: 50px;
       margin-right: auto;
@@ -533,7 +533,7 @@ width: 100%;}
 
     .aboutGino img{
       overflow: hidden;
-      height: 700px;
+      height: 100%;
       width: 100%;
       margin-top: 25px;
     }
@@ -594,7 +594,7 @@ width: 100%;}
     margin-right: auto;
     display: auto;
     padding-right: 2px;
-    padding-left: 2px;}
+    padding-left: 6px;}
 
     .projectwork img{
       height: 100%;
@@ -602,7 +602,6 @@ width: 100%;}
       margin-top: 295px;
       z-index: 1;
     }
-
 
     .description{
       margin-top: -5px;
@@ -732,7 +731,7 @@ width: 100%;}
       color: $speci;
       text-align: center;
       font-size: 12px;
-      margin-top: 50px;
+      margin-top: 100px;
      z-index: 10;
      width: 100%;
      font-family: $ff;
@@ -845,19 +844,6 @@ width: 100%;}
   margin-top: 200px;
 }
 
-button#buttonhome{
-  width: 150px;
-  height: 50px;
-  margin-top: 150px;
-  color: #09e9ae;
-  cursor: pointer;
-  font-family: $ff;
-  font-size: 12px;
-  background-color: $bg;
-  border: 1px solid;
-  border-color: #09e9ae;
-  margin-left: 300px;
-}
 
 .specialtyText h5{
   font-family: arial;
@@ -912,6 +898,7 @@ button#buttonhome{
     width: 75%;
     margin-top: 5px;
     margin-left: 12%;
+    border-radius: 20px;
   }
 
   }
@@ -1097,7 +1084,7 @@ button#buttonhome{
       text-align: center;
       z-index: 10000;
       color: $bg;
-      font-size: 16px;
+      font-size: 15px;
       background-color: $speci;
       margin-top: 25px;
       width: 500px;
@@ -1168,11 +1155,10 @@ button#buttonhome{
     -webkit-animation-name: fadeInUp;
     z-index: 100; }
 
-  button#buttonhome {
+  button#buttonhome a{
     width: 120px;
-    height: 50px;
-    margin-top: -160px;
-    margin-left: 900px;
+    margin-top: -175px;
+    margin-left: 525px;
     color: white;
     background-color: #3c4043;
     cursor: pointer;
@@ -1182,13 +1168,16 @@ button#buttonhome{
     z-index: 10000;
     position: absolute;
     border: 1px solid;
-    border-color: #09e9ae; }
+    border-color: #09e9ae; 
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 
-  button#buttonhome:hover {
+  button#buttonhome:hover a {
     width: 120px;
-    height: 50px;
-    margin-top: -160px;
-    margin-left: 900px;
+    margin-top: -175px;
+    margin-left: 525px;
     color: #3c4043;
     background-color: #09e9ae;
     cursor: pointer;

@@ -7,15 +7,15 @@ const hbs = require('hbs');
 // a forward slash is the home route (same as index.html)
 router.get('/', (req, res) => {
     console.log('at the home route');
-    res.render('home', { message: "hi there!", anothermessage: "This is easy!", tagline: "My name is Gino Ghalehpardaz, web Developer to the Stars!", buttonmessage: "Hire Me!" } );
+    res.render('home', { message: "hi there!", anothermessage: "This is easy!", tagline: "My name is Gino Ghalehpardaz and welcome to my website!", buttonmessage: "See More!" } );
     // this builds localhost:3000/views/index.html
   })
   
   
   router.get('/portfolio', (req, res) => {
-    console.log('at the content route');
-    //res.sendFile(path.join(__dirname + '/views/contact.html'));
-    res.render('portfolio', { message: "on portfolio page", layout:'portfolio'})
+    console.log('at the portfolio route');
+    //res.sendFile(path.join(__dirname + '/views/portfolio.hbs'));
+    res.render('portfolio', { message: "on portfolio page", layout:'layout.hbs'})
   })
   
   router.get('/about', (req, res) => {
@@ -25,9 +25,9 @@ router.get('/', (req, res) => {
   })
   
   router.get('/contact', (req, res) => {
-    console.log('at the content route');
-    //res.sendFile(path.join(__dirname + '/views/contact.html'));
-    res.render('contact', { message: "on contact page", layout:'contact'})
+    console.log('at the contact route');
+    //res.sendFile(path.join(__dirname + '/views/contact.hbs'));
+    res.render('contact', { message: "on contact page", layout:'layout.hbs'})
   })
   
   router.get('/users', (req, res) => {
