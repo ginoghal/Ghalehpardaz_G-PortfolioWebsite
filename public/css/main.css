@@ -48,7 +48,7 @@ body .fadeInUp h1 { text-align: center; color: #ffffff; z-index: 20; position: a
 
 .fadeInUp { opacity: 0; animation-name: fadeInUp; -webkit-animation-name: fadeInUp; z-index: 100; }
 
-button#buttonhome { width: 150px; height: 50px; margin-right: auto; margin-left: auto; display: block; margin-top: 300px; color: #09e9ae; cursor: pointer; font-family: arial, sans-serif; border: 0px; font-size: 12px; background-color: #3c4043; border: 1px solid; border-color: #09e9ae; z-index: 1; }
+button#buttonhome { width: 150px; height: 50px; margin-right: auto; margin-left: auto; display: block; margin-top: 300px; color: #09e9ae; cursor: pointer; font-family: arial, sans-serif; border: 0px; font-size: 12px; background-color: #3c4043; border-color: #09e9ae; z-index: 1; }
 
 .ginoimage img { display: none; }
 
