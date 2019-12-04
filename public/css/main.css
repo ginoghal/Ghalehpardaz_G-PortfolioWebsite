@@ -132,7 +132,7 @@ body {
     width: 100%;
     font-size: 30px;
     padding-top: 60px;
-    font-family: arial black;
+    font-family: arial black, arial, sans-serif;
     text-align: center;
     color: #FFBF00; }
   body .back-black1 img {
@@ -170,15 +170,7 @@ body {
     color: #FFBF00;
     text-align: center;
     font-size: 12px;
-    margin-top: 400px; }
-  body .author1 p {
-    color: #FFBF00;
-    text-align: center;
-    font-size: 12px;
-    margin-top: 900px;
-    margin-right: 100px;
-    margin-left: -75px;
-    width: 300px; }
+    margin-top: 1px; }
   body .socialMedia {
     width: 50px;
     height: 20px;
@@ -307,13 +299,6 @@ body {
     margin-top: -45px;
     position: absolute;
     z-index: 10; }
-  body .author1 p {
-    margin-top: 900px;
-    text-align: center;
-    width: 300px;
-    color: #FFBF00;
-    margin-left: 150%;
-    padding-top: 10px; }
   body .back-grey {
     background-color: #3c4043;
     width: 100%;
@@ -324,7 +309,7 @@ body {
     margin-top: 100px; }
   body .project1 h1 {
     font-size: 20px;
-    font-family: arial black;
+    font-family: arial black, arial, sans-serif;
     color: #FFBF00;
     text-align: center; }
   body .project1 h3 {
@@ -338,7 +323,7 @@ body {
     width: 100%; }
   body .project2 h1 {
     font-size: 20px;
-    font-family: arial black;
+    font-family: arial black, arial, sans-serif;
     color: #FFBF00;
     text-align: center; }
   body .project2 h3 {
@@ -352,55 +337,84 @@ body {
     width: 100%; }
   body .project3 h1 {
     font-size: 20px;
-    font-family: arial black;
+    font-family: arial black, arial, sans-serif;
     color: #FFBF00;
     text-align: center; }
   body .project3 h3 {
     text-align: center;
     color: #09e9ae; }
-  body .project3 video {
-    width: 50%;
-    height: 25%; }
   body .project4 {
     float: left;
     width: 100%; }
   body .project4 h1 {
     font-size: 20px;
-    font-family: arial black;
+    font-family: arial black, arial, sans-serif;
     color: #FFBF00;
     text-align: center; }
   body .project4 h3 {
     text-align: center;
     color: #09e9ae; }
-  body .project4 video {
-    width: 50%;
-    height: 25%; }
   body .project5 {
-    float: left; }
+    float: left;
+    width: 100%; }
   body .project5 h1 {
     font-size: 20px;
-    font-family: arial black;
+    font-family: arial black, arial, sans-serif;
     color: #FFBF00;
     text-align: center; }
   body .project5 h3 {
     text-align: center;
     color: #09e9ae; }
-  body .project5 video {
-    width: 100%;
-    height: 25%; }
   body .project6 {
-    float: left; }
+    float: left;
+    width: 100%; }
   body .project6 h1 {
     font-size: 20px;
-    font-family: arial black;
+    font-family: arial black, arial, sans-serif;
     color: #FFBF00;
     text-align: center; }
   body .project6 h3 {
     text-align: center;
     color: #09e9ae; }
-  body .project6 video {
-    width: 106.5%;
-    height: 25%; }
+  body .contact_background {
+    background-color: #3c4043;
+    height: 450px;
+    width: 100%;
+    position: fixed; }
+  body .contact_form {
+    text-align: center;
+    width: 350px;
+    font-size: 15px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20px;
+    background-color: #FFBF00;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: arial black, arial, sans-serif; }
+  body .nameinput {
+    width: 200px; }
+  body .emailinput {
+    width: 200px; }
+  body .messageinput {
+    width: 300px;
+    padding-bottom: 60px;
+    vertical-align: text-top;
+    overflow: none; }
+  body input[type="submit"] {
+    margin-top: 20px;
+    background: #09e9ae;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    font-family: arial black, arial, sans-serif;
+    border-color: #3c4043; }
 
 @media only screen and (min-width: 768px) {
   body {
@@ -615,7 +629,7 @@ body {
       color: #FFBF00;
       text-align: center;
       font-size: 12px;
-      margin-top: 100px;
+      margin-top: 1px;
       z-index: 10;
       width: 100%;
       font-family: arial, sans-serif; }
@@ -652,11 +666,10 @@ body {
       top: 50%;
       left: 50%;
       width: 90%;
-      /* bring your own prefixes */
       transform: translate(-50%, -50%); }
     body button#buttonhome a {
       width: 120px;
-      margin-top: 200px;
+      margin-top: 120px;
       margin-left: 300px;
       color: white;
       background-color: #3c4043;
@@ -673,7 +686,7 @@ body {
       padding-bottom: 15px; }
     body button#buttonhome:hover a {
       width: 120px;
-      margin-top: 200px;
+      margin-top: 120px;
       margin-left: 300px;
       color: #3c4043;
       background-color: #09e9ae;
@@ -684,6 +697,7 @@ body {
       text-align: center;
       color: #ffffff;
       z-index: 20;
+      padding-bottom: 150px;
       position: fixed;
       margin-top: 10px;
       text-align: center;
@@ -754,7 +768,7 @@ body {
       width: 85%;
       font-size: 25px;
       padding-top: 60px;
-      font-family: arial black;
+      font-family: arial black, arial, sans-serif;
       text-align: center;
       color: #FFBF00; }
     body .back-black1 img {
@@ -770,11 +784,49 @@ body {
       float: left; }
     body .project1 h1 {
       font-size: 20px;
-      font-family: arial black;
+      font-family: arial black, arial, sans-serif;
       color: #FFBF00; }
-    body .project1 video {
-      width: 50%;
-      height: 25%; } }
+    body .contact_background {
+      background-color: #3c4043;
+      height: 450px;
+      width: 100%;
+      position: fixed; }
+    body .contact_form {
+      text-align: center;
+      width: 400px;
+      font-size: 15px;
+      margin-top: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding-bottom: 20px;
+      background-color: #FFBF00;
+      border-radius: 10px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-family: arial black, arial, sans-serif; }
+    body .nameinput {
+      width: 200px; }
+    body .emailinput {
+      width: 200px; }
+    body .messageinput {
+      width: 300px;
+      padding-bottom: 60px;
+      vertical-align: text-top;
+      overflow: none; }
+    body input[type="submit"] {
+      margin-top: 20px;
+      background: #09e9ae;
+      cursor: pointer;
+      width: 100px;
+      height: 40px;
+      font-size: 10px;
+      font-family: arial black, arial, sans-serif;
+      border-color: #3c4043; }
+    body #triangle-left {
+      display: none; } }
 @media only screen and (min-width: 900px) {
   body {
     background-color: white;
@@ -809,7 +861,7 @@ body {
       margin-left: 1px;
       left: 60%;
       z-index: 5;
-      font-family: arial black;
+      font-family: arial black, arial, sans-serif;
       top: 5%;
       position: absolute; }
     body .mainNav li {
@@ -876,17 +928,8 @@ body {
       font-size: 10px;
       z-index: 10;
       width: 100%;
-      font-family: arial black;
+      font-family: arial black, arial, sans-serif;
       margin-top: 1px; }
-    body .author1 p {
-      color: #FFBF00;
-      text-align: center;
-      font-size: 10px;
-      z-index: 10;
-      width: 99%;
-      font-family: arial black;
-      margin-top: 1540px;
-      margin-left: 10px; }
     body .socialMedia {
       margin-left: 100px;
       margin-right: auto;
@@ -1195,7 +1238,7 @@ body {
       color: #FFBF00;
       font-size: 30px;
       width: 650px;
-      font-family: arial black;
+      font-family: arial black, arial, sans-serif;
       text-align: left; }
     body .aboutGino {
       height: 100%;
@@ -1276,7 +1319,7 @@ body {
       width: 500px;
       font-size: 30px;
       padding-top: 40px;
-      font-family: arial black;
+      font-family: arial black, arial, sans-serif;
       text-align: center; }
     body .back-black1 img {
       width: 450px;
@@ -1314,21 +1357,49 @@ body {
       background-color: #3c4043;
       width: 100%;
       height: 1200px; }
-    body .project5 {
-      float: left; }
-    body .project5 h1 {
-      font-size: 20px;
-      font-family: arial black;
-      color: #FFBF00; }
-    body .project5 video {
-      width: 50%;
-      height: 25%; }
-    body .project6 {
-      float: right;
-      margin-top: -500px; }
-    body .project6 h1 {
-      font-size: 20px;
-      font-family: arial black;
-      color: #FFBF00; } }
+    body .contact_background {
+      background-color: #3c4043;
+      height: 450px;
+      width: 100%;
+      position: fixed; }
+    body .contact_form {
+      text-align: center;
+      width: 400px;
+      font-size: 15px;
+      margin-top: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 20px;
+      background-color: #FFBF00;
+      border-radius: 10px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-family: arial black, arial, sans-serif; }
+    body .messageinput {
+      width: 300px;
+      padding-bottom: 60px;
+      vertical-align: text-top;
+      overflow: none; }
+    body input[type="submit"] {
+      margin-top: 20px;
+      background: #09e9ae;
+      cursor: pointer;
+      width: 100px;
+      height: 40px;
+      font-size: 10px;
+      font-family: arial black, arial, sans-serif;
+      border-color: #3c4043; }
+    body #triangle-left {
+      width: 250px;
+      height: 0;
+      border-top: 250px solid transparent;
+      border-right: 300px solid #FFBF00;
+      border-bottom: 200px solid transparent;
+      margin-top: 1px;
+      margin-right: 0px;
+      margin-left: auto;
+      display: block; } }
 
 /*# sourceMappingURL=main.css.map */
