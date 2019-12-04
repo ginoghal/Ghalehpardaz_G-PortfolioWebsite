@@ -195,7 +195,7 @@ padding-left: 2px;}
   width: 100%;
   font-size: 30px;
   padding-top: 60px;
-  font-family: arial black;
+  font-family: arial black, arial, sans-serif;
   text-align: center;
   color: $speci;
 }
@@ -250,18 +250,9 @@ padding-left: 2px;}
       color: $speci;
      text-align: center;
       font-size: 12px;
-      margin-top: 400px;
+      margin-top: 1px;
     }
 
-    .author1 p{
-      color: $speci;
-     text-align: center;
-      font-size: 12px;
-      margin-top: 900px;
-      margin-right: 100px;
-      margin-left: -75px;
-      width: 300px;
-    }
 
     .socialMedia{
       width: 50px;
@@ -437,14 +428,6 @@ button#buttonhome:hover a {
      z-index: 10;
      }
 
-     .author1 p{
-       margin-top: 900px;
-       text-align: center;
-       width: 300px;
-       color: $speci;
-       margin-left: 150%;
-       padding-top: 10px;
-     }
 
      //portfolio
 
@@ -462,7 +445,7 @@ margin-top: 100px;
     
 .project1 h1{
 font-size: 20px;
-font-family: arial black;
+font-family: arial black, arial, sans-serif;
 color: $speci;
 text-align: center;
 }
@@ -483,7 +466,7 @@ width: 100%;
       
 .project2 h1{
   font-size: 20px;
-  font-family: arial black;
+  font-family: arial black, arial, sans-serif;
   color: $speci;
   text-align: center;
  }
@@ -506,7 +489,7 @@ width: 100%;
         
 .project3 h1{
 font-size: 20px;
-font-family: arial black;
+font-family: arial black, arial, sans-serif;
 color: $speci;
 text-align: center;
  }
@@ -516,12 +499,6 @@ text-align: center;
   color: $greencolor;
 }
 
-
-.project3 video{
-width: 50%;
-height: 25%;
-}
-
 .project4{
 float: left;
 width: 100%;
@@ -529,7 +506,7 @@ width: 100%;
           
     .project4 h1{
 font-size: 20px;
-font-family: arial black;
+font-family: arial black, arial, sans-serif;
 color: $speci;
 text-align: center;
 }
@@ -539,53 +516,92 @@ text-align: center;
   color: $greencolor;
 }
 
-.project4 video{
-width: 50%;
-height: 25%;
-}
 
- .project5{
-float: left;
-}
+.project5{
+  float: left;
+  width: 100%;
+  }
             
-.project5 h1{
-font-size: 20px;
-font-family: arial black;
-color: $speci;
-text-align: center;
-}
-
-.project5 h3{
+      .project5 h1{
+  font-size: 20px;
+  font-family: arial black, arial, sans-serif;
+  color: $speci;
   text-align: center;
-  color: $greencolor;
-}
-
-.project5 video{
-width: 100%;
-height: 25%;
-}
+  }
+  
+  .project5 h3{
+    text-align: center;
+    color: $greencolor;
+  }
 
 .project6{
- float: left;
-}
-              
-.project6 h1{
-font-size: 20px;
-font-family: arial black;
-color: $speci;
-text-align: center;
-}
-
-.project6 h3{
+  float: left;
+  width: 100%;
+  }
+            
+      .project6 h1{
+  font-size: 20px;
+  font-family: arial black, arial, sans-serif;
+  color: $speci;
   text-align: center;
-  color: $greencolor;
-}
+  }
+  
+  .project6 h3{
+    text-align: center;
+    color: $greencolor;
+  }
 
 
-.project6 video{
-width: 106.5%;
-height: 25%;
-}
+  //for contact
+
+  .contact_background{
+    background-color: $bg;
+    height: 450px;
+    width: 100%;
+    position: fixed;
+  }
+  
+  .contact_form{
+  text-align: center;
+  width: 350px;
+  font-size: 15px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 20px;
+  background-color: $speci;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: arial black, arial, sans-serif;
+  }
+
+  .nameinput{width: 200px;}
+
+  .emailinput{width: 200px;}
+  
+  .messageinput{
+    width: 300px;
+    padding-bottom: 60px;
+    vertical-align: text-top;
+    overflow: none;
+  }
+  
+  input[type="submit"]{ 
+    margin-top: 20px;
+    background: $greencolor;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    font-family: arial black, arial, sans-serif;
+    border-color: $bg;
+  }
+
+
     
   
 
@@ -883,7 +899,7 @@ height: 25%;
       color: $speci;
       text-align: center;
       font-size: 12px;
-      margin-top: 100px;
+      margin-top: 1px;
      z-index: 10;
      width: 100%;
      font-family: $ff;
@@ -930,13 +946,12 @@ height: 25%;
         top: 50%;
         left: 50%;
         width: 90%;
-        /* bring your own prefixes */
         transform: translate(-50%, -50%);
       }
     
       button#buttonhome a{
         width: 120px;
-        margin-top: 200px;
+        margin-top: 120px;
         margin-left: 300px;
         color: white;
         background-color: #3c4043;
@@ -955,7 +970,7 @@ height: 25%;
       
       button#buttonhome:hover a {
         width: 120px;
-        margin-top: 200px;
+        margin-top: 120px;
         margin-left: 300px;
         color: #3c4043;
         background-color: #09e9ae;
@@ -967,6 +982,7 @@ height: 25%;
 text-align: center;
 color: $des;
 z-index: 20;
+padding-bottom: 150px;
 position: fixed;
 margin-top: 10px;
  text-align: center;
@@ -1068,7 +1084,7 @@ width: 100%;}
     width: 85%;
     font-size: 25px;
     padding-top: 60px;
-    font-family: arial black;
+    font-family: arial black, arial, sans-serif;
     text-align: center;
     color: $speci;
   }
@@ -1094,13 +1110,65 @@ width: 100%;}
   
   .project1 h1{
       font-size: 20px;
-      font-family: arial black;
+      font-family: arial black, arial, sans-serif;
       color: $speci;
     }
-    .project1 video{
-      width: 50%;
-      height: 25%;
-    }
+
+
+       //contact
+
+       .contact_background{
+        background-color: $bg;
+        height: 450px;
+        width: 100%;
+        position: fixed;
+      }
+      
+      .contact_form{
+      text-align: center;
+      width: 400px;
+      font-size: 15px;
+      margin-top: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding-bottom: 20px;
+      background-color: $speci;
+      border-radius: 10px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-family: arial black, arial, sans-serif;
+      }
+
+      .nameinput{width: 200px;}
+
+      .emailinput{width: 200px;}
+      
+      .messageinput{
+        width: 300px;
+        padding-bottom: 60px;
+        vertical-align: text-top;
+        overflow: none;
+      }
+      
+      input[type="submit"]{ 
+        margin-top: 20px;
+        background: $greencolor;
+        cursor: pointer;
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+        font-family: arial black, arial, sans-serif;
+        border-color: $bg;
+      }
+
+#triangle-left {
+  display:none;
+}
+
+
 
 
 
@@ -1147,7 +1215,7 @@ width: 100%;}
       margin-left: 1px;
       left: 60%;
       z-index: 5;
-      font-family: arial black;
+      font-family: arial black, arial, sans-serif;
       top: 5%;
       position: absolute; }
 
@@ -1225,20 +1293,10 @@ width: 100%;}
         font-size: 10px;
        z-index: 10;
        width: 100%;
-       font-family: arial black;
+       font-family: arial black, arial, sans-serif;
        margin-top: 1px;
       }
 
-      .author1 p{
-        color: $speci;
-        text-align: center;
-        font-size: 10px;
-       z-index: 10;
-       width: 99%;
-       font-family: arial black;
-       margin-top: 1540px;
-       margin-left: 10px;
-      }
 
   .socialMedia {
     margin-left: 100px;
@@ -1601,7 +1659,7 @@ width: 100%;}
     // border: 1px solid;
     // border-color: #09e9ae;
     width: 650px;
-    font-family: arial black;
+    font-family: arial black, arial, sans-serif;
     text-align: left; }
 
 
@@ -1698,7 +1756,7 @@ width: 100%;}
       width: 500px;
       font-size: 30px;
       padding-top: 40px;
-      font-family: arial black;
+      font-family: arial black, arial, sans-serif;
       text-align: center;
     }
 
@@ -1745,36 +1803,64 @@ width: 100%;}
   }
 
 
+    //contact
 
-.project5{
-  float: left;
+.contact_background{
+  background-color: $bg;
+  height: 450px;
+  width: 100%;
+  position: fixed;
 }
 
-  .project5 h1{
-    font-size: 20px;
-    font-family: arial black;
-    color: $speci;
-  }
-  .project5 video{
-    width: 50%;
-    height: 25%;
-  }
+.contact_form{
+text-align: center;
+width: 400px;
+font-size: 15px;
+margin-top: 25px;
+margin-left: auto;
+margin-right: auto;
+// display: block;
+padding-bottom: 20px;
+background-color: $speci;
+border-radius: 10px;
+position: absolute;
+left: 0;
+right: 0;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+font-family: arial black, arial, sans-serif;
+}
 
-  .project6{
-    float: right;
-    margin-top: -500px;
-  }
-  
-    .project6 h1{
-      font-size: 20px;
-      font-family: arial black;
-      color: $speci;
-    }
-    .project6 video{
+.messageinput{
+  width: 300px;
+  padding-bottom: 60px;
+  vertical-align: text-top;
+  overflow: none;
+}
 
-    }
+input[type="submit"]{ 
+  margin-top: 20px;
+  background: $greencolor;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  font-size: 10px;
+  font-family: arial black, arial, sans-serif;
+  border-color: $bg;
+}
 
-  
+#triangle-left {
+  width: 250px;
+  height: 0;
+  border-top: 250px solid transparent;
+  border-right: 300px solid $speci;
+  border-bottom: 200px solid transparent;
+  margin-top: 1px;
+  margin-right: 0px;
+  margin-left: auto;
+  display: block;
+}
+
+
 
       
 
