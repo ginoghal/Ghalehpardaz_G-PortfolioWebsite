@@ -1,5 +1,5 @@
 $bg: #3c4043;
-$ff: arial, sans-serif;
+$ff: arial black, arial, sans-serif;
 $spec: #bbbbbb;
 $des: #ffffff;
 $mobile: "(min-width: 300px) and (max-width: 375px)";
@@ -185,7 +185,7 @@ padding-left: 2px;}
 
 .back-yellow{
   width: 100%;
-  height: 420px;
+  height: 450px;
   background-color: $speci;
   margin-top: -430px;
 }
@@ -606,9 +606,6 @@ text-align: center;
   }
 
 
-    
-  
-
 
 
       }
@@ -673,7 +670,7 @@ text-align: center;
       .mainNav ul{
         padding-top: 20px;
         margin-top: -60px;
-        width: 500px;
+        width: 550px;
         height: 50px;
       }
       
@@ -751,12 +748,13 @@ text-align: center;
 
         .aboutGino h2{
           padding-top: 50px;
-          margin-top: -20px;
+          padding-bottom: 10px;
+          padding-left: 2px;
+          padding-right: 2px;
+          margin-top: -50px;
           color: $bg;
           font-size: 28px;
           text-align: center;
-          padding-left: 2px;
-          padding-right: 2px;
         }
 
         .aboutGino h3{
@@ -770,9 +768,19 @@ text-align: center;
 
     .projectwork img{
       height: 100%;
-      width: 300px;
-      margin-top: 295px;
+      width: 400px;
+      margin-top: 290px;
       z-index: 1;
+    }
+
+    .projectwork h1{
+    margin-top: -120px;
+    font-size: 30px;
+    }
+
+    .projectwork h2{
+      margin-top: 20px;
+      font-size: 25px;
     }
 
     .description{
@@ -989,8 +997,8 @@ z-index: 20;
 padding-bottom: 150px;
 position: fixed;
 margin-top: 10px;
- text-align: center;
- margin-left: 90px;
+text-align: center;
+margin-left: 90px;
 font-size: 30px;
 width: 100%;}
 
@@ -1083,14 +1091,14 @@ width: 100%;}
   }
 
   .back-black1 p{
-    margin-top: 700px;
-    margin-left: 8%;
-    width: 85%;
+    margin-top: 820px;
+    width: 100%;
     font-size: 25px;
-    padding-top: 60px;
+    padding-top: 5px;
     font-family: arial black, arial, sans-serif;
     text-align: center;
-    color: $speci;
+    color: $bg;
+    background-color: $speci;
   }
   
   .back-black1 img{
@@ -1189,8 +1197,8 @@ width: 100%;}
     background-color: white;
     height: auto;
     width: 100%;
-    padding:0;
-    margin:0;
+    margin:0px;
+    padding:0px;
 
  
   .logo {
@@ -1200,9 +1208,9 @@ width: 100%;}
      }
 
   .logo img {
-      height: 12%;
-      width: 12%;
-      top: 200px;
+      height: 100px;
+      width: 100px;
+      margin-top: -100px;
       z-index: 5;
       position: absolute;
       left: 45%; }
@@ -1225,7 +1233,7 @@ width: 100%;}
       z-index: 5;
       font-family: arial black, arial, sans-serif;
       top: 5%;
-      position: absolute; }
+      position: absolute;}
 
     .mainNav li {
       opacity: 1;
@@ -1353,9 +1361,10 @@ width: 100%;}
       text-align: center;
       z-index: 10000;
       color: $bg;
-      font-size: 15px;
+      font-size: 30px;
+      font-family: $ff;
       background-color: $speci;
-      margin-top: 25px;
+      margin-top: 100px;
       width: 500px;
       margin-left: 700px;
       height: 1px;
@@ -1367,7 +1376,7 @@ width: 100%;}
 
       #boxContent {
         background-color: #3c4043;
-        margin-top: -180px;
+        margin-top: -250px;
         margin-left: auto;
         margin-right: auto;
         z-index: 1;
@@ -1385,7 +1394,7 @@ width: 100%;}
       color: #ffffff;
       display: block;
       z-index: 10000;
-      margin-top: 200px;
+      margin-top: -250px;
       margin-left: 700px;
       font-size: 25px;
       width: 500px;
@@ -1394,6 +1403,7 @@ width: 100%;}
       border-color: #FFBF00;
       padding-bottom: 140px;
       padding-top: 20px;
+      font-family: $bg;
     }
 
   @keyframes fadeInUp {
@@ -1424,10 +1434,10 @@ width: 100%;}
     -webkit-animation-name: fadeInUp;
     z-index: 100; }
 
- button#buttonhome a{
+ .homeButton a{
     width: 120px;
-    margin-top: -175px;
-    margin-left: 875px;
+    margin-top: -160px;
+    margin-left: 885px;
     color: white;
     background-color: #3c4043;
     cursor: pointer;
@@ -1441,17 +1451,19 @@ width: 100%;}
     text-decoration: none;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
   }
 
-  button#buttonhome:hover a {
+  .homeButton:hover a {
     width: 120px;
-    margin-top: -175px;
-    margin-left: 875px;
+    margin-top: -160px;
+    margin-left: 885px;
     color: #3c4043;
     background-color: #09e9ae;
     cursor: pointer;
     z-index: 10000;
-    position: absolute; }
+    position: absolute;
+  text-align: center; }
 
     .aboutGino img {
       overflow: hidden;
@@ -1636,7 +1648,7 @@ width: 100%;}
 
   .back-black {
     width: 100%;
-    height: 550px;
+    height: 450px;
     background-color: #3c4043;
     margin-top: 1px;
     overflow: hidden; }
@@ -1644,17 +1656,18 @@ width: 100%;}
 
  .back-yellow{
       width: 100%;
-      height: 500px;
+      height: 450px;
       background-color: $speci;
       margin-top: 100px;
     }
 
 .aboutGino h2 {
-  margin-left: 140%;
+  margin-left: 130%;
     padding-top: 40px;
+    padding-bottom: 50px;
     margin-top: -600px;
     color: #FFBF00;
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
   width: 174%; }
 
@@ -1663,12 +1676,12 @@ width: 100%;}
     margin-top: -20px;
     padding: 10px 10px 30px 1px;
     color: #FFBF00;
-    font-size: 30px;
+    font-size: 25px;
     // border: 1px solid;
     // border-color: #09e9ae;
-    width: 650px;
+    width: 600px;
     font-family: arial black, arial, sans-serif;
-    text-align: left; }
+    text-align: center; }
 
 
  .aboutGino{
@@ -1687,7 +1700,7 @@ width: 100%;}
     font-size: 50px;
     margin-top: -45%;
     margin-left: 1px;
-    font-family: "arial";
+    font-family: $bg;
     overflow: hidden;
     animation: 3s slide-right;
     text-align: left;
@@ -1708,7 +1721,7 @@ width: 100%;}
     text-align: left;
     line-height: 1.5;
     padding-left: 20px;
-    font-family: "arial";
+    font-family: $bg;
     color: $bg;
    }
 
@@ -1744,6 +1757,7 @@ width: 100%;}
     opacity: 0; }
 
   .aboutGino img {
+    margin-top: -10px;
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
@@ -1752,7 +1766,7 @@ width: 100%;}
 
   .back-black1 {
     width: 100%;
-    height: 500px;
+    height: 450px;
     background-color: $bg;
   margin-top: -30px;
  }
@@ -1766,11 +1780,12 @@ width: 100%;}
       padding-top: 40px;
       font-family: arial black, arial, sans-serif;
       text-align: center;
+      line-height: 40px;
     }
 
     .back-black1 img{
       width: 450px;
-      margin-top: -385px;
+      margin-top: -357px;
       margin-left: 20px;
       border-radius: 20px;
       -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
@@ -1837,11 +1852,21 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 font-family: arial black, arial, sans-serif;
 }
 
+.contact_form h1{
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-size: 20px;
+
+}
+
+
+
 .nameinput{
   width: 300px;
   vertical-align: text-top;
   overflow: none;
 }
+
 
 .emailinput{
   width: 300px;
@@ -1864,15 +1889,27 @@ input[type="submit"]{
   height: 40px;
   font-size: 10px;
   font-family: arial black, arial, sans-serif;
+  border-color: $greencolor;
+}
+
+
+input[type="submit"]:hover{ 
+  margin-top: 20px;
+  background: $greencolor;
+  cursor: pointer;
+  width: 310px;
+  height: 40px;
+  font-size: 10px;
+  font-family: arial black, arial, sans-serif;
   border-color: $bg;
 }
 
 #triangle-left {
   width: 250px;
   height: 0;
-  border-top: 250px solid transparent;
+  border-top: 225px solid transparent;
   border-right: 300px solid $speci;
-  border-bottom: 200px solid transparent;
+  border-bottom: 225px solid transparent;
   margin-top: 1px;
   margin-right: 0px;
   margin-left: auto;
