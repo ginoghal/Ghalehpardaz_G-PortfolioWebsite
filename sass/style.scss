@@ -1365,14 +1365,14 @@ width: 100%;}
       animation: scale 2000ms ease-in-out forwards;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
-     #boxContent {
-      background-color: #3c4043;
-      margin-top: -180px;
-      margin-left: auto;
-      margin-right: auto;
-      z-index: 1;
-      width: 100%;
-      height: 500px;}
+      #boxContent {
+        background-color: #3c4043;
+        margin-top: -180px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        width: 100%;
+        height: 500px;}
 
   @keyframes scale {
     from {
