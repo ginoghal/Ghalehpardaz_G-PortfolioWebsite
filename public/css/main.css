@@ -398,9 +398,9 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: arial black, arial, sans-serif; }
   body .nameinput {
-    width: 200px; }
+    width: 300px; }
   body .emailinput {
-    width: 200px; }
+    width: 300px; }
   body .messageinput {
     width: 300px;
     padding-bottom: 60px;
@@ -410,7 +410,7 @@ body {
     margin-top: 20px;
     background: #09e9ae;
     cursor: pointer;
-    width: 100px;
+    width: 310px;
     height: 40px;
     font-size: 10px;
     font-family: arial black, arial, sans-serif;
@@ -808,9 +808,9 @@ body {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       font-family: arial black, arial, sans-serif; }
     body .nameinput {
-      width: 200px; }
+      width: 300px; }
     body .emailinput {
-      width: 200px; }
+      width: 300px; }
     body .messageinput {
       width: 300px;
       padding-bottom: 60px;
@@ -820,7 +820,7 @@ body {
       margin-top: 20px;
       background: #09e9ae;
       cursor: pointer;
-      width: 100px;
+      width: 310px;
       height: 40px;
       font-size: 10px;
       font-family: arial black, arial, sans-serif;
@@ -1377,6 +1377,14 @@ body {
       right: 0;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       font-family: arial black, arial, sans-serif; }
+    body .nameinput {
+      width: 300px;
+      vertical-align: text-top;
+      overflow: none; }
+    body .emailinput {
+      width: 300px;
+      vertical-align: text-top;
+      overflow: none; }
     body .messageinput {
       width: 300px;
       padding-bottom: 60px;
@@ -1386,7 +1394,7 @@ body {
       margin-top: 20px;
       background: #09e9ae;
       cursor: pointer;
-      width: 100px;
+      width: 310px;
       height: 40px;
       font-size: 10px;
       font-family: arial black, arial, sans-serif;
