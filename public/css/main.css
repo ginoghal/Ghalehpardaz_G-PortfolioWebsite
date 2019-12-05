@@ -162,7 +162,7 @@ body input[type="submit"] { margin-top: 20px; background: #09e9ae; cursor: point
   body .mainNav ul li a:hover { color: #09e9ae; }
   body .mainNav-active { display: none; }
   body .hero { margin-left: auto; margin-right: auto; display: block; width: 100%; margin-top: 1px; z-index: 1; border-color: #3c4043; height: 15%; }
-  body .linkedin img { width: 40px; height: 40px; padding-left: 1px; padding-right: 1px; margin-top: -48px; position: absolute; z-index: 10; margin-left: 95px; }
+  body .linkedin img { width: 80px; height: 80px; padding-left: 1px; padding-right: 1px; margin-top: -48px; position: absolute; z-index: 10; margin-left: 95px; }
   body .github img { width: 40px; height: 40px; padding-left: 1px; padding-right: 1px; margin-top: -40px; position: absolute; z-index: 10; margin-left: 65px; }
   body .instagram img { width: 40px; height: 40px; margin-top: -40px; position: absolute; z-index: 10; margin-right: 10px; }
   body .author p { color: #3c4043; text-align: center; font-size: 10px; z-index: 10; width: 100%; font-family: arial black, arial, sans-serif; margin-top: 1px; }
