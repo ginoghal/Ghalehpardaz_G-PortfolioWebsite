@@ -1,3 +1,8 @@
+(() => {
+   
+  console.log("fired");
+
+
 const mainNavSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.mainNav');
@@ -21,6 +26,39 @@ const mainNavSlide = () => {
 
 mainNavSlide();
 
+const seeMoreButtons = document.querySelectorAll('.see-more'),
+popOver = document.querySelector(".popover"); 
+
+
+function fetchData() {
+  let targetElement = this,
+      url = `./includes/connect.php?id=${this.dataset.target}`;
+
+  fetch(url)
+  .then(res => res.json())
+  .then(data => {
+      console.log(data);
+      buildPopover(data, targetElement);
+  })
+  .catch((err) => console.log(err));
+}
+
+function buildPopover(projects, el) {
+  popOver.querySelector(".name").textContent = `Name: ${projects.name}`;
+  popOver.querySelector(".type").textContent = `Type: ${projects.type}`;
+  popOver.querySelector(".avatar").textContent = `Avatar: ${projects.avatar}`;
+  popOver.querySelector(".dev_notes").textContent = `Dev Notes: ${projects.dev_notes}`
+
+
+ popOver.classList.add('show-popover');
+
+ el.appendChild(popOver);
+}
+
+seeMoreButtons.forEach(el => el.addEventListener("click", fetchData))
+
+})();
+
 // var current = 0,
 //     slides = document.getElementsByTagName("h5");
 
@@ -43,26 +81,26 @@ mainNavSlide();
 //   }
 
 
-var i = 0;
-var images = [];
-var time = 3000;
+// var i = 0;
+// var images = [];
+// var time = 3000;
 
-images[0] = 'images/ginoprofile.jpg';
-images[1] = 'images/aboutgino.jpg';
+// images[0] = 'images/ginoprofile.jpg';
+// images[1] = 'images/aboutgino.jpg';
 
-function changeImg(){
-  document.slide.src = images[i];
+// function changeImg(){
+//   document.slide.src = images[i];
 
-  if(i < images.length - 1){
-    i++;
-  } else {
-    i = 0;
-}
+//   if(i < images.length - 1){
+//     i++;
+//   } else {
+//     i = 0;
+// }
 
-setTimeout("changeImg()", time);
-}
+// setTimeout("changeImg()", time);
+// }
 
-window.onload = changeImg;
+// window.onload = changeImg;
 
 // var slider_content = document.getElementById('heroImage');
 
@@ -107,11 +145,6 @@ window.onload = changeImg;
 //   slides[current].style.opacity = 1;
 // }, 3000);
 
-function webClick(){
-  document.getElementByTagName("h4").innerHTML ="I am a Web Developper";
-  
-}
-
 // function webClick1(){
 //   document.getElementById("click2").innerHTML ="I am a Marketer";
   
@@ -134,53 +167,53 @@ function webClick(){
 //   }
 // }
 
-var TxtType = function(el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 6000;
-  this.txt = '';
-  this.tick();
-  this.isDeleting = false;
-};
+// var TxtType = function(el, toRotate, period) {
+//   this.toRotate = toRotate;
+//   this.el = el;
+//   this.loopNum = 0;
+//   this.period = parseInt(period, 10) || 6000;
+//   this.txt = '';
+//   this.tick();
+//   this.isDeleting = false;
+// };
 
-TxtType.prototype.tick = function() {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
+// TxtType.prototype.tick = function() {
+//   var i = this.loopNum % this.toRotate.length;
+//   var fullTxt = this.toRotate[i];
 
-  if (this.isDeleting) {
-  this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-  this.txt = fullTxt.substring(0, this.txt.length + 1);
-  }
+//   if (this.isDeleting) {
+//   this.txt = fullTxt.substring(0, this.txt.length - 1);
+//   } else {
+//   this.txt = fullTxt.substring(0, this.txt.length + 1);
+//   }
 
-  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+//   this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
-  var that = this;
-  var delta = 150 - Math.random() * 100;
+//   var that = this;
+//   var delta = 150 - Math.random() * 100;
 
 
 
-  setTimeout(function() {
-  that.tick();
-  }, delta);
-};
+//   setTimeout(function() {
+//   that.tick();
+//   }, delta);
+// };
 
-window.onload = function() {
-  var elements = document.getElementsByClassName('typewrite');
-  for (var i=0; i<elements.length; i++) {
-      var toRotate = elements[i].getAttribute('data-type');
-      var period = elements[i].getAttribute('data-period');
-      if (toRotate) {
-        new TxtType(elements[i], JSON.parse(toRotate), period);
-      }
-  }
-  // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-  document.body.appendChild(css);
-};
+// window.onload = function() {
+//   var elements = document.getElementsByClassName('typewrite');
+//   for (var i=0; i<elements.length; i++) {
+//       var toRotate = elements[i].getAttribute('data-type');
+//       var period = elements[i].getAttribute('data-period');
+//       if (toRotate) {
+//         new TxtType(elements[i], JSON.parse(toRotate), period);
+//       }
+//   }
+//   // INJECT CSS
+//   var css = document.createElement("style");
+//   css.type = "text/css";
+//   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+//   document.body.appendChild(css);
+
 
 
 

@@ -57,7 +57,7 @@ margin-top: -80px;
 
 .mainNav{
   position: absolute;
-  margin-top: 1px;
+  margin-top: -15px;
   flex-direction: column-reverse;
   text-align: center;
   display: flex;
@@ -116,7 +116,7 @@ margin-top: -80px;
       border-color: black;
       width: 99.5%;
       font-size: 25px;
-      height: 250px;
+      height: 206px;
       z-index: 10000;
     }
 
@@ -132,6 +132,37 @@ margin-top: -80px;
     
       }
     }
+
+    .homeButton a{
+      width: 120px;
+      margin-top: 270px;
+      margin-left: 125px;
+      color: white;
+      background-color: #3c4043;
+      cursor: pointer;
+      font-family: "arial";
+      border: 0px;
+      font-size: 14px;
+      z-index: 10000;
+      position: absolute;
+      border: 1px solid;
+      border-color: #09e9ae; 
+      text-decoration: none;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+    }
+  
+    .homeButton:hover a {
+      width: 120px;
+      margin-top: 270px;
+      margin-left: 125px;
+      color: #3c4043;
+      background-color: #09e9ae;
+      cursor: pointer;
+      z-index: 10000;
+      position: absolute;
+    text-align: center; }
 
 
     .hero {
@@ -250,7 +281,7 @@ padding-left: 2px;}
       color: $speci;
      text-align: center;
       font-size: 12px;
-      margin-top: 1px;
+      margin-top: 465px;
     }
 
 
@@ -264,15 +295,6 @@ padding-left: 2px;}
       margin-top: 60px;
     }
 
-    .socialMedia1{
-      width: 50px;
-      height: 20px;
-      z-index: 1;
-      margin-left: 120px;
-      margin-right: auto;
-      display: block;
-      margin-top: 60px;
-    }
 
          //for contact
 
@@ -368,51 +390,24 @@ width: 100%;}
   
 }
     
-button#buttonhome a{
-  width: 120px;
-  margin-top: 300px;
-  margin-left: 115px;
-  color: white;
-  background-color: #3c4043;
-  cursor: pointer;
-  font-family: "arial";
-  border: 0px;
-  font-size: 14px;
-  z-index: 10000;
-  position: absolute;
-  border: 1px solid;
-  border-color: #09e9ae; 
-  text-decoration: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
 
-button#buttonhome:hover a {
-  width: 120px;
-  margin-top: 300px;
-  margin-left: 115px;
-  color: #3c4043;
-  background-color: #09e9ae;
-  cursor: pointer;
-  z-index: 10000;
-  position: absolute; }
 
     .ginoimage img{
    display: none;
     }
 
     .linkedin img{
-      width: 10%;
-      height: 10%;
+      width: 11%;
+      height: 6%;
      padding-left: 1px;
-     margin-top: -50px;
+     margin-top: -48px;
      position: absolute;
      z-index: 10;
      }
 
     .github img{
-      width: 8%;
-      height: 8%;
+      width: 9%;
+      height: 5%;
      padding-left: 50px;
      margin-top: -45px;
      position: absolute;
@@ -420,8 +415,8 @@ button#buttonhome:hover a {
      }
 
      .instagram img{
-      width: 8%;
-      height: 8%;
+      width: 9%;
+      height: 5%;
      padding-left: 100px;
      margin-top: -45px;
      position: absolute;
@@ -565,7 +560,7 @@ text-align: center;
   text-align: center;
   width: 350px;
   font-size: 15px;
-  margin-top: 75px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -577,6 +572,12 @@ text-align: center;
   right: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-family: arial black, arial, sans-serif;
+  }
+
+  .contact_form h1{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 20px;
   }
 
   .nameinput{
@@ -709,7 +710,7 @@ text-align: center;
 
     .ginoimage img {
       overflow: hidden;
-      margin-top: -175px;
+      margin-top: -200px;
       margin-left: 15%;
       margin-right: auto;
       width: 100%;
@@ -809,16 +810,16 @@ text-align: center;
     }
 
     .instagram img {
-      width: 15%;
-      height: 15%;
+      width: 9%;
+      height: 5%;
       float: left;
       margin-left: 200px;
     
     }
     
     .linkedin img{
-      width: 12%;
-      height: 12%;
+      width: 11%;
+      height: 6%;
       float: right;
       margin-right: 200px;
       margin-top: -1px;
@@ -875,8 +876,8 @@ text-align: center;
 
     .linkedin img{
       width: 5%;
-      height: 5%;
-     padding-left: 20px;
+      height: 4%;
+     padding-left: 23px;
      padding-right: 20px;
      margin-top: -50px;
      position: absolute;
@@ -886,7 +887,7 @@ text-align: center;
 
     .github img{
       width: 4%;
-      height: 4%;
+      height: 3%;
      padding-left: 20px;
      padding-right: 20px;
      margin-top: -45px;
@@ -897,7 +898,7 @@ text-align: center;
 
      .instagram img{
       width: 4%;
-      height: 4%;
+      height: 3%;
      padding-left: 20px;
      padding-right: 20px;
      margin-top: -45px;
@@ -911,7 +912,7 @@ text-align: center;
       color: $speci;
       text-align: center;
       font-size: 12px;
-      margin-top: 1px;
+      margin-top: 660px;
      z-index: 10;
      width: 100%;
      font-family: $ff;
@@ -960,11 +961,10 @@ text-align: center;
         width: 90%;
         transform: translate(-50%, -50%);
       }
-    
-      button#buttonhome a{
+      .homeButton a{
         width: 120px;
-        margin-top: 120px;
-        margin-left: 300px;
+        margin-top: 95px;
+        margin-left: 330px;
         color: white;
         background-color: #3c4043;
         cursor: pointer;
@@ -978,17 +978,19 @@ text-align: center;
         text-decoration: none;
         padding-top: 15px;
         padding-bottom: 15px;
+        text-align: center;
       }
-      
-      button#buttonhome:hover a {
+    
+      .homeButton:hover a {
         width: 120px;
-        margin-top: 120px;
-        margin-left: 300px;
+        margin-top: 95px;
+        margin-left: 330px;
         color: #3c4043;
         background-color: #09e9ae;
         cursor: pointer;
         z-index: 10000;
-        position: absolute; }
+        position: absolute;
+      text-align: center; }
    
 .fadeInUp h1{
 text-align: center;
@@ -1276,14 +1278,14 @@ width: 100%;}
 
    
     .linkedin img {
-      width: 80px;
-      height: 80px;
+      width: 50px;
+      height: 50px;
       padding-left: 1px;
       padding-right: 1px;
-      margin-top: -48px;
+      margin-top: -45px;
       position: absolute;
       z-index: 10;
-      margin-left: 95px; }
+      margin-left: 106px; }
 
    .github img {
       width: 40px;
@@ -1293,7 +1295,7 @@ width: 100%;}
       margin-top: -40px;
       position: absolute;
       z-index: 10;
-      margin-left: 65px; }
+      margin-left: 69px; }
 
    .instagram img {
       width: 40px;
@@ -1365,8 +1367,8 @@ width: 100%;}
       font-family: $ff;
       background-color: $speci;
       margin-top: 100px;
-      width: 500px;
-      margin-left: 700px;
+      width: 400px;
+      margin-left: 750px;
       height: 1px;
       border: 1px solid;
       border-color: #FFBF00;
@@ -1855,7 +1857,6 @@ font-family: arial black, arial, sans-serif;
   padding-top: 10px;
   padding-bottom: 40px;
   font-size: 20px;
-
 }
 
 

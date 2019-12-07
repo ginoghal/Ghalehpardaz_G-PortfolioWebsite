@@ -1,7 +1,7 @@
 body {
   width: 100%;
   display: block;
-  font-family: arial, sans-serif;
+  font-family: arial black, arial, sans-serif;
   background-color: #3c4043;
   margin-top: 1px;
   margin-left: auto;
@@ -22,7 +22,7 @@ body {
     position: relative;
     z-index: 2; }
   body body {
-    font-family: arial, sans-serif; }
+    font-family: arial black, arial, sans-serif; }
   body .description {
     color: #ffffff;
     font-size: 12px;
@@ -124,7 +124,7 @@ body {
     padding-left: 2px; }
   body .back-yellow {
     width: 100%;
-    height: 420px;
+    height: 450px;
     background-color: #FFBF00;
     margin-top: -430px; }
   body .back-black1 p {
@@ -142,7 +142,7 @@ body {
     text-align: center;
     color: #ffffff;
     font-size: 16px;
-    font-family: arial, sans-serif;
+    font-family: arial black, arial, sans-serif;
     height: auto;
     width: 100%;
     margin-top: -250px;
@@ -206,7 +206,7 @@ body {
     background-color: rgba(204, 0, 51, 0.2); }
   body .meGino h1 {
     color: #FFBF00;
-    font-family: arial, sans-serif;
+    font-family: arial black, arial, sans-serif;
     font-size: 10px;
     z-index: 10;
     position: absolute;
@@ -279,22 +279,22 @@ body {
   body .ginoimage img {
     display: none; }
   body .linkedin img {
-    width: 10%;
-    height: 10%;
+    width: 11%;
+    height: 6%;
     padding-left: 1px;
     margin-top: -50px;
     position: absolute;
     z-index: 10; }
   body .github img {
-    width: 8%;
-    height: 8%;
+    width: 9%;
+    height: 5%;
     padding-left: 50px;
     margin-top: -45px;
     position: absolute;
     z-index: 10; }
   body .instagram img {
-    width: 8%;
-    height: 8%;
+    width: 9%;
+    height: 5%;
     padding-left: 100px;
     margin-top: -45px;
     position: absolute;
@@ -420,7 +420,7 @@ body {
   body {
     width: 768px;
     display: block;
-    font-family: arial, sans-serif;
+    font-family: arial black, arial, sans-serif;
     height: 815px;
     margin-top: 1px;
     margin-left: auto;
@@ -459,7 +459,7 @@ body {
     body .mainNav ul {
       padding-top: 20px;
       margin-top: -60px;
-      width: 500px;
+      width: 550px;
       height: 50px; }
     body .mainNav ul li {
       font-size: 20px;
@@ -517,12 +517,13 @@ body {
       z-index: 1; }
     body .aboutGino h2 {
       padding-top: 50px;
-      margin-top: -20px;
+      padding-bottom: 10px;
+      padding-left: 2px;
+      padding-right: 2px;
+      margin-top: -50px;
       color: #3c4043;
       font-size: 28px;
-      text-align: center;
-      padding-left: 2px;
-      padding-right: 2px; }
+      text-align: center; }
     body .aboutGino h3 {
       font-size: 22px;
       text-align: left;
@@ -533,16 +534,22 @@ body {
       padding-left: 6px; }
     body .projectwork img {
       height: 100%;
-      width: 300px;
-      margin-top: 295px;
+      width: 400px;
+      margin-top: 290px;
       z-index: 1; }
+    body .projectwork h1 {
+      margin-top: -120px;
+      font-size: 30px; }
+    body .projectwork h2 {
+      margin-top: 20px;
+      font-size: 25px; }
     body .description {
       margin-top: -5px; }
     body .description h2 {
       text-align: center;
       color: #ffffff;
       font-size: 17px;
-      font-family: arial, sans-serif;
+      font-family: arial black, arial, sans-serif;
       height: auto;
       width: 100%;
       margin-top: -200px;
@@ -632,7 +639,7 @@ body {
       margin-top: 1px;
       z-index: 10;
       width: 100%;
-      font-family: arial, sans-serif; }
+      font-family: arial black, arial, sans-serif; }
     body .socialMedia {
       width: 25%;
       height: 20px;
@@ -657,7 +664,7 @@ body {
       background-color: rgba(224, 224, 224, 0.1); }
     body .meGino h1 {
       color: #FFBF00;
-      font-family: arial, sans-serif;
+      font-family: arial black, arial, sans-serif;
       font-size: 15px;
       z-index: 10;
       position: absolute;
@@ -763,14 +770,14 @@ body {
       padding-bottom: 10px;
       z-index: 10; }
     body .back-black1 p {
-      margin-top: 700px;
-      margin-left: 8%;
-      width: 85%;
+      margin-top: 820px;
+      width: 100%;
       font-size: 25px;
-      padding-top: 60px;
+      padding-top: 5px;
       font-family: arial black, arial, sans-serif;
       text-align: center;
-      color: #FFBF00; }
+      color: #3c4043;
+      background-color: #FFBF00; }
     body .back-black1 img {
       width: 75%;
       margin-top: 5px;
@@ -832,8 +839,8 @@ body {
     background-color: white;
     height: auto;
     width: 100%;
-    padding: 0;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
     /* Firefox < 16 */
     /* Safari, Chrome and Opera > 12.1 */
     /* Internet Explorer */ }
@@ -842,9 +849,9 @@ body {
       margin-right: auto;
       display: block; }
     body .logo img {
-      height: 12%;
-      width: 12%;
-      top: 200px;
+      height: 100px;
+      width: 100px;
+      margin-top: -100px;
       z-index: 5;
       position: absolute;
       left: 45%; }
@@ -898,27 +905,27 @@ body {
       border-color: #3c4043;
       height: 15%; }
     body .linkedin img {
-      width: 5%;
-      height: 5%;
+      width: 50px;
+      height: 50px;
       padding-left: 1px;
       padding-right: 1px;
-      margin-top: -48px;
+      margin-top: -45px;
       position: absolute;
       z-index: 10;
-      margin-left: 95px; }
+      margin-left: 106px; }
     body .github img {
-      width: 4%;
-      height: 4%;
+      width: 40px;
+      height: 40px;
       padding-left: 1px;
       padding-right: 1px;
-      margin-top: -45px;
+      margin-top: -40px;
       position: absolute;
       z-index: 10;
-      margin-left: 65px; }
+      margin-left: 69px; }
     body .instagram img {
-      width: 4%;
-      height: 4%;
-      margin-top: -45px;
+      width: 40px;
+      height: 40px;
+      margin-top: -40px;
       position: absolute;
       z-index: 10;
       margin-right: 10px; }
@@ -971,11 +978,12 @@ body {
       text-align: center;
       z-index: 10000;
       color: #3c4043;
-      font-size: 15px;
+      font-size: 30px;
+      font-family: arial black, arial, sans-serif;
       background-color: #FFBF00;
-      margin-top: 25px;
-      width: 500px;
-      margin-left: 700px;
+      margin-top: 100px;
+      width: 450px;
+      margin-left: 725px;
       height: 1px;
       border: 1px solid;
       border-color: #FFBF00;
@@ -984,7 +992,7 @@ body {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
     body #boxContent {
       background-color: #3c4043;
-      margin-top: -180px;
+      margin-top: -250px;
       margin-left: auto;
       margin-right: auto;
       z-index: 1;
@@ -1000,7 +1008,7 @@ body {
       color: #ffffff;
       display: block;
       z-index: 10000;
-      margin-top: 200px;
+      margin-top: -250px;
       margin-left: 700px;
       font-size: 25px;
       width: 500px;
@@ -1008,7 +1016,8 @@ body {
       border: 1px solid;
       border-color: #FFBF00;
       padding-bottom: 140px;
-      padding-top: 20px; }
+      padding-top: 20px;
+      font-family: #3c4043; }
   @keyframes fadeInUp {
     from {
       transform: translate3d(0, 40px, 0); }
@@ -1033,10 +1042,10 @@ body {
       animation-name: fadeInUp;
       -webkit-animation-name: fadeInUp;
       z-index: 100; }
-    body button#buttonhome a {
+    body .homeButton a {
       width: 120px;
-      margin-top: -175px;
-      margin-left: 875px;
+      margin-top: -160px;
+      margin-left: 885px;
       color: white;
       background-color: #3c4043;
       cursor: pointer;
@@ -1049,16 +1058,18 @@ body {
       border-color: #09e9ae;
       text-decoration: none;
       padding-top: 15px;
-      padding-bottom: 15px; }
-    body button#buttonhome:hover a {
+      padding-bottom: 15px;
+      text-align: center; }
+    body .homeButton:hover a {
       width: 120px;
-      margin-top: -175px;
-      margin-left: 875px;
+      margin-top: -160px;
+      margin-left: 885px;
       color: #3c4043;
       background-color: #09e9ae;
       cursor: pointer;
       z-index: 10000;
-      position: absolute; }
+      position: absolute;
+      text-align: center; }
     body .aboutGino img {
       overflow: hidden;
       height: 600px;
@@ -1214,21 +1225,22 @@ body {
       color: #FFBF00; }
     body .back-black {
       width: 100%;
-      height: 550px;
+      height: 450px;
       background-color: #3c4043;
       margin-top: 1px;
       overflow: hidden; }
     body .back-yellow {
       width: 100%;
-      height: 500px;
+      height: 450px;
       background-color: #FFBF00;
       margin-top: 100px; }
     body .aboutGino h2 {
-      margin-left: 140%;
+      margin-left: 130%;
       padding-top: 40px;
+      padding-bottom: 50px;
       margin-top: -600px;
       color: #FFBF00;
-      font-size: 30px;
+      font-size: 36px;
       text-align: center;
       width: 174%; }
     body .aboutGino h3 {
@@ -1236,10 +1248,10 @@ body {
       margin-top: -20px;
       padding: 10px 10px 30px 1px;
       color: #FFBF00;
-      font-size: 30px;
-      width: 650px;
+      font-size: 25px;
+      width: 600px;
       font-family: arial black, arial, sans-serif;
-      text-align: left; }
+      text-align: center; }
     body .aboutGino {
       height: 100%;
       width: 400px;
@@ -1253,7 +1265,7 @@ body {
       font-size: 50px;
       margin-top: -45%;
       margin-left: 1px;
-      font-family: "arial";
+      font-family: #3c4043;
       overflow: hidden;
       animation: 3s slide-right;
       text-align: left;
@@ -1272,7 +1284,7 @@ body {
       text-align: left;
       line-height: 1.5;
       padding-left: 20px;
-      font-family: "arial";
+      font-family: #3c4043;
       color: #3c4043; }
     body .projectwork img {
       width: auto;
@@ -1302,6 +1314,7 @@ body {
     body .aboutGino img {
       opacity: 0; }
     body .aboutGino img {
+      margin-top: -10px;
       opacity: 0;
       animation-name: fadeInUp;
       -webkit-animation-name: fadeInUp;
@@ -1309,7 +1322,7 @@ body {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
     body .back-black1 {
       width: 100%;
-      height: 500px;
+      height: 450px;
       background-color: #3c4043;
       margin-top: -30px; }
     body .back-black1 p {
@@ -1320,10 +1333,12 @@ body {
       font-size: 30px;
       padding-top: 40px;
       font-family: arial black, arial, sans-serif;
-      text-align: center; }
+      text-align: center;
+      line-height: 40px;
+      background-color: #3c4043; }
     body .back-black1 img {
       width: 450px;
-      margin-top: -385px;
+      margin-top: -357px;
       margin-left: 20px;
       border-radius: 20px;
       -webkit-animation: fadein 5s;
@@ -1377,6 +1392,10 @@ body {
       right: 0;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       font-family: arial black, arial, sans-serif; }
+    body .contact_form h1 {
+      padding-top: 10px;
+      padding-bottom: 40px;
+      font-size: 20px; }
     body .nameinput {
       width: 300px;
       vertical-align: text-top;
@@ -1398,13 +1417,22 @@ body {
       height: 40px;
       font-size: 10px;
       font-family: arial black, arial, sans-serif;
+      border-color: #09e9ae; }
+    body input[type="submit"]:hover {
+      margin-top: 20px;
+      background: #09e9ae;
+      cursor: pointer;
+      width: 310px;
+      height: 40px;
+      font-size: 10px;
+      font-family: arial black, arial, sans-serif;
       border-color: #3c4043; }
     body #triangle-left {
       width: 250px;
       height: 0;
-      border-top: 250px solid transparent;
+      border-top: 225px solid transparent;
       border-right: 300px solid #FFBF00;
-      border-bottom: 200px solid transparent;
+      border-bottom: 225px solid transparent;
       margin-top: 1px;
       margin-right: 0px;
       margin-left: auto;
