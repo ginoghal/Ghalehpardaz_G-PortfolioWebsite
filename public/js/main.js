@@ -26,36 +26,6 @@ const mainNavSlide = () => {
 
 mainNavSlide();
 
-const seeMoreButtons = document.querySelectorAll('.see-more'),
-popOver = document.querySelector(".popover"); 
-
-
-function fetchData() {
-  let targetElement = this,
-      url = `./includes/connect.php?id=${this.dataset.target}`;
-
-  fetch(url)
-  .then(res => res.json())
-  .then(data => {
-      console.log(data);
-      buildPopover(data, targetElement);
-  })
-  .catch((err) => console.log(err));
-}
-
-function buildPopover(projects, el) {
-  popOver.querySelector(".name").textContent = `Name: ${projects.name}`;
-  popOver.querySelector(".type").textContent = `Type: ${projects.type}`;
-  popOver.querySelector(".avatar").textContent = `Avatar: ${projects.avatar}`;
-  popOver.querySelector(".dev_notes").textContent = `Dev Notes: ${projects.dev_notes}`
-
-
- popOver.classList.add('show-popover');
-
- el.appendChild(popOver);
-}
-
-seeMoreButtons.forEach(el => el.addEventListener("click", fetchData))
 
 })();
 
