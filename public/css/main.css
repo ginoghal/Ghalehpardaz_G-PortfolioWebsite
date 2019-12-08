@@ -73,7 +73,7 @@ body .project6 { float: left; width: 100%; margin-top: 100px; float: auto; }
 body .project6 h1 { font-size: 20px; font-family: arial black, arial, sans-serif; color: #FFBF00; text-align: center; }
 body .project6 h2 { font-size: 15px; color: #09e9ae; padding-top: 10px; padding-bottom: 20px; }
 body .project6 video { padding-top: 10px; width: 100%; }
-body .contact_background { background-color: #3c4043; height: 450px; width: 100%; position: fixed; }
+body .contact_background { background-color: #3c4043; height: 450px; width: 100%; }
 body .contact_form { text-align: center; width: 350px; font-size: 15px; margin-top: 50px; margin-left: auto; margin-right: auto; display: block; padding-bottom: 20px; background-color: #FFBF00; border-radius: 10px; position: absolute; left: 0; right: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: arial black, arial, sans-serif; }
 body .contact_form h1 { padding-top: 10px; padding-bottom: 40px; font-size: 20px; }
 body .nameinput { width: 300px; }
@@ -144,7 +144,7 @@ body input[type="submit"] { margin-top: 20px; background: #09e9ae; cursor: point
   body .back-black1 p { margin-top: 820px; width: 100%; height: 700px; font-size: 25px; padding-top: 5px; font-family: arial black, arial, sans-serif; text-align: center; color: #3c4043; background-color: #FFBF00; line-height: 1.5; }
   body .back-black1 img { width: 60%; margin-top: -500px; margin-left: auto; margin-right: auto; border-radius: 20px; display: inherit; }
   body .back-grey { background-color: #3c4043; width: 100%; height: 1200px; }
-  body .contact_background { background-color: #3c4043; height: 450px; width: 100%; position: fixed; }
+  body .contact_background { background-color: #3c4043; height: 450px; width: 100%; }
   body .contact_form { text-align: center; width: 400px; font-size: 15px; margin-top: 25px; margin-left: auto; margin-right: auto; display: block; padding-bottom: 20px; background-color: #FFBF00; border-radius: 10px; position: absolute; left: 0; right: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: arial black, arial, sans-serif; }
   body .nameinput { width: 300px; }
   body .emailinput { width: 300px; }
@@ -274,7 +274,7 @@ body input[type="submit"] { margin-top: 20px; background: #09e9ae; cursor: point
   body .project6 h1 { font-size: 20px; font-family: arial black, arial, sans-serif; color: #FFBF00; text-align: center; }
   body .project6 h2 { font-size: 15px; color: #09e9ae; padding-top: 10px; padding-bottom: 20px; }
   body .project6 video { padding-top: 10px; width: 50%; }
-  body .contact_background { background-color: #3c4043; height: 450px; width: 100%; position: fixed; }
+  body .contact_background { background-color: #3c4043; height: 450px; width: 100%; }
   body .contact_form { text-align: center; width: 400px; font-size: 15px; margin-top: 25px; margin-left: auto; margin-right: auto; padding-bottom: 20px; background-color: #FFBF00; border-radius: 10px; position: absolute; left: 0; right: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: arial black, arial, sans-serif; }
   body .contact_form h1 { padding-top: 10px; padding-bottom: 40px; font-size: 20px; }
   body .nameinput { width: 300px; vertical-align: text-top; overflow: none; }
