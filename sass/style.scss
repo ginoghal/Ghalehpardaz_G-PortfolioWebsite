@@ -436,12 +436,17 @@ width: 100%;}
 background-color: $bg;
 width: 100%;
 height: 1200px;
+text-align: center;
+font-size: 20px;
+color: $speci;
+margin-top: 10px;
 }
     
-    .project1{
+.project1{
 float: left;
 width: 100%;
 margin-top: 100px;
+float: auto;
 }
     
 .project1 h1{
@@ -450,19 +455,24 @@ font-family: arial black, arial, sans-serif;
 color: $speci;
 text-align: center;
 }
-.project1 h3{
-  text-align: center;
-  color: $greencolor;
+
+.project1 h2{
+  font-size: 15px;
+  color: #09e9ae;
+  padding-top: 10px;
 }
 
 .project1 video{
-width: 50%;
- height: 25%;
- }
+  padding-top: 10px;
+  width: 100%;
+}
+
 
 .project2{
-float: left;
-width: 100%;
+  float: left;
+  width: 100%;
+  margin-top: 100px;
+  float: auto;
 }
       
 .project2 h1{
@@ -472,85 +482,117 @@ width: 100%;
   text-align: center;
  }
 
- .project2 h3{
-  text-align: center;
-  color: $greencolor;
+ .project2 h2{
+  font-size: 15px;
+  color: #09e9ae;
+  padding-top: 10px;
 }
-
 
 .project2 video{
-width: 50%;
-height: 25%;
+  padding-top: 10px;
+  width: 100%;
 }
 
- .project3{
-float: left;
-width: 100%;
-}
-        
-.project3 h1{
-font-size: 20px;
-font-family: arial black, arial, sans-serif;
-color: $speci;
-text-align: center;
- }
-
- .project3 h3{
-  text-align: center;
-  color: $greencolor;
-}
-
-.project4{
-float: left;
-width: 100%;
-}
-          
-    .project4 h1{
-font-size: 20px;
-font-family: arial black, arial, sans-serif;
-color: $speci;
-text-align: center;
-}
-
-.project4 h3{
-  text-align: center;
-  color: $greencolor;
-}
-
-
-.project5{
+.project3{
   float: left;
   width: 100%;
+  margin-top: 100px;
+  float: auto;
   }
-            
-      .project5 h1{
+      
+  .project3 h1{
   font-size: 20px;
   font-family: arial black, arial, sans-serif;
   color: $speci;
   text-align: center;
   }
   
-  .project5 h3{
-    text-align: center;
-    color: $greencolor;
+  .project3 h2{
+    font-size: 15px;
+    color: #09e9ae;
+    padding-top: 10px;
   }
 
-.project6{
-  float: left;
+  .project3 img{
+    padding-top: 10px;
   width: 100%;
   }
+
+  .project4{
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    float: auto;
+    }
+        
+    .project4 h1{
+    font-size: 20px;
+    font-family: arial black, arial, sans-serif;
+    color: $speci;
+    text-align: center;
+    }
+    
+    .project4 h2{
+      font-size: 15px;
+      color: #09e9ae;
+      padding-top: 10px;
+    }
+  
+    .project4 img{
+      padding-top: 10px;
+    width: 100%;
+    }
+
+    .project5{
+      float: left;
+      width: 100%;
+      margin-top: 100px;
+      float: auto;
+      }
+          
+      .project5 h1{
+      font-size: 20px;
+      font-family: arial black, arial, sans-serif;
+      color: $speci;
+      text-align: center;
+      }
+      
+      .project5 h2{
+        font-size: 15px;
+        color: #09e9ae;
+        padding-top: 10px;
+      }
+    
+      .project5 img{
+        padding-top: 10px;
+      width: 100%;
+      }
+
+      .project6{
+        float: left;
+        width: 100%;
+        margin-top: 100px;
+        float: auto;
+      }
             
       .project6 h1{
-  font-size: 20px;
-  font-family: arial black, arial, sans-serif;
-  color: $speci;
-  text-align: center;
-  }
-  
-  .project6 h3{
-    text-align: center;
-    color: $greencolor;
-  }
+        font-size: 20px;
+        font-family: arial black, arial, sans-serif;
+        color: $speci;
+        text-align: center;
+       }
+      
+       .project6 h2{
+        font-size: 15px;
+        color: #09e9ae;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      
+      .project6 video{
+        padding-top: 10px;
+        width: 100%;
+      }
 
 
   //for contact
@@ -1128,16 +1170,7 @@ width: 100%;}
     height: 1200px;
   }
 
-  .project1{
-    float: left;
-  }
-  
-  .project1 h1{
-      font-size: 20px;
-      font-family: arial black, arial, sans-serif;
-      color: $speci;
-    }
-
+ 
 
        //contact
 
@@ -1834,8 +1867,161 @@ width: 100%;}
   .back-grey{
     background-color: $bg;
     width: 100%;
-    height: 1200px;
+    height: 3800px;
   }
+
+  .project1{
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    float: auto;
+    }
+        
+    .project1 h1{
+    font-size: 20px;
+    font-family: arial black, arial, sans-serif;
+    color: $speci;
+    text-align: center;
+    }
+    
+    .project1 h2{
+      font-size: 15px;
+      color: #09e9ae;
+      padding-top: 10px;
+    }
+    
+    .project1 video{
+      padding-top: 10px;
+      width: 50%;
+    }
+    
+    
+    .project2{
+      float: left;
+      width: 100%;
+      margin-top: 100px;
+      float: auto;
+    }
+          
+    .project2 h1{
+      font-size: 20px;
+      font-family: arial black, arial, sans-serif;
+      color: $speci;
+      text-align: center;
+     }
+    
+     .project2 h2{
+      font-size: 15px;
+      color: #09e9ae;
+      padding-top: 10px;
+    }
+    
+    .project2 video{
+      padding-top: 10px;
+      width: 50%;
+    }
+    
+    .project3{
+      float: left;
+      width: 100%;
+      margin-top: 100px;
+      float: auto;
+      }
+          
+      .project3 h1{
+      font-size: 20px;
+      font-family: arial black, arial, sans-serif;
+      color: $speci;
+      text-align: center;
+      }
+      
+      .project3 h2{
+        font-size: 15px;
+        color: #09e9ae;
+        padding-top: 10px;
+      }
+    
+      .project3 img{
+        padding-top: 10px;
+      width: 50%;
+      }
+    
+      .project4{
+        float: left;
+        width: 100%;
+        margin-top: 100px;
+        float: auto;
+        }
+            
+        .project4 h1{
+        font-size: 20px;
+        font-family: arial black, arial, sans-serif;
+        color: $speci;
+        text-align: center;
+        }
+        
+        .project4 h2{
+          font-size: 15px;
+          color: #09e9ae;
+          padding-top: 10px;
+        }
+      
+        .project4 img{
+          padding-top: 10px;
+        width: 50%;
+        }
+    
+        .project5{
+          float: left;
+          width: 100%;
+          margin-top: 100px;
+          float: auto;
+          }
+              
+          .project5 h1{
+          font-size: 20px;
+          font-family: arial black, arial, sans-serif;
+          color: $speci;
+          text-align: center;
+          }
+          
+          .project5 h2{
+            font-size: 15px;
+            color: #09e9ae;
+            padding-top: 10px;
+          }
+        
+          .project5 img{
+            padding-top: 10px;
+          width: 50%;
+          }
+    
+          .project6{
+            float: left;
+            width: 100%;
+            margin-top: 100px;
+            float: auto;
+          }
+                
+          .project6 h1{
+            font-size: 20px;
+            font-family: arial black, arial, sans-serif;
+            color: $speci;
+            text-align: center;
+           }
+          
+           .project6 h2{
+            font-size: 15px;
+            color: #09e9ae;
+            padding-top: 10px;
+            padding-bottom: 20px;
+          }
+          
+          .project6 video{
+            padding-top: 10px;
+            width: 50%;
+          }
+
 
 
     //contact
