@@ -222,7 +222,7 @@ padding-left: 2px;}
 }
 
 .back-black1 p{
-  margin-top: 850px;
+  margin-top: 750px;
   width: 100%;
   font-size: 30px;
   padding-top: 60px;
@@ -234,6 +234,7 @@ padding-left: 2px;}
 .back-black1 img{
   width: 100%;
   margin-top: 5px;
+  padding-bottom: 10px;
 }
 
 
@@ -270,10 +271,13 @@ padding-left: 2px;}
     .projectwork h1{
       margin-top: -100px;
       color: $speci;
+      font-size: 22px;
     }
 
     .projectwork h2{
-      margin-top: 1px;
+      margin-top: 10px;
+      font-size: 20px;
+      line-height: 1.5;
       color: $speci;
     }
 
@@ -281,7 +285,7 @@ padding-left: 2px;}
       color: $speci;
      text-align: center;
       font-size: 12px;
-      margin-top: 465px;
+      margin-top: 450px;
     }
 
 
@@ -770,7 +774,7 @@ text-align: center;
     .projectwork img{
       height: 100%;
       width: 400px;
-      margin-top: 290px;
+      margin-top: 275px;
       z-index: 1;
     }
 
@@ -1095,19 +1099,23 @@ width: 100%;}
   .back-black1 p{
     margin-top: 820px;
     width: 100%;
+    height: 700px;
     font-size: 25px;
     padding-top: 5px;
     font-family: arial black, arial, sans-serif;
     text-align: center;
     color: $bg;
     background-color: $speci;
+    line-height: 1.5;
   }
   
   .back-black1 img{
-    width: 75%;
-    margin-top: 5px;
-    margin-left: 12%;
+    width: 60%;
+    margin-top: -500px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
+    display: inherit;
   }
 
   //portfolio
@@ -1782,6 +1790,7 @@ width: 100%;}
       text-align: center;
       line-height: 40px;
       background-color: $bg;
+      height: auto;
     }
 
     .back-black1 img{

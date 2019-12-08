@@ -30,7 +30,7 @@ body {
     margin-top: -80px; }
   body .mainNav {
     position: absolute;
-    margin-top: 1px;
+    margin-top: -15px;
     flex-direction: column-reverse;
     text-align: center;
     display: flex;
@@ -75,7 +75,7 @@ body {
     border-color: black;
     width: 99.5%;
     font-size: 25px;
-    height: 250px;
+    height: 206px;
     z-index: 10000; }
 @keyframes mainNavFade {
   from {
@@ -84,6 +84,34 @@ body {
   to {
     opacity: 1;
     transform: translateX(0px); } }
+  body .homeButton a {
+    width: 120px;
+    margin-top: 270px;
+    margin-left: 125px;
+    color: white;
+    background-color: #3c4043;
+    cursor: pointer;
+    font-family: "arial";
+    border: 0px;
+    font-size: 14px;
+    z-index: 10000;
+    position: absolute;
+    border: 1px solid;
+    border-color: #09e9ae;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center; }
+  body .homeButton:hover a {
+    width: 120px;
+    margin-top: 270px;
+    margin-left: 125px;
+    color: #3c4043;
+    background-color: #09e9ae;
+    cursor: pointer;
+    z-index: 10000;
+    position: absolute;
+    text-align: center; }
   body .hero {
     margin-left: auto;
     margin-right: auto;
@@ -162,7 +190,8 @@ body {
     z-index: 1; }
   body .projectwork h1 {
     margin-top: -100px;
-    color: #FFBF00; }
+    color: #FFBF00;
+    font-size: 22px; }
   body .projectwork h2 {
     margin-top: 1px;
     color: #FFBF00; }
@@ -170,16 +199,8 @@ body {
     color: #FFBF00;
     text-align: center;
     font-size: 12px;
-    margin-top: 1px; }
+    margin-top: 465px; }
   body .socialMedia {
-    width: 50px;
-    height: 20px;
-    z-index: 1;
-    margin-left: 120px;
-    margin-right: auto;
-    display: block;
-    margin-top: 60px; }
-  body .socialMedia1 {
     width: 50px;
     height: 20px;
     z-index: 1;
@@ -250,39 +271,13 @@ body {
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     z-index: 100; }
-  body button#buttonhome a {
-    width: 120px;
-    margin-top: 300px;
-    margin-left: 115px;
-    color: white;
-    background-color: #3c4043;
-    cursor: pointer;
-    font-family: "arial";
-    border: 0px;
-    font-size: 14px;
-    z-index: 10000;
-    position: absolute;
-    border: 1px solid;
-    border-color: #09e9ae;
-    text-decoration: none;
-    padding-top: 15px;
-    padding-bottom: 15px; }
-  body button#buttonhome:hover a {
-    width: 120px;
-    margin-top: 300px;
-    margin-left: 115px;
-    color: #3c4043;
-    background-color: #09e9ae;
-    cursor: pointer;
-    z-index: 10000;
-    position: absolute; }
   body .ginoimage img {
     display: none; }
   body .linkedin img {
     width: 11%;
     height: 6%;
     padding-left: 1px;
-    margin-top: -50px;
+    margin-top: -48px;
     position: absolute;
     z-index: 10; }
   body .github img {
@@ -385,7 +380,7 @@ body {
     text-align: center;
     width: 350px;
     font-size: 15px;
-    margin-top: 75px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -397,6 +392,10 @@ body {
     right: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: arial black, arial, sans-serif; }
+  body .contact_form h1 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 20px; }
   body .nameinput {
     width: 300px; }
   body .emailinput {
@@ -483,7 +482,7 @@ body {
       margin-top: 25px; }
     body .ginoimage img {
       overflow: hidden;
-      margin-top: -175px;
+      margin-top: -200px;
       margin-left: 15%;
       margin-right: auto;
       width: 100%;
@@ -560,13 +559,13 @@ body {
     body .burger div {
       display: none; }
     body .instagram img {
-      width: 15%;
-      height: 15%;
+      width: 9%;
+      height: 5%;
       float: left;
       margin-left: 200px; }
     body .linkedin img {
-      width: 12%;
-      height: 12%;
+      width: 11%;
+      height: 6%;
       float: right;
       margin-right: 200px;
       margin-top: -1px; }
@@ -607,8 +606,8 @@ body {
       display: block; }
     body .linkedin img {
       width: 5%;
-      height: 5%;
-      padding-left: 20px;
+      height: 4%;
+      padding-left: 23px;
       padding-right: 20px;
       margin-top: -50px;
       position: absolute;
@@ -616,7 +615,7 @@ body {
       margin-left: 85px; }
     body .github img {
       width: 4%;
-      height: 4%;
+      height: 3%;
       padding-left: 20px;
       padding-right: 20px;
       margin-top: -45px;
@@ -625,7 +624,7 @@ body {
       margin-left: 50px; }
     body .instagram img {
       width: 4%;
-      height: 4%;
+      height: 3%;
       padding-left: 20px;
       padding-right: 20px;
       margin-top: -45px;
@@ -636,7 +635,7 @@ body {
       color: #FFBF00;
       text-align: center;
       font-size: 12px;
-      margin-top: 1px;
+      margin-top: 660px;
       z-index: 10;
       width: 100%;
       font-family: arial black, arial, sans-serif; }
@@ -674,10 +673,10 @@ body {
       left: 50%;
       width: 90%;
       transform: translate(-50%, -50%); }
-    body button#buttonhome a {
+    body .homeButton a {
       width: 120px;
-      margin-top: 120px;
-      margin-left: 300px;
+      margin-top: 95px;
+      margin-left: 330px;
       color: white;
       background-color: #3c4043;
       cursor: pointer;
@@ -690,16 +689,18 @@ body {
       border-color: #09e9ae;
       text-decoration: none;
       padding-top: 15px;
-      padding-bottom: 15px; }
-    body button#buttonhome:hover a {
+      padding-bottom: 15px;
+      text-align: center; }
+    body .homeButton:hover a {
       width: 120px;
-      margin-top: 120px;
-      margin-left: 300px;
+      margin-top: 95px;
+      margin-left: 330px;
       color: #3c4043;
       background-color: #09e9ae;
       cursor: pointer;
       z-index: 10000;
-      position: absolute; }
+      position: absolute;
+      text-align: center; }
     body .fadeInUp h1 {
       text-align: center;
       color: #ffffff;
@@ -982,8 +983,8 @@ body {
       font-family: arial black, arial, sans-serif;
       background-color: #FFBF00;
       margin-top: 100px;
-      width: 450px;
-      margin-left: 725px;
+      width: 400px;
+      margin-left: 750px;
       height: 1px;
       border: 1px solid;
       border-color: #FFBF00;
