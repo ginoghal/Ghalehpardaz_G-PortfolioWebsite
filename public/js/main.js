@@ -27,6 +27,82 @@ const mainNavSlide = () => {
 mainNavSlide();
 
 
+var play = document.querySelector('#play'),
+    pause = document.querySelector('#pause'),
+    progress = document.querySelector('#progress'),
+    volume = document.querySelector('#volume'),
+    video = document.querySelector('compilation');
+    
+
+play.addEventListener('click', function(){
+  compilation.play();
+  
+});
+
+pause.addEventListener('click', function(){
+  compilation.pause();
+
+});
+
+compilation.addEventListener('timeupdate', function(){
+  progress.value = compilation.currentTime / compilation.duration;
+
+});
+
+volume.addEventListener('change', function(e){
+  compilation.volume = e.currentTarget.value / 100;
+
+});
+
+
+{
+  var play = document.querySelector('#play1'),
+    pause = document.querySelector('#pause1'),
+    progress = document.querySelector('#progress1'),
+    volume = document.querySelector('#volume1'),
+    video = document.querySelector('cityscape');
+
+    play.addEventListener('click', function(){
+      cityscape.play();
+      
+    });
+    
+    pause.addEventListener('click', function(){
+      cityscape.pause();
+    
+    }); 
+    
+    cityscape.addEventListener('timeupdate', function(){
+      progress.value = cityscape.currentTime / cityscape.duration;
+    
+    });
+    
+    volume.addEventListener('change', function(e){
+      cityscape.volume = e.currentTarget.value / 100;
+    
+    });
+}
+
+// {
+//   var play = document.querySelector('#play2'),
+//   pause = document.querySelector('#pause2'),
+//   video = document.querySelector('switch');
+
+//   play.addEventListener('click', function(){
+//     switch.play();
+    
+//   });
+  
+//   pause.addEventListener('click', function(){
+//     switch.pause();
+  
+//   });  
+
+// }
+
+
+
+
 })();
 
 // var current = 0,

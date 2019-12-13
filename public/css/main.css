@@ -51,6 +51,21 @@ body .instagram img { width: 9%; height: 5%; padding-left: 1px; margin-top: -45p
 body .back-grey { background-color: #3c4043; width: 100%; height: 1200px; text-align: center; font-size: 30px; color: #FFBF00; margin-top: 10px; }
 body .project1 { float: left; width: 100%; margin-top: 100px; float: auto; }
 body .project1 h1 { font-size: 20px; font-family: arial black, arial, sans-serif; color: #FFBF00; text-align: center; }
+body .video1 { margin-top: -65px; }
+body button#play { margin-left: -185px; margin-top: -10px; position: absolute; width: 0%; height: 0%; background: transparent; border: transparent; }
+body img#playButton { height: 40px; width: 40px; margin-top: -25px; }
+body button#pause { margin-top: -10px; margin-left: -130px; position: absolute; width: 0%; height: 0%; background: transparent; border: transparent; }
+body img#pauseButton { height: 40px; width: 40px; margin-top: -25px; }
+body progress#progress { position: absolute; margin-top: -15px; margin-left: -55px; width: 100px; }
+body input#volume { margin-top: -20px; width: 100px; position: absolute; margin-left: 70px; }
+body button#reload { position: absolute; margin-top: -20px; margin-left: -30px; }
+body button#play1 { margin-left: -185px; margin-top: -10px; position: absolute; width: 0%; height: 0%; background: transparent; border: transparent; }
+body img#playButton1 { height: 40px; width: 40px; margin-top: -95px; position: absolute; }
+body img#pauseButton1 { height: 40px; width: 40px; margin-top: -30px; position: absolute; }
+body button#pause1 { margin-top: -75px; margin-left: -130px; position: absolute; width: 0%; height: 0%; background: transparent; border: transparent; }
+body progress#progress1 { position: absolute; margin-top: -30px; margin-left: -55px; width: 100px; }
+body input#volume1 { margin-top: -95px; width: 100px; position: absolute; margin-left: 70px; }
+body button#reload1 { position: absolute; margin-top: -95px; margin-left: -30px; }
 body .project1 h2 { font-size: 15px; color: #09e9ae; padding-top: 10px; }
 body .project1 video { padding-top: 10px; width: 100%; }
 body .project2 { float: left; width: 100%; margin-top: 100px; float: auto; }
@@ -144,6 +159,20 @@ body input[type="submit"] { margin-top: 20px; background: #09e9ae; cursor: point
   body .back-black1 p { margin-top: 820px; width: 100%; height: 700px; font-size: 25px; padding-top: 5px; font-family: arial black, arial, sans-serif; text-align: center; color: #3c4043; background-color: #FFBF00; line-height: 1.5; }
   body .back-black1 img { width: 60%; margin-top: -500px; margin-left: auto; margin-right: auto; border-radius: 20px; display: inherit; }
   body .back-grey { background-color: #3c4043; width: 100%; height: 1200px; }
+  body .video1 { margin-top: -65px; }
+  body button#play { margin-left: -185px; margin-top: -5px; position: absolute; background-color: transparent; outline: none; width: 0%; height: 0%; }
+  body button#pause { margin-top: -5px; margin-left: -130px; position: absolute; }
+  body progress#progress { position: absolute; margin-top: -10px; margin-left: -55px; width: 100px; }
+  body input#volume { margin-top: -5px; width: 100px; position: absolute; margin-left: 70px; }
+  body button#reload { position: absolute; margin-top: -5px; margin-left: -30px; }
+  body .video2 { margin-top: -65px; }
+  body button#play1 { margin-left: -185px; margin-top: -5px; position: absolute; }
+  body img#playButton1 { height: 40px; width: 40px; margin-top: -15px; position: absolute; }
+  body button#pause1 { margin-top: -5px; margin-left: -130px; position: absolute; }
+  body img#pauseButton1 { height: 40px; width: 40px; margin-top: -15px; }
+  body progress#progress1 { position: absolute; margin-top: -10px; margin-left: -55px; width: 100px; }
+  body input#volume1 { margin-top: -5px; width: 100px; position: absolute; margin-left: 70px; }
+  body button#reload1 { position: absolute; margin-top: -5px; margin-left: -30px; }
   body .contact_background { background-color: #3c4043; height: 450px; width: 100%; }
   body .contact_form { text-align: center; width: 400px; font-size: 15px; margin-top: 25px; margin-left: auto; margin-right: auto; display: block; padding-bottom: 20px; background-color: #FFBF00; border-radius: 10px; position: absolute; left: 0; right: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: arial black, arial, sans-serif; }
   body .nameinput { width: 300px; }
@@ -251,6 +280,8 @@ body input[type="submit"] { margin-top: 20px; background: #09e9ae; cursor: point
     to { opacity: 1; } }
   body .back-grey { background-color: #3c4043; width: 100%; height: 3800px; }
   body .project1 { float: left; width: 100%; margin-top: 100px; float: auto; }
+  body img#playButton { height: 40px; width: 40px; margin-top: -15px; }
+  body img#pauseButton { height: 40px; width: 40px; margin-top: -15px; }
   body .project1 h1 { font-size: 20px; font-family: arial black, arial, sans-serif; color: #FFBF00; text-align: center; }
   body .project1 h2 { font-size: 15px; color: #09e9ae; padding-top: 10px; }
   body .project1 video { padding-top: 10px; width: 50%; }

@@ -42,7 +42,6 @@ position: relative;
 z-index: 2;
 }
 
-
 body{
 font-family: $ff;
 }
@@ -454,6 +453,115 @@ font-size: 20px;
 font-family: arial black, arial, sans-serif;
 color: $speci;
 text-align: center;
+}
+
+.video1{margin-top: -65px;}
+
+button#play{
+  margin-left: -185px;
+  margin-top: -10px;
+  position: absolute;
+width: 0%;
+height: 0%;
+background:transparent;
+border:transparent;
+}
+
+img#playButton{
+  height: 40px;
+  width: 40px;
+  margin-top: -25px;
+}
+
+button#pause{
+  margin-top: -10px;
+  margin-left: -130px;
+  position: absolute;
+  width: 0%;
+height: 0%;
+background:transparent;
+border:transparent;
+}
+
+img#pauseButton{
+  height: 40px;
+  width: 40px;
+  margin-top: -25px;
+}
+
+progress#progress{
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -55px;
+  width: 100px;
+}
+
+input#volume{
+  margin-top: -20px;
+  width: 100px;
+  position: absolute;
+  margin-left: 70px;
+}
+
+button#reload{
+  position: absolute;
+margin-top: -20px;
+margin-left: -30px;
+}
+
+button#play1{
+  margin-left: -185px;
+  margin-top: -10px;
+  position: absolute;
+width: 0%;
+height: 0%;
+background:transparent;
+border:transparent;
+}
+
+img#playButton1{
+  height: 40px;
+  width: 40px;
+  margin-top: -95px;
+  position: absolute;
+}
+
+img#pauseButton1{
+  height: 40px;
+  width: 40px;
+  margin-top: -30px;
+  position: absolute;
+}
+
+
+button#pause1{
+  margin-top: -75px;
+  margin-left: -130px;
+  position: absolute;
+  width: 0%;
+height: 0%;
+background:transparent;
+border:transparent;
+}
+
+progress#progress1{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -55px;
+  width: 100px;
+}
+
+input#volume1{
+  margin-top: -95px;
+  width: 100px;
+  position: absolute;
+  margin-left: 70px;
+}
+
+button#reload1{
+  position: absolute;
+margin-top: -95px;
+margin-left: -30px;
 }
 
 .project1 h2{
@@ -1169,6 +1277,95 @@ width: 100%;}
     height: 1200px;
   }
 
+
+.video1{margin-top: -65px;}
+
+button#play{
+  margin-left: -185px;
+  margin-top: -5px;
+  position: absolute;
+  background-color: transparent;
+  outline:none;
+  width: 0%;
+  height: 0%;
+}
+
+
+button#pause{
+  margin-top: -5px;
+  margin-left: -130px;
+  position: absolute;
+}
+
+progress#progress{
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -55px;
+  width: 100px;
+}
+
+input#volume{
+  margin-top: -5px;
+  width: 100px;
+  position: absolute;
+  margin-left: 70px;
+}
+
+button#reload{
+  position: absolute;
+margin-top: -5px;
+margin-left: -30px;
+}
+
+.video2{margin-top: -65px;}
+
+button#play1{
+  margin-left: -185px;
+  margin-top: -5px;
+  position: absolute;
+
+}
+
+img#playButton1{
+  height: 40px;
+  width: 40px;
+  margin-top: -15px;
+  position: absolute;
+}
+
+button#pause1{
+  margin-top: -5px;
+  margin-left: -130px;
+  position: absolute;
+}
+
+img#pauseButton1{
+  height: 40px;
+  width: 40px;
+  margin-top: -15px;
+}
+
+
+progress#progress1{
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -55px;
+  width: 100px;
+}
+
+input#volume1{
+  margin-top: -5px;
+  width: 100px;
+  position: absolute;
+  margin-left: 70px;
+}
+
+button#reload1{
+  position: absolute;
+margin-top: -5px;
+margin-left: -30px;
+}
+
  
 
        //contact
@@ -1874,6 +2071,19 @@ width: 100%;}
     margin-top: 100px;
     float: auto;
     }
+
+    img#playButton{
+      height: 40px;
+      width: 40px;
+      margin-top: -15px;
+    }
+
+    img#pauseButton{
+      height: 40px;
+      width: 40px;
+      margin-top: -15px;
+    }
+  
         
     .project1 h1{
     font-size: 20px;

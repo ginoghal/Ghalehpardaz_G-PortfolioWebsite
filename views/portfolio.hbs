@@ -21,21 +21,40 @@
     <h1>Demo Reel Video</h1>
 
 
-<video controls>
+
+<video id="compilation">
   <source src="images/GinoG-CompilationVideo.mp4" type="video/mp4"></video>
   <h2>Dev Notes: This is a compilation of a series of Cinema 4D videos that I created and/collaborated on.</h2>
+<ul class="video1">
+<li><button id="play"><img id="playButton" src="images/playbutton.png"></button></li>
+<li><button id="pause"><img id="pauseButton" src="images/pausebutton.png"></button></li>
+{{!-- <li><progress id="progress" value="0"></progress></li> --}}
+<li><input id="volume" type="range"></input></li>
+<button id="reload" onClick="window.location.reload();">Reload</button>
+
+</ul>
+
 </div>
 
 <div class="project2">
     <h1>Cityscape</h1>
 
 
-<video controls>
+<video id="cityscape">
   <source src="images/CityScape-Final.mp4" type="video/mp4"></video>
   <h2>The Cityscape video was made with additional inspiration from the Roku screensaver.</h2>
+<ul class="video2">
+<li><button id="play1"><img id="playButton1" src="images/playbutton.png"></button></li>
+<li><button id="pause1"><img id="pauseButton1" src="images/pausebutton.png"></button></li>
+{{!-- <li><progress id="progress1" value="0"></progress></li> --}}
+<li><input id="volume1" type="range"></input></li>
+<button id="reload1" onClick="window.location.reload();">Reload</button>
+</ul>
+
 </div>
 
 <div class="project3">
+  
     <h1>Anglers Website</h1>
 <a href="https://github.com/ginoghal/Ghalehpardaz_G-Helder_J-Anglers.org">
   <img src="images/AnglersWeb.png" type="image"></a>
@@ -61,10 +80,14 @@
     <h1>Nintendo Switch Commercial</h1>
 
 
-<video controls>
+<video id="switch" controls>
   <source src="images/Switch_Midterm.mp4" type="video/mp4"></video>
   <h2>This was a fun project for me as I wanted to see how many different locations I could come up with.</h2>
+
+
 </div>
+
+
 
 
 
