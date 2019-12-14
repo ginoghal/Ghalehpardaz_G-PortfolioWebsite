@@ -280,8 +280,8 @@ body input[type="submit"] { margin-top: 20px; background: #09e9ae; cursor: point
     to { opacity: 1; } }
   body .back-grey { background-color: #3c4043; width: 100%; height: 3800px; }
   body .project1 { float: left; width: 100%; margin-top: 100px; float: auto; }
-  body img#playButton { height: 40px; width: 40px; margin-top: -15px; }
-  body img#pauseButton { height: 40px; width: 40px; margin-top: -15px; }
+  body img#playButton { height: 60px; width: 60px; margin-top: -15px; }
+  body img#pauseButton { height: 60px; width: 60px; margin-top: -15px; }
   body .project1 h1 { font-size: 20px; font-family: arial black, arial, sans-serif; color: #FFBF00; text-align: center; }
   body .project1 h2 { font-size: 15px; color: #09e9ae; padding-top: 10px; }
   body .project1 video { padding-top: 10px; width: 50%; }
