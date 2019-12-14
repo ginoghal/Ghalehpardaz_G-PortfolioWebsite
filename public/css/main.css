@@ -64,8 +64,8 @@ body img#playButton1 { height: 40px; width: 40px; margin-top: -50px; position: a
 body img#pauseButton1 { height: 40px; width: 40px; margin-top: 15px; position: absolute; }
 body button#pause1 { margin-top: -75px; margin-left: -130px; position: absolute; width: 0%; height: 0%; background: transparent; border: transparent; }
 body progress#progress1 { position: absolute; margin-top: -30px; margin-left: -55px; width: 100px; }
-body input#volume1 { margin-top: -340px; width: 100px; position: absolute; margin-left: 70px; }
-body button#reload1 { position: absolute; margin-top: -340px; margin-left: -30px; }
+body input#volume1 { margin-top: -300px; width: 100px; position: absolute; margin-left: 70px; }
+body button#reload1 { position: absolute; margin-top: -300px; margin-left: -30px; }
 body .project1 h2 { font-size: 15px; color: #09e9ae; padding-top: 10px; }
 body .project1 video { padding-top: 10px; width: 100%; }
 body .project2 { float: left; width: 100%; margin-top: 100px; float: auto; }
