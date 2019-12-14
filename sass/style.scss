@@ -468,8 +468,8 @@ border:transparent;
 }
 
 img#playButton{
-  height: 40px;
-  width: 40px;
+  height: 0px;
+  width: 0px;
   margin-top: -25px;
 }
 
@@ -497,7 +497,7 @@ progress#progress{
 }
 
 input#volume{
-  margin-top: -20px;
+  margin-top: 10px;
   width: 100px;
   position: absolute;
   margin-left: 70px;
@@ -505,7 +505,7 @@ input#volume{
 
 button#reload{
   position: absolute;
-margin-top: -20px;
+margin-top: 50px;
 margin-left: -30px;
 }
 
@@ -522,14 +522,14 @@ border:transparent;
 img#playButton1{
   height: 40px;
   width: 40px;
-  margin-top: -95px;
+  margin-top: -50px;
   position: absolute;
 }
 
 img#pauseButton1{
   height: 40px;
   width: 40px;
-  margin-top: -30px;
+  margin-top: 15px;
   position: absolute;
 }
 
@@ -552,7 +552,7 @@ progress#progress1{
 }
 
 input#volume1{
-  margin-top: -95px;
+  margin-top: -50px;
   width: 100px;
   position: absolute;
   margin-left: 70px;
@@ -560,7 +560,7 @@ input#volume1{
 
 button#reload1{
   position: absolute;
-margin-top: -95px;
+margin-top: -50px;
 margin-left: -30px;
 }
 
@@ -2072,15 +2072,33 @@ margin-left: -30px;
     float: auto;
     }
 
+    // .see-more { 
+    //   display: block; 
+    //   padding: 12px 18px; 
+    //   color: white; 
+    //   background-color: black; 
+    //   margin-top: 25px;
+    //   cursor: pointer;
+    // }
+    
+    // .see-more:hover { 
+    //   display: block; 
+    //   padding: 12px 18px; 
+    //   color: white; 
+    //   background-color: #3333ff; 
+    //   margin-top: 25px;
+    //   cursor: pointer;
+    // }
+
     img#playButton{
-      height: 60px;
-      width: 60px;
+      height: 0px;
+      width: 0px;
       margin-top: -15px;
     }
 
     img#pauseButton{
-      height: 60px;
-      width: 60px;
+      height: 0px;
+      width: 0px;
       margin-top: -15px;
     }
   
