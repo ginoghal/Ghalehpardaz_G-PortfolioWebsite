@@ -83,6 +83,35 @@ volume.addEventListener('change', function(e){
     });
 }
 
+const seeMoreButtons = document.querySelectorAll('.see-more'),
+popOver = document.querySelector(".popover"); 
+
+function fetchData() {
+  let targetElement = this,
+      url = `./includes/connect.php?id=${this.dataset.target}`;
+
+  fetch(url)
+  .then(res => res.json())
+  .then(data => {
+      console.log(data);
+      buildPopover(data, targetElement);
+  })
+  .catch((err) => console.log(err));
+}
+
+function buildPopover(portfolio, el) {
+  popOver.querySelector(".name").textContent = `Name: ${portfolio.name}`;
+  popOver.querySelector(".type").textContent = `Type: ${portfolio.type}`;
+  popOver.querySelector(".dev_notes").textContent = `Dev Notes: ${portfolio.dev_notes}`;
+
+
+ popOver.classList.add('show-popover');
+
+ el.appendChild(popOver);
+}
+
+seeMoreButtons.forEach(el => el.addEventListener("click", fetchData))
+
 // {
 //   var play = document.querySelector('#play2'),
 //   pause = document.querySelector('#pause2'),
