@@ -12,6 +12,8 @@ Code inputed in Visual Studio Code.
 
 There are still a number of things I am going to continue to work on including fixing my domain structure.
 The link works fine but it is redirecting.
+Code breaks for half a second before working.
+Video controls, need to overhaul - color wasnt the best choice.
 
 The website is www.ginog.ca
 
