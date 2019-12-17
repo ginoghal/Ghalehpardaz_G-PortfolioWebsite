@@ -27,7 +27,7 @@ body .back-black1 img { width: 100%; margin-top: 5px; padding-bottom: 10px; }
 body .description h2 { text-align: center; color: #ffffff; font-size: 16px; font-family: arial black, arial, sans-serif; height: auto; width: 100%; margin-top: -250px; padding-bottom: 10px; padding-top: 10px; }
 body #profileRec { height: 1px; width: 1px; overflow: hidden; }
 body .projectwork { text-align: center; margin-top: -100px; }
-body .projectwork img { height: 800px; width: 100%; margin-top: 260px; z-index: 1; }
+body .projectwork img { height: 800px; width: 100%; margin-top: 280px; z-index: 1; }
 body .projectwork h1 { margin-top: -100px; color: #FFBF00; font-size: 22px; }
 body .projectwork h2 { margin-top: 10px; font-size: 20px; line-height: 1.5; color: #FFBF00; }
 body .author p { color: #FFBF00; text-align: center; font-size: 12px; margin-top: 450px; }
@@ -36,14 +36,14 @@ body .aboutMe { margin-top: -200px; }
 body .whoIAm { height: 50px; width: 200px; cursor: pointer; color: #FFBF00; z-index: 100; border: 1px solid; border-color: #FFBF00; text-align: center; position: relative; top: 50%; left: 25%; background-color: rgba(224, 224, 224, 0.1); }
 body .whoIAm:hover { background-color: rgba(204, 0, 51, 0.2); }
 body .meGino h1 { color: #FFBF00; font-family: arial black, arial, sans-serif; font-size: 10px; z-index: 10; position: absolute; margin-top: 10px; text-align: center; left: 50%; width: 90%; /* bring your own prefixes */ transform: translate(-50%, -50%); }
-body .fadeInUp h1 { text-align: center; color: #ffffff; z-index: 20; position: absolute; margin-top: 100px; margin-right: 200px; font-size: 30px; width: 100%; }
-@keyframes fadeInUp { from { transform: translate3d(0, 40px, 0); }
+body .heroMe h1 { text-align: center; color: #ffffff; z-index: 20; position: absolute; margin-top: 20px; margin-right: 200px; font-size: 30px; width: 100%; }
+@keyframes heroMe { from { transform: translate3d(0, 40px, 0); }
   to { transform: translate3d(0, 0, 0); opacity: 1; } }
-@-webkit-keyframes fadeInUp { from { transform: translate3d(0, 40px, 0); }
+@-webkit-keyframes heroMe { from { transform: translate3d(0, 40px, 0); }
   to { transform: translate3d(0, 0, 0); opacity: 1; } }
-body .animated { animation-duration: 3s; animation-fill-mode: both; -webkit-animation-duration: 3s; -webkit-animation-fill-mode: both; }
-body .animatedFadeInUp { opacity: 0; z-index: 1; }
-body .fadeInUp { opacity: 0; animation-name: fadeInUp; -webkit-animation-name: fadeInUp; z-index: 100; }
+body .heroMe { animation-duration: 3s; animation-fill-mode: both; -webkit-animation-duration: 3s; -webkit-animation-fill-mode: both; }
+body .heroMe { opacity: 0; z-index: 1; }
+body .heroMe { opacity: 100%; animation-name: fadeInUp; -webkit-animation-name: fadeInUp; z-index: 100; }
 body .ginoimage img { display: none; }
 body .linkedin img { width: 11%; height: 6%; padding-left: 1px; margin-top: -48px; position: absolute; z-index: 10; }
 body .github img { width: 9%; height: 5%; padding-left: 1px; margin-top: -45px; margin-left: 50px; position: absolute; z-index: 10; }
@@ -121,7 +121,7 @@ body input[type="submit"] { margin-top: 20px; background: #09e9ae; cursor: point
   body .aboutGino h3 { font-size: 22px; text-align: left; margin-left: auto; margin-right: auto; display: auto; padding-right: 2px; padding-left: 6px; }
   body .projectwork img { height: 100%; width: 400px; margin-top: 275px; z-index: 1; }
   body .projectwork h1 { margin-top: -120px; font-size: 30px; }
-  body .projectwork h2 { margin-top: 20px; font-size: 25px; }
+  body .projectwork h2 { margin-top: -2px; font-size: 25px; }
   body .description { margin-top: -5px; }
   body .description h2 { text-align: center; color: #ffffff; font-size: 17px; font-family: arial black, arial, sans-serif; height: auto; width: 100%; margin-top: -200px; padding-bottom: 10px; padding-top: 10px; }
   body .hero img { margin-top: -220px; }
@@ -131,6 +131,7 @@ body input[type="submit"] { margin-top: 20px; background: #09e9ae; cursor: point
   body #web img { padding-top: 20px; height: 9%; width: 9%; margin-left: 150px; margin-right: auto; display: block; }
   body .marketing img { margin-top: -50px; height: 9%; width: 9%; margin-left: 250px; margin-right: auto; display: block; }
   body .photography img { margin-top: -50px; height: 9%; width: 9%; margin-left: 350px; margin-right: auto; display: block; }
+  body .heroMe h1 { text-align: center; color: #ffffff; z-index: 20; position: absolute; margin-top: 20px; margin-right: 200px; font-size: 30px; width: 129%; }
   body .video img { margin-top: 10px; height: 9%; width: 9%; margin-left: 450px; margin-right: auto; display: block; }
   body .audio img { margin-top: -60px; height: 9%; width: 9%; margin-left: 550px; margin-right: auto; display: block; }
   body .linkedin img { width: 5%; height: 4%; padding-left: 23px; padding-right: 20px; margin-top: -50px; position: absolute; z-index: 10; margin-left: 85px; }
@@ -148,9 +149,9 @@ body input[type="submit"] { margin-top: 20px; background: #09e9ae; cursor: point
     to { transform: translate3d(0, 0, 0); opacity: 1; } }
   @-webkit-keyframes fadeInUp { from { transform: translate3d(0, 40px, 0); }
     to { transform: translate3d(0, 0, 0); opacity: 1; } }
-  body .animated { animation-duration: 3s; animation-fill-mode: both; -webkit-animation-duration: 3s; -webkit-animation-fill-mode: both; }
-  body .animatedFadeInUp { opacity: 0; }
-  body .fadeInUp { opacity: 0; animation-name: fadeInUp; -webkit-animation-name: fadeInUp; z-index: 100; }
+  body .heroMe { animation-duration: 3s; animation-fill-mode: both; -webkit-animation-duration: 3s; -webkit-animation-fill-mode: both; }
+  body .heroMe { opacity: 0; }
+  body .heroMe { opacity: 0; animation-name: fadeInUp; -webkit-animation-name: fadeInUp; z-index: 100; }
   body #boxContent { width: 600px; height: 100px; margin-top: 200px; }
   body .specialtyText h5 { font-family: arial; font-size: 25px; color: #FFBF00; position: absolute; transition: opacity .1s ease; margin: 0 auto; text-align: center; width: 100%; margin-top: 575px; }
   body .specialtyText h5 + h5 { opacity: 0; margin: 0 auto; text-align: center; margin-top: 550px; }
@@ -206,14 +207,14 @@ body input[type="submit"] { margin-top: 20px; background: #09e9ae; cursor: point
   body #boxContent { background-color: #3c4043; margin-top: -250px; margin-left: auto; margin-right: auto; z-index: 1; width: 100%; height: 500px; }
   @keyframes scale { from { transform: scale(0, 1); }
     to { transform: scale(1.1); } }
-  body .fadeInUp h1 { text-align: center; color: #ffffff; display: block; z-index: 10000; margin-top: -250px; margin-left: 700px; font-size: 25px; width: 500px; height: 1px; border: 1px solid; border-color: #FFBF00; padding-bottom: 140px; padding-top: 20px; font-family: #3c4043; }
-  @keyframes fadeInUp { from { transform: translate3d(0, 40px, 0); }
+  body .heroMe h1 { text-align: center; color: #ffffff; display: block; z-index: 10000; margin-top: -250px; margin-left: 700px; font-size: 25px; width: 500px; height: 1px; border: 1px solid; border-color: #FFBF00; padding-bottom: 140px; padding-top: 20px; font-family: #3c4043; }
+  @keyframes heroMe { from { transform: translate3d(0, 40px, 0); }
     to { transform: translate3d(0, 0, 0); opacity: 1; } }
-  @-webkit-keyframes fadeInUp { from { transform: translate3d(0, 40px, 0); }
+  @-webkit-keyframes heroMe { from { transform: translate3d(0, 40px, 0); }
     to { transform: translate3d(0, 0, 0); opacity: 1; } }
-  body .animated { animation-duration: 3s; animation-fill-mode: both; -webkit-animation-duration: 3s; -webkit-animation-fill-mode: both; }
-  body .animatedFadeInUp { opacity: 0; }
-  body .fadeInUp { opacity: 0; animation-name: fadeInUp; -webkit-animation-name: fadeInUp; z-index: 100; }
+  body .heroMe { animation-duration: 3s; animation-fill-mode: both; -webkit-animation-duration: 3s; -webkit-animation-fill-mode: both; }
+  body .heroMe { opacity: 0; }
+  body .heroMe { opacity: 0; animation-name: fadeInUp; -webkit-animation-name: fadeInUp; z-index: 100; }
   body .homeButton a { width: 120px; margin-top: -160px; margin-left: 885px; color: white; background-color: #3c4043; cursor: pointer; font-family: "arial"; border: 0px; font-size: 14px; z-index: 10000; position: absolute; border: 1px solid; border-color: #09e9ae; text-decoration: none; padding-top: 15px; padding-bottom: 15px; text-align: center; }
   body .homeButton:hover a { width: 120px; margin-top: -160px; margin-left: 885px; color: #3c4043; background-color: #09e9ae; cursor: pointer; z-index: 10000; position: absolute; text-align: center; }
   body .aboutGino img { overflow: hidden; height: 600px; width: 550px; margin-top: 1px; }
