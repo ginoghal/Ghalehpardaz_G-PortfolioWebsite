@@ -187,7 +187,7 @@ body {
   body .projectwork img {
     height: 800px;
     width: 100%;
-    margin-top: 260px;
+    margin-top: 280px;
     z-index: 1; }
   body .projectwork h1 {
     margin-top: -100px;
@@ -240,37 +240,37 @@ body {
     width: 90%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%); }
-  body .fadeInUp h1 {
+  body .heroMe h1 {
     text-align: center;
     color: #ffffff;
     z-index: 20;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-right: 200px;
     font-size: 30px;
     width: 100%; }
-@keyframes fadeInUp {
+@keyframes heroMe {
   from {
     transform: translate3d(0, 40px, 0); }
   to {
     transform: translate3d(0, 0, 0);
     opacity: 1; } }
-@-webkit-keyframes fadeInUp {
+@-webkit-keyframes heroMe {
   from {
     transform: translate3d(0, 40px, 0); }
   to {
     transform: translate3d(0, 0, 0);
     opacity: 1; } }
-  body .animated {
+  body .heroMe {
     animation-duration: 3s;
     animation-fill-mode: both;
     -webkit-animation-duration: 3s;
     -webkit-animation-fill-mode: both; }
-  body .animatedFadeInUp {
+  body .heroMe {
     opacity: 0;
     z-index: 1; }
-  body .fadeInUp {
-    opacity: 0;
+  body .heroMe {
+    opacity: 100%;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     z-index: 100; }
@@ -658,7 +658,7 @@ body {
       margin-top: -120px;
       font-size: 30px; }
     body .projectwork h2 {
-      margin-top: 20px;
+      margin-top: -2px;
       font-size: 25px; }
     body .description {
       margin-top: -5px; }
@@ -708,6 +708,15 @@ body {
       margin-left: 350px;
       margin-right: auto;
       display: block; }
+    body .heroMe h1 {
+      text-align: center;
+      color: #ffffff;
+      z-index: 20;
+      position: absolute;
+      margin-top: 20px;
+      margin-right: 200px;
+      font-size: 30px;
+      width: 129%; }
     body .video img {
       margin-top: 10px;
       height: 9%;
@@ -842,14 +851,14 @@ body {
     to {
       transform: translate3d(0, 0, 0);
       opacity: 1; } }
-    body .animated {
+    body .heroMe {
       animation-duration: 3s;
       animation-fill-mode: both;
       -webkit-animation-duration: 3s;
       -webkit-animation-fill-mode: both; }
-    body .animatedFadeInUp {
+    body .heroMe {
       opacity: 0; }
-    body .fadeInUp {
+    body .heroMe {
       opacity: 0;
       animation-name: fadeInUp;
       -webkit-animation-name: fadeInUp;
@@ -1180,7 +1189,7 @@ body {
       transform: scale(0, 1); }
     to {
       transform: scale(1.1); } }
-    body .fadeInUp h1 {
+    body .heroMe h1 {
       text-align: center;
       color: #ffffff;
       display: block;
@@ -1195,33 +1204,33 @@ body {
       padding-bottom: 140px;
       padding-top: 20px;
       font-family: #3c4043; }
-  @keyframes fadeInUp {
+  @keyframes heroMe {
     from {
       transform: translate3d(0, 40px, 0); }
     to {
       transform: translate3d(0, 0, 0);
       opacity: 1; } }
-  @-webkit-keyframes fadeInUp {
+  @-webkit-keyframes heroMe {
     from {
       transform: translate3d(0, 40px, 0); }
     to {
       transform: translate3d(0, 0, 0);
       opacity: 1; } }
-    body .animated {
+    body .heroMe {
       animation-duration: 3s;
       animation-fill-mode: both;
       -webkit-animation-duration: 3s;
       -webkit-animation-fill-mode: both; }
-    body .animatedFadeInUp {
+    body .heroMe {
       opacity: 0; }
-    body .fadeInUp {
+    body .heroMe {
       opacity: 0;
       animation-name: fadeInUp;
       -webkit-animation-name: fadeInUp;
       z-index: 100; }
     body .homeButton a {
       width: 120px;
-      margin-top: -160px;
+      margin-top: -145px;
       margin-left: 885px;
       color: white;
       background-color: #3c4043;
@@ -1239,7 +1248,7 @@ body {
       text-align: center; }
     body .homeButton:hover a {
       width: 120px;
-      margin-top: -160px;
+      margin-top: -145px;
       margin-left: 885px;
       color: #3c4043;
       background-color: #09e9ae;
