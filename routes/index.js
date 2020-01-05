@@ -7,7 +7,7 @@ const hbs = require('hbs');
 // a forward slash is the home route (same as index.html)
 router.get('/', (req, res) => {
     console.log('at the home route');
-    res.render('home', { message: "hi there!", anothermessage: "This is easy!", tagline: "My name is Gino Ghalehpardaz and welcome to my website!", buttonmessage: "See More!", layout:'layout.hbs' } );
+    res.render('home', { message: "hi there!", anothermessage: "This is easy!", tagline: "My name is Gino Ghalehpardaz and welcome to my Portfolio website!", buttonmessage: "See More!", layout:'layout.hbs' } );
     // this builds localhost:3000/views/index.html
   })
   
