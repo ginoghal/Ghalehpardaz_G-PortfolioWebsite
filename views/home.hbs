@@ -1,52 +1,82 @@
-<nav class="mainNav">
-    <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/portfolio">Portfolio</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/contact">Contact</a></li>
-      </ul>
+ <div class="hContainer">
+    <nav role="navigation">
+        <div id="menuToggle">
 
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+          <input id="closeIcon" type="checkbox" />
+          
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu">
+            <li>
+                <a href="#">Home</a>
+              </li>
+      <li>
+                <a href="#aboutMe">About</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+      <div id="title">
+        <div class="animated animated FadeInUp fadeInUp">
+            <h2>Gino Ghalehpardaz</h2>
+        </div>
+          <h3>I am a Front-end Developer and Motion Designer</h3>
+          <div class="profileImage"><img src="/public/images/ginogprofilepic.png" alt="ginoProfilePic"></div>
+          <button class="connectButton"><a href="#contact"> Connect With Me!</a></button>
       </div>
 
-  </nav>
-  
- <div class="profileGino">
-   <div id="profileRec"> 
-    <h1>•Web Development• <br> •Video Editor•<br> •Audio Editor•</h1></div>
-  </div>
 
-  <div class="homeContent">
-    <div id="boxContent">
-  
-      <div class="ginoimage">
-    <img src="images/ginoimage.JPG" alt="ginoimage">
-      </div>
+    <div id="aboutMe">
+        <h1>WHO I AM</h1>
+        <h2>Born in London, On. I am currently enrolled in the Interactive Media Design program at Fanshawe College.</h2>
+        <h3>Prior to going to Fanshawe, I was a marketing coordinator.</h3>
+        <h4>I am striving to improve at my craft everyday. I returned to school and rebuilt myself so that I could provide my pug with the best life possible.</h4>
+        
+        <div class="pug"><img src="/public/images/Pugsley.png" alt="pug"></div>
+    </div>
+
+
+<!-- <div id="portfolioWaves"> -->
+
+
+    <div id="portfolio">
+        <h1>My Portfolio of Work</h1>
+        <h3></h3>
+</div>
+
+
+    <div id="contact">
+        <h1>Contact Me</h1>
+    <form id="contactForm">
+ <h3> Name:</h3><br>
+  <input class="nameinput" name="name">
+  <br>
+  <h3>Email:</h3><br>
+  <input class="emailinput" name="email_address">
+ <br>
+  <h3>Message:</h3><br>
+  <input class="messageinput" name="message">
+   <div class="submitinput"></div>
+
+   <input type="submit" value="Submit">
+</div>
+
+</form>
  
- <div class="heroMe">
- <h1> {{tagline}} </h1>
 
-
- <div class="homeButton">
-
- <a href="/about">{{buttonmessage}}</a>
-    </button>
-    
+    </div>
 </div>
 </div>
 
-
- 
-
-</div>
-</div>
-
-
- <div class="author">
-            <p>Created by Gino Ghalehpardaz - 2019</p>
-          </div>
 
 
